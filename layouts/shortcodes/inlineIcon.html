@@ -1,0 +1,5 @@
+{{ $api  := index .Params 0 -}}
+{{ $name := index .Params 1 -}}
+{{ $inclTxt := index .Params 2 -}}
+{{ $i := dict "api" $api "name" $name "inclTxt" $inclTxt -}}
+{{ partial "inlineIcon" $i -}}

@@ -11,6 +11,7 @@ import { v4 as uuidv4 } from 'uuid';
 let api=process.argv[2];
 let dirName=process.argv[3];
 let key=process.argv[4];
+let nameKey=process.argv[5];
 
 // Assumed you're running this in _scripts dir
 let dir=`../assets/data/gw2-api/${dirName}`
@@ -69,7 +70,10 @@ for(const file of datafiles()) {
 let missingIds = allIds.filter(x => !existingsIds.has(x));
 if(missingIds.length) {
     log(`Missing ${missingIds.length} entities`);
-    const chunkSize = 200;
+    var chunkSize = 200;
+    if(api == "files") {
+        chunkSize = 50;
+    }
     for (let i = 0; i < missingIds.length; i += chunkSize) {
         const chunk = missingIds.slice(i, i + chunkSize);
         const chunkData = await api_getJson(`${api}?ids=${chunk.join(",")}`);
@@ -88,7 +92,7 @@ for(const file of datafiles()) {
     let data = file_readJson(file);
     for(key in data) {
         index[key] = file;
-        let name = data[key].name;
+        let name = data[key][nameKey];
         if(name) {
             require(!nameToId.has(name), ()=>`Name '${file}' encountered twice. File '${file}', ids: ${key} & ${nameToId[name]}`)
             nameToId[name] = key;

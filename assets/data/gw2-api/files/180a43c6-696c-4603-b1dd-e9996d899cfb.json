@@ -1,0 +1,70 @@
+{
+  "map_trading_post": {
+    "id": "map_trading_post",
+    "icon": "https://render.guildwars2.com/file/1608A16AF9B0EEE466699380AA30F54A36A0EEDA/102496.png"
+  },
+  "map_crafting_armorsmith": {
+    "id": "map_crafting_armorsmith",
+    "icon": "https://render.guildwars2.com/file/2952B92FA93C03A5281F94D223A4CE4C7E0B0906/102461.png"
+  },
+  "map_crafting_artificer": {
+    "id": "map_crafting_artificer",
+    "icon": "https://render.guildwars2.com/file/0D75999D6DEA1FDFF9DB43BBC2054B62764EB9A0/102463.png"
+  },
+  "map_crafting_cook": {
+    "id": "map_crafting_cook",
+    "icon": "https://render.guildwars2.com/file/424E410B90DE300CEB4A1DE2AB954A287C7A5419/102465.png"
+  },
+  "map_crafting_huntsman": {
+    "id": "map_crafting_huntsman",
+    "icon": "https://render.guildwars2.com/file/0C91017241F016EF35A2BCCE183CA9F7374023FC/102462.png"
+  },
+  "map_crafting_jeweler": {
+    "id": "map_crafting_jeweler",
+    "icon": "https://render.guildwars2.com/file/F97F4D212B1294052A196734C71BCE42E199735B/102458.png"
+  },
+  "map_crafting_leatherworker": {
+    "id": "map_crafting_leatherworker",
+    "icon": "https://render.guildwars2.com/file/192D1D0D73BA7899F1745F32BAC1634C1B4671BF/102464.png"
+  },
+  "map_crafting_tailor": {
+    "id": "map_crafting_tailor",
+    "icon": "https://render.guildwars2.com/file/0EB64958BE48AB9605DD56807713215095B8BEED/102459.png"
+  },
+  "map_crafting_weaponsmith": {
+    "id": "map_crafting_weaponsmith",
+    "icon": "https://render.guildwars2.com/file/AEEF1CF774EE0D5917D5E1CF3AAC269FEE5EC03A/102460.png"
+  },
+  "map_guild_registrar": {
+    "id": "map_guild_registrar",
+    "icon": "https://render.guildwars2.com/file/98EECF5621BB3DFC98BA9CB3D938C939CA0B227B/102498.png"
+  },
+  "map_profession_trainer": {
+    "id": "map_profession_trainer",
+    "icon": "https://render.guildwars2.com/file/0BA90BAA02D468ABF8CB9FD90AEB4DFCC1F1D43A/102363.png"
+  },
+  "map_repair": {
+    "id": "map_repair",
+    "icon": "https://render.guildwars2.com/file/3D62FB2A98A76E29A8B55B57F7C70C523C240BD6/2700777.png"
+  },
+  "map_vendor": {
+    "id": "map_vendor",
+    "icon": "https://render.guildwars2.com/file/061298EB40D97DEC6C73F7631BE2393ECAB50B4E/240662.png"
+  },
+  "map_vendor_armor": {
+    "id": "map_vendor_armor",
+    "icon": "https://render.guildwars2.com/file/A03D9027D6B80E95C8E49947A39D1B3FA6B59D4F/240661.png"
+  },
+  "map_vendor_weapons": {
+    "id": "map_vendor_weapons",
+    "icon": "https://render.guildwars2.com/file/08B5431F5D6DF7D5983437C5197E6ED96901A431/240663.png"
+  },
+  "map_vendor_mystic_forge": {
+    "id": "map_vendor_mystic_forge",
+    "icon": "https://render.guildwars2.com/file/0A294B967DFAF499263F0EE76163566543EEC470/866143.png"
+  },
+  "map_vendor_laurel": {
+    "id": "map_vendor_laurel",
+    "icon": "https://render.guildwars2.com/file/5ECCB15E69380AED53619C01E4AC604669BE9709/534744.png"
+  }
+}

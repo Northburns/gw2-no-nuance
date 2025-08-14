@@ -1,0 +1,18 @@
+{{ $api  := .api -}}
+{{ $name := .name -}}
+{{ $inclTxt := .inclTxt -}}
+{{ $names := printf "data/gw2-api/%s/_names.json" $api | resources.Get | transform.Unmarshal -}}
+{{ $id := index $names $name -}}
+{{ with $id -}}
+    {{ $index := printf "data/gw2-api/%s/_index.json" $api | resources.Get | transform.Unmarshal -}}
+    {{ $filename := index $index $id -}}
+    {{ $data := printf "data/gw2-api/%s/%s" $api $filename | resources.Get | transform.Unmarshal -}}
+    {{ $iconUrl := (index $data $id).icon -}}
+    {{ if $inclTxt -}}
+    <span>{{$name}}</span>
+    {{ end -}}
+    <img src="{{$iconUrl}}" alt="{{$api}}: {{$name}}" style="display:inline-block; height:1em; width:auto; transform:translate(0, 0.1em);" >
+{{ else -}}
+    {{ errorf "No name '%s' found" $name -}}
+{{ end -}}
+

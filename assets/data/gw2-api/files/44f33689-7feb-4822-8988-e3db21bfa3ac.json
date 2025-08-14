@@ -1,0 +1,42 @@
+{
+  "map_outpost_active": {
+    "id": "map_outpost_active",
+    "icon": "https://render.guildwars2.com/file/62949A4FB4DBFA3541C60929540F4908979CC8E3/961377.png"
+  },
+  "map_vendor_festival": {
+    "id": "map_vendor_festival",
+    "icon": "https://render.guildwars2.com/file/FCC165DB616D50C24812E74914B02D45E10B5A9F/1013044.png"
+  },
+  "map_guild_armorer": {
+    "id": "map_guild_armorer",
+    "icon": "https://render.guildwars2.com/file/FBFE070F0AC0E86ADB5C0F56B30A27CD7703EF98/1302774.png"
+  },
+  "map_guild_weaponsmith": {
+    "id": "map_guild_weaponsmith",
+    "icon": "https://render.guildwars2.com/file/993B219C020F4510F6091BC8D1EFFA66A5B84E98/1302777.png"
+  },
+  "map_vendor_ecto": {
+    "id": "map_vendor_ecto",
+    "icon": "https://render.guildwars2.com/file/E45E205E24055C1BA62FA3C03618B57334AE4553/1013043.png"
+  },
+  "map_vendor_guild": {
+    "id": "map_vendor_guild",
+    "icon": "https://render.guildwars2.com/file/A932E10F313765CC2931714AD32DE3326C29D901/544515.png"
+  },
+  "map_vendor_cultural_armor": {
+    "id": "map_vendor_cultural_armor",
+    "icon": "https://render.guildwars2.com/file/3C09B54C729FF4C24BDE45E4F226ADBE73ECEAA8/400047.png"
+  },
+  "map_vendor_cultural_weapons": {
+    "id": "map_vendor_cultural_weapons",
+    "icon": "https://render.guildwars2.com/file/08B5431F5D6DF7D5983437C5197E6ED96901A431/240663.png"
+  },
+  "map_vendor_crystalline_ore": {
+    "id": "map_vendor_crystalline_ore",
+    "icon": "https://render.guildwars2.com/file/73C5A813B2C8167F04010708A1FD5FB931D1BB7D/1302771.png"
+  },
+  "map_vendor_airship_parts": {
+    "id": "map_vendor_airship_parts",
+    "icon": "https://render.guildwars2.com/file/5F91B42F0C454C695EEC345AF0BABF1D5D2D4196/1228846.png"
+  }
+}

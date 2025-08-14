@@ -1,0 +1,38 @@
+{
+  "map_vendor_aurillium": {
+    "id": "map_vendor_aurillium",
+    "icon": "https://render.guildwars2.com/file/7792E9BDC4E13F940F5527239ADD5423046D79C8/1228847.png"
+  },
+  "map_vendor_leyline_crystals": {
+    "id": "map_vendor_leyline_crystals",
+    "icon": "https://render.guildwars2.com/file/2F78C0A0E29B0E0601B77BEA9C9DB4B174D6D5E9/1228926.png"
+  },
+  "map_vendor_dungeon": {
+    "id": "map_vendor_dungeon",
+    "icon": "https://render.guildwars2.com/file/06A8E45802010ABCE0E2FC5DF0E0334833BD8009/1030009.png"
+  },
+  "map_elevator_down": {
+    "id": "map_elevator_down",
+    "icon": "https://render.guildwars2.com/file/2AE198D4A5BCC57FBEAB07C242A00B979BA3914A/102619.png"
+  },
+  "map_elevator_up": {
+    "id": "map_elevator_up",
+    "icon": "https://render.guildwars2.com/file/1540B246DCCFBC5E22039765DBACCEDCD3E20BEB/102620.png"
+  },
+  "map_ramp_down": {
+    "id": "map_ramp_down",
+    "icon": "https://render.guildwars2.com/file/9092CD68AE63A8F1AA436878B2BCB5C2DC45012E/102622.png"
+  },
+  "map_ramp_up": {
+    "id": "map_ramp_up",
+    "icon": "https://render.guildwars2.com/file/04B2EE3D5822B30F1F3508BA710244C5E4F94AB2/102621.png"
+  },
+  "map_stairs_down": {
+    "id": "map_stairs_down",
+    "icon": "https://render.guildwars2.com/file/05486465DF0BAE1301D48042FF5708B51D062FB8/102443.png"
+  },
+  "map_stairs_up": {
+    "id": "map_stairs_up",
+    "icon": "https://render.guildwars2.com/file/0F80D8D900E1F356B41F752594BEFCE52693DEB3/102442.png"
+  }
+}

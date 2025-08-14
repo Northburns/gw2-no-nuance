@@ -1,0 +1,74 @@
+{
+  "icon_necromancer": {
+    "id": "icon_necromancer",
+    "icon": "https://render.guildwars2.com/file/B033097E199A79C413AEF8BB0A9A32FA1438C2FD/156608.png"
+  },
+  "icon_mesmer": {
+    "id": "icon_mesmer",
+    "icon": "https://render.guildwars2.com/file/74ECC014D51E9D02B338C9CBC067B304B71E79FF/156607.png"
+  },
+  "icon_elementalist": {
+    "id": "icon_elementalist",
+    "icon": "https://render.guildwars2.com/file/BD0EAAA6CA57361AB29BA080F8C267B343F1BF04/156603.png"
+  },
+  "icon_thief": {
+    "id": "icon_thief",
+    "icon": "https://render.guildwars2.com/file/B703CC71D9BC56F5750D0D35A8F0D40D5827D7DC/156611.png"
+  },
+  "icon_ranger": {
+    "id": "icon_ranger",
+    "icon": "https://render.guildwars2.com/file/DF3F0BB2EA1FE9A762A00907B168E242B237F7C8/156610.png"
+  },
+  "icon_engineer": {
+    "id": "icon_engineer",
+    "icon": "https://render.guildwars2.com/file/48527C5B96C71F9706E1A2A9A246EC75EC4745F7/156604.png"
+  },
+  "icon_guardian_big": {
+    "id": "icon_guardian_big",
+    "icon": "https://render.guildwars2.com/file/28D46E95F70834CE45640375FCDB0DEAF198325B/716635.png"
+  },
+  "icon_warrior_big": {
+    "id": "icon_warrior_big",
+    "icon": "https://render.guildwars2.com/file/09903302A30373E52F49CBA948D4A268D30A5E39/716647.png"
+  },
+  "icon_revenant_big": {
+    "id": "icon_revenant_big",
+    "icon": "https://render.guildwars2.com/file/FF240FFCF7D86A0436450FB610AB21716D5B6AA7/965716.png"
+  },
+  "icon_necromancer_big": {
+    "id": "icon_necromancer_big",
+    "icon": "https://render.guildwars2.com/file/08BD360F557115260FA4D71E6F76ACCCF59FF70F/716639.png"
+  },
+  "icon_mesmer_big": {
+    "id": "icon_mesmer_big",
+    "icon": "https://render.guildwars2.com/file/B2D21D2FFDB5C95CDC72B91BB02F60080F0F463D/716638.png"
+  },
+  "icon_elementalist_big": {
+    "id": "icon_elementalist_big",
+    "icon": "https://render.guildwars2.com/file/0303027C1F73E97F5F011ECFCE9C9A40767BB747/716633.png"
+  },
+  "icon_thief_big": {
+    "id": "icon_thief_big",
+    "icon": "https://render.guildwars2.com/file/5C092FE9351A2DF820B1B5719B5F5097D20633EE/716644.png"
+  },
+  "icon_ranger_big": {
+    "id": "icon_ranger_big",
+    "icon": "https://render.guildwars2.com/file/9BFA11F4D5114FBF11AFBEF00F249C3934AD62AD/716643.png"
+  },
+  "icon_engineer_big": {
+    "id": "icon_engineer_big",
+    "icon": "https://render.guildwars2.com/file/1E90D49793D5BAFDE2DFDC95089FDF9A997401F1/716634.png"
+  },
+  "map_crafting_scribe": {
+    "id": "map_crafting_scribe",
+    "icon": "https://render.guildwars2.com/file/F95DFA3FBDCC9E9F317551A903E5A2A6DF1CC7E3/1293677.png"
+  },
+  "map_bank": {
+    "id": "map_bank",
+    "icon": "https://render.guildwars2.com/file/B497533A51E879284D029DD10A2CDE23D04F6A4D/102494.png"
+  },
+  "map_guild_bank": {
+    "id": "map_guild_bank",
+    "icon": "https://render.guildwars2.com/file/BE7D7158C522C37B02DB9FE0ADA4D733B9D0C333/102684.png"
+  }
+}

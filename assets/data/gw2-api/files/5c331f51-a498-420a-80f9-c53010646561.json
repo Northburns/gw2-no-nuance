@@ -1,0 +1,34 @@
+{
+  "map_fractal": {
+    "id": "map_fractal",
+    "icon": "https://render.guildwars2.com/file/80F608A1E8112313595813033BDEAD3C05A43D01/514379.png"
+  },
+  "map_raid_entrance": {
+    "id": "map_raid_entrance",
+    "icon": "https://render.guildwars2.com/file/5866630DA52DCB5C423FB81ECF69FD071611E36B/1128644.png"
+  },
+  "map_adventure": {
+    "id": "map_adventure",
+    "icon": "https://render.guildwars2.com/file/94ED0C4A49295657095EF5D09CC8C4E6709E6FCA/961368.png"
+  },
+  "map_adventure_complete": {
+    "id": "map_adventure_complete",
+    "icon": "https://render.guildwars2.com/file/B40B6E1EF07719AC0AC5641068390F12250C0B68/961381.png"
+  },
+  "map_adventure_locked": {
+    "id": "map_adventure_locked",
+    "icon": "https://render.guildwars2.com/file/79D1034931E46459AB6FBEB77C7B7491A9641F16/961365.png"
+  },
+  "map_outpost": {
+    "id": "map_outpost",
+    "icon": "https://render.guildwars2.com/file/A1DAD9F89738A8B87E5A5F42D0F4E504CDD9DB67/961370.png"
+  },
+  "map_outpost_locked": {
+    "id": "map_outpost_locked",
+    "icon": "https://render.guildwars2.com/file/EC6F495BBB6ADDF013DD0C1433E7EEC774433623/961378.png"
+  },
+  "map_outpost_contested": {
+    "id": "map_outpost_contested",
+    "icon": "https://render.guildwars2.com/file/9675B9054E6C74E00835623B190C07D7430970F3/961367.png"
+  }
+}

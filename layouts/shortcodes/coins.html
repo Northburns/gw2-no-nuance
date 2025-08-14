@@ -1,0 +1,14 @@
+{{ $g := .Params.g -}}
+{{ $s := .Params.s -}}
+{{ $c := .Params.c -}}
+
+{{ if $g -}}
+    {{ $ig := dict "api" "files" "name" "ui_coin_gold" -}}
+    {{" "}}{{ $g }}{{ partial "inlineIcon" $ig -}}
+{{ end -}}
+{{ if or $g $s -}}
+    {{ $is := dict "api" "files" "name" "ui_coin_silver" -}}
+    {{" "}}{{ $s }}{{ partial "inlineIcon" $is -}}
+{{ end -}}
+{{ $ic := dict "api" "files" "name" "ui_coin_copper" -}}
+{{" "}}{{ $c }}{{ partial "inlineIcon" $ic -}}

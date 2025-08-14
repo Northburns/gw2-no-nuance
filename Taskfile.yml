@@ -13,6 +13,11 @@ tasks:
     desc: Install needed stuff
     cmds:
     - scoop install charm-gum jq
+
+  hugo-server:
+    desc: Runs Hugo server (with drafts)
+    cmds:
+    - hugo server -D
   
   init:
     desc: initialize script project
@@ -23,17 +28,18 @@ tasks:
   do-api-all:
     desc: Do all APIs in one go
     cmds:
-    - { task: do-api-one, vars: { API: currencies,              DIR: currencies,        KEY: id } }
-    - { task: do-api-one, vars: { API: items,                   DIR: items,             KEY: id } }
-    - { task: do-api-one, vars: { API: achievements,            DIR: achievements,      KEY: id } }
-    - { task: do-api-one, vars: { API: achievements/groups,     DIR: achGroups,         KEY: id } }
-    - { task: do-api-one, vars: { API: achievements/categories, DIR: achCats,           KEY: id } }
-    - { task: do-api-one, vars: { API: masteries,               DIR: masteries,         KEY: id } }
-    - { task: do-api-one, vars: { API: skills,                  DIR: skills,            KEY: id } }
-    - { task: do-api-one, vars: { API: traits,                  DIR: traits,            KEY: id } }
+    - { task: do-api-one, vars: { API: currencies,              DIR: currencies,        KEY: id, NAME: name  } }
+    - { task: do-api-one, vars: { API: items,                   DIR: items,             KEY: id, NAME: name  } }
+    - { task: do-api-one, vars: { API: achievements,            DIR: achievements,      KEY: id, NAME: name  } }
+    - { task: do-api-one, vars: { API: achievements/groups,     DIR: achGroups,         KEY: id, NAME: name  } }
+    - { task: do-api-one, vars: { API: achievements/categories, DIR: achCats,           KEY: id, NAME: name  } }
+    - { task: do-api-one, vars: { API: masteries,               DIR: masteries,         KEY: id, NAME: name  } }
+    - { task: do-api-one, vars: { API: skills,                  DIR: skills,            KEY: id, NAME: name  } }
+    - { task: do-api-one, vars: { API: traits,                  DIR: traits,            KEY: id, NAME: name } }
+    - { task: do-api-one, vars: { API: files,                   DIR: files,             KEY: id, NAME: id } }
 
   do-api-one:
-    requires: { vars: [API, DIR, KEY] }
+    requires: { vars: [API, DIR, KEY, NAME] }
     dir: _scripts
     cmds:
-    - yarn run do-api {{.API}} {{.DIR}} {{.KEY}}
+    - yarn run do-api {{.API}} {{.DIR}} {{.KEY}} {{.NAME}}

@@ -1,7 +1,10 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = "Northburns' GW2 \"no nuance notes\""
 theme = 'hugo-theme-relearn'
+
+[params]
+  themeVariant = 'relearn-light'
 
 [caches]
   [caches.images]
