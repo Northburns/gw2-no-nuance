@@ -1,0 +1,3914 @@
+{
+  "105007": {
+    "name": "Slumbering Lightborne Rifle",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 297,
+    "default_skin": 13042,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105007,
+    "chat_link": "[&AgEvmgEA]",
+    "icon": "https://render.guildwars2.com/file/1B5EC3DF3BE1DC934B01C396FC70E6DDD775B87D/3629568.png",
+    "details": {
+      "type": "Rifle",
+      "damage_type": "Physical",
+      "min_power": 873,
+      "max_power": 1067,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 603.648,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539,
+        1717,
+        1687,
+        1826
+      ],
+      "secondary_suffix_item_id": ""
+    }
+  },
+  "105008": {
+    "name": "Lightborne Dagger",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 13076,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105008,
+    "chat_link": "[&AgEwmgEA]",
+    "icon": "https://render.guildwars2.com/file/DF4FF8BB6C452607AA0CE5C80B0B0277B25600B0/3629459.png",
+    "details": {
+      "type": "Dagger",
+      "damage_type": "Physical",
+      "min_power": 924,
+      "max_power": 981,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539,
+        1717,
+        1687,
+        1826
+      ],
+      "secondary_suffix_item_id": ""
+    }
+  },
+  "105009": {
+    "name": "Rare Rift Essence",
+    "description": "Found in Convergences and tier 3 rift hunts. Consume this item to convert it into a currency.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "BulkConsume",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105009,
+    "chat_link": "[&AgExmgEA]",
+    "icon": "https://render.guildwars2.com/file/67B869ABAF74E20CB5652068F3DB0B060ED3C3E4/3123734.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  "105011": {
+    "name": "Raven Hall",
+    "description": "A decoration schematic that is processed by the guild's assembly device to make the decoration.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105011,
+    "chat_link": "[&AgEzmgEA]",
+    "icon": "https://render.guildwars2.com/file/C0D560636A06DBFABA1A07702EAF6E0A2C286757/3629219.png",
+    "details": {
+      "type": "Generic",
+      "guild_upgrade_id": 1330
+    }
+  },
+  "105013": {
+    "name": "Slumbering Lightborne Staff",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Rare",
+    "vendor_value": 297,
+    "default_skin": 13068,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105013,
+    "chat_link": "[&AgE1mgEA]",
+    "icon": "https://render.guildwars2.com/file/08C73B9226B32042CD12B63C11C31459C32E1813/3629664.png",
+    "details": {
+      "type": "Staff",
+      "damage_type": "Physical",
+      "min_power": 872,
+      "max_power": 984,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 603.648,
+      "stat_choices": [
+        161,
+        155,
+        159,
+        157,
+        158,
+        160,
+        153,
+        605,
+        700,
+        616,
+        154,
+        156,
+        162,
+        686,
+        559,
+        754,
+        753,
+        799,
+        1026,
+        1067,
+        628,
+        1032,
+        1231,
+        1232,
+        1226,
+        1225,
+        1229,
+        1224,
+        1228,
+        1227,
+        1230,
+        1379,
+        1377,
+        1378,
+        1484,
+        1539,
+        1717,
+        1687,
+        1826
+      ],
+      "secondary_suffix_item_id": ""
+    }
+  },
+  "105014": {
+    "name": "Black Lion Brasswork Engine Recipe",
+    "description": "This activates the decorations recipe for your homestead instance. One decoration will be immediately available to use.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105014,
+    "chat_link": "[&AgE2mgEA]",
+    "icon": "https://render.guildwars2.com/file/F3485EE338D9339B4604CA43A504C3B5FB5C030E/3629243.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 15118
+    }
+  },
+  "105016": {
+    "name": "<c=#A594F7>Legendary Conqueror of Ura</c>",
+    "description": "Unlock this title on acquisition.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "Unique",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105016,
+    "chat_link": "[&AgE4mgEA]",
+    "icon": "https://render.guildwars2.com/file/B8100541BD56F4D5EBDC3AF96925CA494CC54760/1493437.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  "105018": {
+    "name": "Villainous Hood Skin",
+    "description": "Double-click to apply this look to any other helmet. This skin will be unlocked in your wardrobe for future use.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105018,
+    "chat_link": "[&AgE6mgEA]",
+    "icon": "https://render.guildwars2.com/file/33B924F023BE4720E169A4EB541CF19BF6484DE8/3645718.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        13109,
+        13126,
+        13132
+      ]
+    }
+  },
+  "105019": {
+    "name": "Shelled Skyscale Skin",
+    "description": "Double-click to unlock this skyscale mount skin for your account.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105019,
+    "chat_link": "[&AgE7mgEA]",
+    "icon": "https://render.guildwars2.com/file/3DD0DDA607462B1D027F97C943044CD42506EACD/3645705.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Ms"
+    }
+  },
+  "105020": {
+    "name": "Fresh Swim Top Skin",
+    "description": "Double-click to apply this appearance to your current chest armor. This will unlock the skin in your wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105020,
+    "chat_link": "[&AgE8mgEA]",
+    "icon": "https://render.guildwars2.com/file/FCA8C124422FB4F95168705594660394802B216D/3645879.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        13102,
+        13116,
+        13123
+      ]
+    }
+  },
+  "105021": {
+    "name": "Snorkel Mask Skin",
+    "description": "Double-click to apply this look to any other helmet. This skin will be unlocked in your wardrobe for future use.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105021,
+    "chat_link": "[&AgE9mgEA]",
+    "icon": "https://render.guildwars2.com/file/98C6D130B3FEBB77B719EBF10CA5EA784C0D206F/3645716.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        13105,
+        13122,
+        13133
+      ]
+    }
+  },
+  "105022": {
+    "name": "Fresh Swim Bottoms Skin",
+    "description": "Double-click to apply this appearance to your current leg armor. This will unlock the skin in your wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105022,
+    "chat_link": "[&AgE+mgEA]",
+    "icon": "https://render.guildwars2.com/file/651BE319BB0E103913B5CC3B0B0244721BEE18F1/3645880.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        13107,
+        13114,
+        13118
+      ]
+    }
+  },
+  "105023": {
+    "name": "Sunshine Beach Pack",
+    "description": "Contains single-use armor skins for the coat, legs, helm, boots, and gloves.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105023,
+    "chat_link": "[&AgE/mgEA]",
+    "icon": "https://render.guildwars2.com/file/14B1B12DA022600D0A3FFE9F3C9701C3B300A135/3645710.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  "105024": {
+    "name": "Fresh Swimsuit Pack",
+    "description": "Contains a single-use armor skin for the coat and legs.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105024,
+    "chat_link": "[&AgFAmgEA]",
+    "icon": "https://render.guildwars2.com/file/9930BB0B7B9B770B206EEE25900A96A6AE393449/3645881.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  "105025": {
+    "name": "Buoyant Chestpiece Skin",
+    "description": "Double-click to apply this appearance to your current chest armor. This will unlock the skin in your wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105025,
+    "chat_link": "[&AgFBmgEA]",
+    "icon": "https://render.guildwars2.com/file/0243F45603050321DE09A03A454ADB209FC9ACB4/3645715.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        13101,
+        13104,
+        13113
+      ]
+    }
+  },
+  "105026": {
+    "name": "Sunshine Flower Headpiece Skin",
+    "description": "Double-click to apply this look to any other helmet. This skin will be unlocked in your wardrobe for future use.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105026,
+    "chat_link": "[&AgFCmgEA]",
+    "icon": "https://render.guildwars2.com/file/78CBB23CCCCB640BD9B16A4A31F55537C34DF1B4/3645711.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        13100,
+        13115,
+        13131
+      ]
+    }
+  },
+  "105027": {
+    "name": "Sunshine Shirt Skin",
+    "description": "Double-click to apply this appearance to your current chest armor. This will unlock the skin in your wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105027,
+    "chat_link": "[&AgFDmgEA]",
+    "icon": "https://render.guildwars2.com/file/7E0EDE17040DD2FF51527BC4F2970008EB7E2BA5/3645709.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        13099,
+        13108,
+        13121
+      ]
+    }
+  },
+  "105029": {
+    "name": "Seven Reapers Spear Skin",
+    "description": "Double-click to apply this look to any other spear.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 105029,
+    "chat_link": "[&AgFFmgEA]",
+    "icon": "https://render.guildwars2.com/file/23234CE4A609F3762A6066B40997D811114D7EDB/3645742.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        13112
+      ]
+    }
+  },
+  "105030": {
+    "name": "Swimming Accessories Pack",
+    "description": "Contains single-use armor skins for coat and helm.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105030,
+    "chat_link": "[&AgFGmgEA]",
+    "icon": "https://render.guildwars2.com/file/0DB9E83EA50846540824A02338255234DAF0E2E9/3645714.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  "105031": {
+    "name": "Valkyrie's Champion Helm Skin",
+    "description": "Double-click to apply this look to any other helmet. This skin will be unlocked in your wardrobe for future use.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105031,
+    "chat_link": "[&AgFHmgEA]",
+    "icon": "https://render.guildwars2.com/file/D3EC2DE3F67F432CC6C5BD532B15A89961AF7175/3645707.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        13111,
+        13120,
+        13124
+      ]
+    }
+  },
+  "105032": {
+    "name": "Villainous Cape Skin",
+    "description": "This will replace the appearance of one back slot item of any weight class and unlock the skin in your account wardrobe.\n\nThis back slot skin has no stats of its own.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 6250,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105032,
+    "chat_link": "[&AgFImgEA]",
+    "icon": "https://render.guildwars2.com/file/CBE1AB9FD64D9E4E2D94C2BAA6B50E4911804B5C/3645717.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        13128
+      ]
+    }
+  },
+  "105033": {
+    "name": "Sunshine Sandals Skin",
+    "description": "Double-click to apply this appearance to your current boots. This will unlock the skin in your wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105033,
+    "chat_link": "[&AgFJmgEA]",
+    "icon": "https://render.guildwars2.com/file/EF085D001620CCF4EAF5DCA50D642E0D980F5806/3645713.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        13106,
+        13110,
+        13127
+      ]
+    }
+  },
+  "105034": {
+    "name": "Sunshine Bracelet Skin",
+    "description": "Double-click to apply this look to any other gloves.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105034,
+    "chat_link": "[&AgFKmgEA]",
+    "icon": "https://render.guildwars2.com/file/5C039C0D7D957BCCD770CEA21F0D3D275633AA50/3645708.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        13103,
+        13119,
+        13129
+      ]
+    }
+  },
+  "105035": {
+    "name": "Sunshine Shorts Skin",
+    "description": "Double-click to apply this appearance to your current leg armor. This will unlock the skin in your wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105035,
+    "chat_link": "[&AgFLmgEA]",
+    "icon": "https://render.guildwars2.com/file/DEFB09B39FDDB767FC4BC67B99ACD4B0DFD2A80E/3645712.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        13117,
+        13125,
+        13130
+      ]
+    }
+  },
+  "105036": {
+    "name": "Castoran Tentacled Skimmer Skin",
+    "description": "Double-click to unlock this skimmer mount skin for your account.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105036,
+    "chat_link": "[&AgFMmgEA]",
+    "icon": "https://render.guildwars2.com/file/0439E8C4BBCD2B0D17E016F02A0E08AE327831CB/3653513.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Ms"
+    }
+  },
+  "105037": {
+    "name": "Leviathan Bone Scepter",
+    "description": "<c=@flavor>Only the strong can long endure in the depths.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 13153,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105037,
+    "chat_link": "[&AgFNmgEA]",
+    "icon": "https://render.guildwars2.com/file/343643287F945EA821C84818C3AEAC5A074AFFC9/3653670.png",
+    "details": {
+      "type": "Scepter",
+      "damage_type": "Physical",
+      "min_power": 895,
+      "max_power": 1010,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 799,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 120
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 85
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  "105038": {
+    "name": "Leviathan Bone Torch",
+    "description": "<c=@flavor>Only the strong can long endure in the depths.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 13191,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105038,
+    "chat_link": "[&AgFOmgEA]",
+    "icon": "https://render.guildwars2.com/file/45AF0373C16B2B0CC95ECF463D0674BE117FFCDB/3653710.png",
+    "details": {
+      "type": "Torch",
+      "damage_type": "Physical",
+      "min_power": 789,
+      "max_power": 926,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 799,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 120
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 85
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  "105039": {
+    "name": "Sun Aspect Crystal",
+    "description": "Deposit this decoration in the guild's decoration storage.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105039,
+    "chat_link": "[&AgFPmgEA]",
+    "icon": "https://render.guildwars2.com/file/4D7EFE9AE0722769DC04D37EEADFBF0FEDD52920/3653510.png",
+    "details": {
+      "type": "Generic",
+      "guild_upgrade_id": 1335
+    }
+  },
+  "105040": {
+    "name": "Chromatic Resin Sword Skin",
+    "description": "Double-click to apply this look to any other sword.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105040,
+    "chat_link": "[&AgFQmgEA]",
+    "icon": "https://render.guildwars2.com/file/A777CC7618BCF4226DE906A635D34123F1DA2DDA/3653871.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        13134
+      ]
+    }
+  },
+  "105042": {
+    "name": "Prospector's Mining Tool",
+    "description": "Used to mine all metals. Unlimited use.",
+    "type": "Gathering",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 192,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105042,
+    "chat_link": "[&AgFSmgEA]",
+    "icon": "https://render.guildwars2.com/file/7350B0C294C306B767AAA46043E26C02AFA63DC7/3653539.png",
+    "details": {
+      "type": "Mining"
+    }
+  },
+  "105043": {
+    "name": "Cloud Cuirass",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 13177,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105043,
+    "chat_link": "[&AgFTmgEA]",
+    "icon": "https://render.guildwars2.com/file/52282A38A67660160397C24D04AE93BB00330263/3653994.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Light",
+      "defense": 314,
+      "infusion_slots": [],
+      "attribute_adjustment": 384.12,
+      "infix_upgrade": {
+        "id": 1131,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 115
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 115
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 63
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 63
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  "105044": {
+    "name": "Leviathan Bone Hammer",
+    "description": "<c=@flavor>Only the strong can long endure in the depths.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 13140,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105044,
+    "chat_link": "[&AgFUmgEA]",
+    "icon": "https://render.guildwars2.com/file/603AAAA06C0A13CBD93608CDE22C1100DF04E702/3653646.png",
+    "details": {
+      "type": "Hammer",
+      "damage_type": "Physical",
+      "min_power": 985,
+      "max_power": 1111,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 799,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 239
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 171
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 171
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  "105045": {
+    "name": "Homestead Recipe Book: Four Winds, Volume 4",
+    "description": "A book of homestead decoration recipes needed to craft Festival of the Four Winds items.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105045,
+    "chat_link": "[&AgFVmgEA]",
+    "icon": "https://render.guildwars2.com/file/095B9410F480575B7EAF9CDA9F05163FB8530251/220884.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 14286,
+      "extra_recipe_ids": [
+        14310,
+        14653
+      ]
+    }
+  },
+  "105046": {
+    "name": "Chromatic Resin Spear Skin",
+    "description": "Double-click to apply this look to any other spear.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105046,
+    "chat_link": "[&AgFWmgEA]",
+    "icon": "https://render.guildwars2.com/file/3AA7B2A40278E4CF0A9BAA35332A941CDC10A021/3653851.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        13182
+      ]
+    }
+  },
+  "105047": {
+    "name": "Chromatic Resin Mace Skin",
+    "description": "Double-click to apply this look to any other mace.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105047,
+    "chat_link": "[&AgFXmgEA]",
+    "icon": "https://render.guildwars2.com/file/D5C6E1249CFE164B7C92A60E0AF9A961FDEE193D/3653791.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        13161
+      ]
+    }
+  },
+  "105048": {
+    "name": "Homestead Recipe Book: Four Winds, Volume 5",
+    "description": "A book of homestead decoration recipes needed to craft Festival of the Four Winds items.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105048,
+    "chat_link": "[&AgFYmgEA]",
+    "icon": "https://render.guildwars2.com/file/095B9410F480575B7EAF9CDA9F05163FB8530251/220884.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 14714,
+      "extra_recipe_ids": [
+        14279,
+        14583,
+        14195
+      ]
+    }
+  },
+  "105049": {
+    "name": "Chromatic Resin Dagger Skin",
+    "description": "Double-click to apply this look to any other dagger.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105049,
+    "chat_link": "[&AgFZmgEA]",
+    "icon": "https://render.guildwars2.com/file/DA92046FBBC3070C48E077D377147E3A6F00D200/3653751.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        13155
+      ]
+    }
+  },
+  "105050": {
+    "name": "Chromatic Resin Staff Skin",
+    "description": "Double-click to apply this look to any other staff.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105050,
+    "chat_link": "[&AgFamgEA]",
+    "icon": "https://render.guildwars2.com/file/4706632C6310803CC0752A220B41D72018A8195B/3653861.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        13156
+      ]
+    }
+  },
+  "105051": {
+    "name": "Cloud Cuirass",
+    "description": "<c=@flavor>A special gift earned during Festival of the Four Winds. Double-click to choose an armor class.</c>",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 256,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105051,
+    "chat_link": "[&AgFbmgEA]",
+    "icon": "https://render.guildwars2.com/file/52282A38A67660160397C24D04AE93BB00330263/3653994.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  "105054": {
+    "name": "Homestead Recipe Book: Four Winds, Volume 2",
+    "description": "A book of homestead decoration recipes needed to craft Festival of the Four Winds items.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105054,
+    "chat_link": "[&AgFemgEA]",
+    "icon": "https://render.guildwars2.com/file/095B9410F480575B7EAF9CDA9F05163FB8530251/220884.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 14348,
+      "extra_recipe_ids": [
+        14184,
+        14878,
+        14423
+      ]
+    }
+  },
+  "105055": {
+    "name": "Seashell Focus",
+    "description": "<c=@flavor>Washed ashore by countless waves, the castle endures.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 13149,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105055,
+    "chat_link": "[&AgFfmgEA]",
+    "icon": "https://render.guildwars2.com/file/BED5190E26039C211C31DB0B3B1ECF2B5D7ED177/3653584.png",
+    "details": {
+      "type": "Focus",
+      "damage_type": "Physical",
+      "min_power": 832,
+      "max_power": 883,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 799,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 120
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 85
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  "105057": {
+    "name": "Regenerative Chamber Chair",
+    "description": "Double-click to unlock this item in your wardrobe.",
+    "type": "Gizmo",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "NoUnderwater",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105057,
+    "chat_link": "[&AgFhmgEA]",
+    "icon": "https://render.guildwars2.com/file/B4083B06D9C79344377D6DACA89BC77C0E7C710A/3653520.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  "105058": {
+    "name": "Leviathan Bone Shield",
+    "description": "<c=@flavor>Only the strong can long endure in the depths.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 13172,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105058,
+    "chat_link": "[&AgFimgEA]",
+    "icon": "https://render.guildwars2.com/file/C42BC7B9EC4E099340BD030A531AF096AB45F5D1/3653676.png",
+    "details": {
+      "type": "Shield",
+      "damage_type": "Physical",
+      "min_power": 806,
+      "max_power": 909,
+      "defense": 61,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 799,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 120
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 85
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  "105060": {
+    "name": "Prospector's Harvesting Tool",
+    "description": "Used to harvest all plants. Unlimited use.",
+    "type": "Gathering",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 192,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105060,
+    "chat_link": "[&AgFkmgEA]",
+    "icon": "https://render.guildwars2.com/file/2C019134E3A203077E1BF9D90A08D440CA540B6E/3653540.png",
+    "details": {
+      "type": "Foraging"
+    }
+  },
+  "105063": {
+    "name": "Chromatic Resin Axe Skin",
+    "description": "Double-click to apply this look to any other axe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105063,
+    "chat_link": "[&AgFnmgEA]",
+    "icon": "https://render.guildwars2.com/file/2B763513DA35C13AE7519DB3E1A997F4F5D04DDA/3653731.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        13179
+      ]
+    }
+  },
+  "105065": {
+    "name": "Zephyrite Display Stand",
+    "description": "Deposit this decoration in the guild's decoration storage.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105065,
+    "chat_link": "[&AgFpmgEA]",
+    "icon": "https://render.guildwars2.com/file/01903B3CB5C3069105AEE49D936F7192A617520A/3653512.png",
+    "details": {
+      "type": "Generic",
+      "guild_upgrade_id": 1333
+    }
+  },
+  "105066": {
+    "name": "Leviathan Bone Warhorn",
+    "description": "<c=@flavor>Only the strong can long endure in the depths.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 13152,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105066,
+    "chat_link": "[&AgFqmgEA]",
+    "icon": "https://render.guildwars2.com/file/2C0DE8A45A06A0B8BB0F4A4504374EFA40D8C8D6/3653717.png",
+    "details": {
+      "type": "Warhorn",
+      "damage_type": "Physical",
+      "min_power": 814,
+      "max_power": 900,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 799,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 120
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 85
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  "105067": {
+    "name": "Leviathan Bone Dagger",
+    "description": "<c=@flavor>Only the strong can long endure in the depths.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 13135,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105067,
+    "chat_link": "[&AgFrmgEA]",
+    "icon": "https://render.guildwars2.com/file/58CC5441F50C95085D1055A8EBE153449D4B715A/3653625.png",
+    "details": {
+      "type": "Dagger",
+      "damage_type": "Physical",
+      "min_power": 924,
+      "max_power": 981,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 799,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 120
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 85
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  "105068": {
+    "name": "Bazaar-Traded Weapon Chest",
+    "description": "<c=@flavor>Double-click to choose a weapon.</c>",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105068,
+    "chat_link": "[&AgFsmgEA]",
+    "icon": "https://render.guildwars2.com/file/90DD1A3615617CACE893E637750B31CB7F1F07FA/3105937.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  "105069": {
+    "name": "Leviathan Bone Sword",
+    "description": "<c=@flavor>Only the strong can long endure in the depths.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 13178,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105069,
+    "chat_link": "[&AgFtmgEA]",
+    "icon": "https://render.guildwars2.com/file/46ACB62A51D54C90FCEBE29EF04DA7B57DC309D0/3653703.png",
+    "details": {
+      "type": "Sword",
+      "damage_type": "Physical",
+      "min_power": 905,
+      "max_power": 1000,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 799,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 120
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 85
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  "105070": {
+    "name": "Chromatic Resin Rifle Skin",
+    "description": "Double-click to apply this look to any other rifle.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105070,
+    "chat_link": "[&AgFumgEA]",
+    "icon": "https://render.guildwars2.com/file/0DFB1BFFCD65569E09E8E44AEDA9F32B9406940B/3653811.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        13163
+      ]
+    }
+  },
+  "105071": {
+    "name": "Fox Fire Weapon Choice",
+    "description": "Use this item to select and unlock a Fox Fire weapon skin of your choice for your account.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105071,
+    "chat_link": "[&AgFvmgEA]",
+    "icon": "https://render.guildwars2.com/file/CCF7F076AD01610F28E06FDA3F25DB9372C43A04/1766950.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  "105072": {
+    "name": "Leviathan Bone Chest",
+    "description": "<c=@flavor>Double-click to choose an account-bound reward.</c>",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 256,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105072,
+    "chat_link": "[&AgFwmgEA]",
+    "icon": "https://render.guildwars2.com/file/1D430051623810D96D7CB708A0705AFC10B339C7/3653633.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  "105073": {
+    "name": "Lightning Aspect Crystal",
+    "description": "Deposit this decoration in the guild's decoration storage.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105073,
+    "chat_link": "[&AgFxmgEA]",
+    "icon": "https://render.guildwars2.com/file/1556119979DC33083351FE075DD7E8514205503B/3653509.png",
+    "details": {
+      "type": "Generic",
+      "guild_upgrade_id": 1334
+    }
+  },
+  "105074": {
+    "name": "Leviathan Bone Spear",
+    "description": "<c=@flavor>Only the strong can long endure in the depths.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 13165,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105074,
+    "chat_link": "[&AgFymgEA]",
+    "icon": "https://render.guildwars2.com/file/10A7A840C25390B14A07DD65360E0CE7105C9371/3653689.png",
+    "details": {
+      "type": "Harpoon",
+      "damage_type": "Physical",
+      "min_power": 905,
+      "max_power": 1000,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 799,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 239
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 171
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 171
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  "105075": {
+    "name": "Cloud Cuirass",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 13186,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105075,
+    "chat_link": "[&AgFzmgEA]",
+    "icon": "https://render.guildwars2.com/file/52282A38A67660160397C24D04AE93BB00330263/3653994.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Medium",
+      "defense": 338,
+      "infusion_slots": [],
+      "attribute_adjustment": 384.12,
+      "infix_upgrade": {
+        "id": 1131,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 115
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 115
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 63
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 63
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  "105076": {
+    "name": "Leviathan Bone Axe",
+    "description": "<c=@flavor>Only the strong can long endure in the depths.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 13189,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105076,
+    "chat_link": "[&AgF0mgEA]",
+    "icon": "https://render.guildwars2.com/file/124A46A4EECEAF36756BC3CE956EA447D10A565E/3653613.png",
+    "details": {
+      "type": "Axe",
+      "damage_type": "Physical",
+      "min_power": 857,
+      "max_power": 1048,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 799,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 120
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 85
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  "105078": {
+    "name": "Plumed Commodore's Hat Skin",
+    "description": "Double-click to apply this look to any other helmet. This skin will be unlocked in your wardrobe for future use.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105078,
+    "chat_link": "[&AgF2mgEA]",
+    "icon": "https://render.guildwars2.com/file/0C3A66D84A0B311E2CD679C545D5CD704039FBCC/3653515.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        13148,
+        13173,
+        13183
+      ]
+    }
+  },
+  "105079": {
+    "name": "Seashell Shield",
+    "description": "<c=@flavor>Washed ashore by countless waves, the castle endures.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 13137,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105079,
+    "chat_link": "[&AgF3mgEA]",
+    "icon": "https://render.guildwars2.com/file/DEF3FA44800E11EE16CF0B3CFB031EA4EE23C0F3/3653594.png",
+    "details": {
+      "type": "Shield",
+      "damage_type": "Physical",
+      "min_power": 806,
+      "max_power": 909,
+      "defense": 61,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 799,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 120
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 85
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  "105080": {
+    "name": "Cloud Cuirass",
+    "type": "Armor",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 13169,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105080,
+    "chat_link": "[&AgF4mgEA]",
+    "icon": "https://render.guildwars2.com/file/52282A38A67660160397C24D04AE93BB00330263/3653994.png",
+    "details": {
+      "type": "Coat",
+      "weight_class": "Heavy",
+      "defense": 363,
+      "infusion_slots": [],
+      "attribute_adjustment": 384.12,
+      "infix_upgrade": {
+        "id": 1131,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 115
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 115
+          },
+          {
+            "attribute": "Toughness",
+            "modifier": 63
+          },
+          {
+            "attribute": "BoonDuration",
+            "modifier": 63
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  "105081": {
+    "name": "Fairy Dust Logging Tool",
+    "description": "Perfect for use on all types of trees. Unlimited use.",
+    "type": "Gathering",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 192,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105081,
+    "chat_link": "[&AgF5mgEA]",
+    "icon": "https://render.guildwars2.com/file/2BFD41682D476EFD5725791818CD9D4616A8D27A/3653522.png",
+    "details": {
+      "type": "Logging"
+    }
+  },
+  "105083": {
+    "name": "Chromatic Resin Torch Skin",
+    "description": "Double-click to apply this look to any other torch.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105083,
+    "chat_link": "[&AgF7mgEA]",
+    "icon": "https://render.guildwars2.com/file/1B7FEFCCDF25DB3FD1DC96446B429ECB634E6C64/3653881.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        13160
+      ]
+    }
+  },
+  "105084": {
+    "name": "Leviathan Bone Rifle",
+    "description": "<c=@flavor>Only the strong can long endure in the depths.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 13181,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105084,
+    "chat_link": "[&AgF8mgEA]",
+    "icon": "https://render.guildwars2.com/file/7ABF7321A1145DEF3AAC4329BB06729540D1C911/3653664.png",
+    "details": {
+      "type": "Rifle",
+      "damage_type": "Physical",
+      "min_power": 986,
+      "max_power": 1205,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 799,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 239
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 171
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 171
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  "105086": {
+    "name": "Trader's Sandswept Chest",
+    "description": "<c=@flavor>Double-click to choose an account-bound reward.</c>",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 256,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoSalvage",
+      "NoSell"
+    ],
+    "restrictions": [],
+    "id": 105086,
+    "chat_link": "[&AgF+mgEA]",
+    "icon": "https://render.guildwars2.com/file/7FDA7390217B42DAC0A91B15E16A003FE56D36C2/3356335.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  "105087": {
+    "name": "Wind Aspect Crystal",
+    "description": "Deposit this decoration in the guild's decoration storage.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105087,
+    "chat_link": "[&AgF/mgEA]",
+    "icon": "https://render.guildwars2.com/file/90B5DC0D5956F609A1BB69223FB66E7B67BF2029/3653511.png",
+    "details": {
+      "type": "Generic",
+      "guild_upgrade_id": 1331
+    }
+  },
+  "105089": {
+    "name": "Siege Turtle Rental Post",
+    "description": "A decoration schematic that is processed by the guild's assembly device to make the decoration.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 0,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105089,
+    "chat_link": "[&AgGBmgEA]",
+    "icon": "https://render.guildwars2.com/file/1E96D262015E0306C3F8E8EEBE07A8E82CD811E0/3653508.png",
+    "details": {
+      "type": "Generic",
+      "guild_upgrade_id": 1332
+    }
+  },
+  "105090": {
+    "name": "Leviathan Bone Mace",
+    "description": "<c=@flavor>Only the strong can long endure in the depths.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 13167,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105090,
+    "chat_link": "[&AgGCmgEA]",
+    "icon": "https://render.guildwars2.com/file/2906A659C10AA8CE0610C136DB4707B8C468FA02/3653652.png",
+    "details": {
+      "type": "Mace",
+      "damage_type": "Physical",
+      "min_power": 895,
+      "max_power": 1010,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 799,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 120
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 85
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  "105091": {
+    "name": "Chromatic Resin Warhorn Skin",
+    "description": "Double-click to apply this look to any other warhorn.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105091,
+    "chat_link": "[&AgGDmgEA]",
+    "icon": "https://render.guildwars2.com/file/0E0D31A90AC7CC07E56E080A75ED3950296A2C64/3653891.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        13176
+      ]
+    }
+  },
+  "105092": {
+    "name": "Recipe: Lightning Aspect Crystal",
+    "description": "Unlocks this homestead decoration for crafting.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105092,
+    "chat_link": "[&AgGEmgEA]",
+    "icon": "https://render.guildwars2.com/file/59520696CF7A72FCAEDC717F220D93780401E60C/3321135.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 15171
+    }
+  },
+  "105093": {
+    "name": "Leviathan Bone Longbow",
+    "description": "<c=@flavor>Only the strong can long endure in the depths.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 13145,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105093,
+    "chat_link": "[&AgGFmgEA]",
+    "icon": "https://render.guildwars2.com/file/E0B49C13F6B9E8A0B150B20FB603C102B708E30B/3653619.png",
+    "details": {
+      "type": "LongBow",
+      "damage_type": "Physical",
+      "min_power": 920,
+      "max_power": 1080,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 799,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 239
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 171
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 171
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  "105094": {
+    "name": "Fox Fire Outfit",
+    "description": "Double-click to wear this outfit.\n\nOutfits are full sets of clothing that hide other armor. This will not change individual armor pieces, and you will still receive your current armor stats.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105094,
+    "chat_link": "[&AgGGmgEA]",
+    "icon": "https://render.guildwars2.com/file/E3BC283243207BF8390DB3E96B3F723C3AACD9EA/3653521.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "Outfit"
+    }
+  },
+  "105095": {
+    "name": "Scavenged Frost Legion Infusion",
+    "description": "An exceedingly rare item scavenged by merchant golems after the fight against Jormag. Double-click to select an account-bound Frost Legion infusion.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105095,
+    "chat_link": "[&AgGHmgEA]",
+    "icon": "https://render.guildwars2.com/file/3A7D117EDAF805376A78340134062A7170319548/2314088.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  "105096": {
+    "name": "Fairy Dust Harvesting Tool",
+    "description": "Used to harvest all plants. Unlimited use.",
+    "type": "Gathering",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 192,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105096,
+    "chat_link": "[&AgGImgEA]",
+    "icon": "https://render.guildwars2.com/file/4B0140DD1AAFE49C9A020ECF7FD0C27DD8227E0D/3653549.png",
+    "details": {
+      "type": "Foraging"
+    }
+  },
+  "105098": {
+    "name": "Chromatic Resin Longbow Skin",
+    "description": "Double-click to apply this look to any other longbow.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105098,
+    "chat_link": "[&AgGKmgEA]",
+    "icon": "https://render.guildwars2.com/file/B7BDE5DE302D229D187A6E024FC4030A0D0B21D7/3653741.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        13170
+      ]
+    }
+  },
+  "105101": {
+    "name": "Recipe: Wind Aspect Crystal",
+    "description": "Unlocks this homestead decoration for crafting.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105101,
+    "chat_link": "[&AgGNmgEA]",
+    "icon": "https://render.guildwars2.com/file/59520696CF7A72FCAEDC717F220D93780401E60C/3321135.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 15164
+    }
+  },
+  "105102": {
+    "name": "Recipe: Zephyrite Display Stand",
+    "description": "Unlocks this homestead decoration for crafting.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105102,
+    "chat_link": "[&AgGOmgEA]",
+    "icon": "https://render.guildwars2.com/file/59520696CF7A72FCAEDC717F220D93780401E60C/3321135.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 15173
+    }
+  },
+  "105104": {
+    "name": "Chromatic Resin Weapon Skin Choice Box",
+    "description": "Contains a single Chromatic Resin weapon skin of your choice to unlock for your account.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105104,
+    "chat_link": "[&AgGQmgEA]",
+    "icon": "https://render.guildwars2.com/file/335F2935AFB5C5E0A6FD140EE8E25B154CA278A9/3653507.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  "105105": {
+    "name": "Chromatic Resin Shield Skin",
+    "description": "Double-click to apply this look to any other shield.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105105,
+    "chat_link": "[&AgGRmgEA]",
+    "icon": "https://render.guildwars2.com/file/14EC57B50617F80BBD35AA09267E186A3B93E477/3653831.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        13194
+      ]
+    }
+  },
+  "105106": {
+    "name": "Explosive Turbo Greaves Skin",
+    "description": "Double-click to apply this appearance to your current boots. This will unlock the skin in your wardrobe.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105106,
+    "chat_link": "[&AgGSmgEA]",
+    "icon": "https://render.guildwars2.com/file/E70F6C217131DA94B3D4916BDB379D22FB5AD632/3653514.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        13150,
+        13154,
+        13193
+      ]
+    }
+  },
+  "105107": {
+    "name": "Fairy Dust Gathering Tools Pack",
+    "description": "Contains a Fairy Dust Mining Tool, a Fairy Dust Logging Tool, a Fairy Dust Harvesting Tool, and three Black Lion Glyph Selection Containers.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105107,
+    "chat_link": "[&AgGTmgEA]",
+    "icon": "https://render.guildwars2.com/file/4B0140DD1AAFE49C9A020ECF7FD0C27DD8227E0D/3653549.png",
+    "details": {
+      "type": "Immediate"
+    }
+  },
+  "105108": {
+    "name": "Recipe: Sun Aspect Crystal",
+    "description": "Unlocks this homestead decoration for crafting.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105108,
+    "chat_link": "[&AgGUmgEA]",
+    "icon": "https://render.guildwars2.com/file/59520696CF7A72FCAEDC717F220D93780401E60C/3321135.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 15165
+    }
+  },
+  "105109": {
+    "name": "Homestead Recipe Book: Four Winds, Volume 3",
+    "description": "A book of homestead decoration recipes needed to craft Festival of the Four Winds items.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105109,
+    "chat_link": "[&AgGVmgEA]",
+    "icon": "https://render.guildwars2.com/file/095B9410F480575B7EAF9CDA9F05163FB8530251/220884.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 14575,
+      "extra_recipe_ids": [
+        14207,
+        14796,
+        14804
+      ]
+    }
+  },
+  "105110": {
+    "name": "Mini Garenhoff Coon Cat",
+    "description": "Double-click to summon this mini to follow you around. Only one mini may be in use at a time.",
+    "type": "MiniPet",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105110,
+    "chat_link": "[&AgGWmgEA]",
+    "icon": "https://render.guildwars2.com/file/A6420A6347D9F6B5275330764B990696B6C1266F/3654042.png",
+    "details": {
+      "minipet_id": 971
+    }
+  },
+  "105111": {
+    "name": "Chromatic Resin Pistol Skin",
+    "description": "Double-click to apply this look to any other pistol.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105111,
+    "chat_link": "[&AgGXmgEA]",
+    "icon": "https://render.guildwars2.com/file/51FD0BF7D901E7A706FD450E340EFCA92B6E043D/3653801.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        13188
+      ]
+    }
+  },
+  "105113": {
+    "name": "New Kaineng Weapon Choice Chest",
+    "description": "Use this item to select and unlock a New Kaineng weapon skin of your choice for your account.",
+    "type": "Container",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105113,
+    "chat_link": "[&AgGZmgEA]",
+    "icon": "https://render.guildwars2.com/file/AD789EE8C56C94EC610C202FB25B6CFE593D14BE/2236640.png",
+    "details": {
+      "type": "Default"
+    }
+  },
+  "105115": {
+    "name": "Chromatic Resin Greatsword Skin",
+    "description": "Double-click to apply this look to any other greatsword.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105115,
+    "chat_link": "[&AgGbmgEA]",
+    "icon": "https://render.guildwars2.com/file/80F5F9CCE50FA4E90FAB50D70968BC0879E575DC/3653771.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        13158
+      ]
+    }
+  },
+  "105117": {
+    "name": "Fairy Dust Mining Tool",
+    "description": "Used to mine all metals. Unlimited use.",
+    "type": "Gathering",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 192,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105117,
+    "chat_link": "[&AgGdmgEA]",
+    "icon": "https://render.guildwars2.com/file/F0947B014568ACBE25D9EF9E64A62F000E4C6345/3653525.png",
+    "details": {
+      "type": "Mining"
+    }
+  },
+  "105119": {
+    "name": "Leviathan Bone Staff",
+    "description": "<c=@flavor>Only the strong can long endure in the depths.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 13192,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105119,
+    "chat_link": "[&AgGfmgEA]",
+    "icon": "https://render.guildwars2.com/file/3CC1FDFA80BCF9F79AC73CDFBAC89294400E4214/3653696.png",
+    "details": {
+      "type": "Staff",
+      "damage_type": "Physical",
+      "min_power": 985,
+      "max_power": 1111,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 799,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 239
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 171
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 171
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  "105120": {
+    "name": "Leviathan Bone Short Bow",
+    "description": "<c=@flavor>Only the strong can long endure in the depths.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 13147,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105120,
+    "chat_link": "[&AgGgmgEA]",
+    "icon": "https://render.guildwars2.com/file/5619084D98084CCB17B4450D73CF6C4118015D52/3653682.png",
+    "details": {
+      "type": "ShortBow",
+      "damage_type": "Physical",
+      "min_power": 905,
+      "max_power": 1000,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 799,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 239
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 171
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 171
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  "105121": {
+    "name": "Leviathan Bone Focus",
+    "description": "<c=@flavor>Only the strong can long endure in the depths.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 13174,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105121,
+    "chat_link": "[&AgGhmgEA]",
+    "icon": "https://render.guildwars2.com/file/A54661B0CD572296A03BE75112DE7C3E28A4D3CD/3653632.png",
+    "details": {
+      "type": "Focus",
+      "damage_type": "Physical",
+      "min_power": 832,
+      "max_power": 883,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 799,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 120
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 85
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  "105122": {
+    "name": "Chromatic Resin Hammer Skin",
+    "description": "Double-click to apply this look to any other hammer.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105122,
+    "chat_link": "[&AgGimgEA]",
+    "icon": "https://render.guildwars2.com/file/471EFC51200424085977AB4576C2ABCCAD0AB45C/3653781.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        13157
+      ]
+    }
+  },
+  "105124": {
+    "name": "Homestead Recipe Book: Four Winds, Volume 7",
+    "description": "A book of homestead decoration recipes needed to craft Festival of the Four Winds items.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105124,
+    "chat_link": "[&AgGkmgEA]",
+    "icon": "https://render.guildwars2.com/file/095B9410F480575B7EAF9CDA9F05163FB8530251/220884.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 15161,
+      "extra_recipe_ids": [
+        15167,
+        15170,
+        15163
+      ]
+    }
+  },
+  "105125": {
+    "name": "Recipe: Siege Turtle Rental Post",
+    "description": "Unlocks this homestead decoration for crafting.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Basic",
+    "vendor_value": 50,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105125,
+    "chat_link": "[&AgGlmgEA]",
+    "icon": "https://render.guildwars2.com/file/59520696CF7A72FCAEDC717F220D93780401E60C/3321135.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 15169
+    }
+  },
+  "105126": {
+    "name": "\"/Channel\" Emote Tome",
+    "description": "Consuming this tome will give you access to a new emote!",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105126,
+    "chat_link": "[&AgGmmgEA]",
+    "icon": "https://render.guildwars2.com/file/9BF80ACEB7D017EE4833FC2065F90225C2C6E4F3/3653506.png",
+    "details": {
+      "type": "Generic"
+    }
+  },
+  "105127": {
+    "name": "Seashell Staff",
+    "description": "<c=@flavor>Washed ashore by countless waves, the castle endures.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 13138,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105127,
+    "chat_link": "[&AgGnmgEA]",
+    "icon": "https://render.guildwars2.com/file/2B3E39AF2B01553B3B7C9765229C58C5AA95DBD6/3653606.png",
+    "details": {
+      "type": "Staff",
+      "damage_type": "Physical",
+      "min_power": 985,
+      "max_power": 1111,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 799,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 239
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 171
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 171
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  "105128": {
+    "name": "Collapsing Star Spear Skin",
+    "description": "Double-click to apply this look to any other spear.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning"
+    ],
+    "restrictions": [],
+    "id": 105128,
+    "chat_link": "[&AgGomgEA]",
+    "icon": "https://render.guildwars2.com/file/EB622FD21112A226A980AA01031FE49158ABD57B/3653568.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        13139
+      ]
+    }
+  },
+  "105129": {
+    "name": "Leviathan Bone Pistol",
+    "description": "<c=@flavor>Only the strong can long endure in the depths.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 264,
+    "default_skin": 13190,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105129,
+    "chat_link": "[&AgGpmgEA]",
+    "icon": "https://render.guildwars2.com/file/5A49ED09A91728EF91BA1559F395C100CE047DA2/3653658.png",
+    "details": {
+      "type": "Pistol",
+      "damage_type": "Physical",
+      "min_power": 876,
+      "max_power": 1029,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 341.44,
+      "infix_upgrade": {
+        "id": 799,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 120
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 85
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 85
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  "105130": {
+    "name": "Prospector's Logging Tool",
+    "description": "Perfect for use on all types of trees. Unlimited use.",
+    "type": "Gathering",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 192,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105130,
+    "chat_link": "[&AgGqmgEA]",
+    "icon": "https://render.guildwars2.com/file/3201041F29CA47EB5F219F0C7A220437FF4B6F4C/3653538.png",
+    "details": {
+      "type": "Logging"
+    }
+  },
+  "105131": {
+    "name": "Chromatic Resin Focus Skin",
+    "description": "Double-click to apply this look to any other focus.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105131,
+    "chat_link": "[&AgGrmgEA]",
+    "icon": "https://render.guildwars2.com/file/09904FC792313837C4C8AB450B4069DF322108C4/3653761.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        13146
+      ]
+    }
+  },
+  "105132": {
+    "name": "Homestead Recipe Book: Four Winds, Volume 6",
+    "description": "A book of homestead decoration recipes needed to craft Festival of the Four Winds items.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Exotic",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoSalvage",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105132,
+    "chat_link": "[&AgGsmgEA]",
+    "icon": "https://render.guildwars2.com/file/095B9410F480575B7EAF9CDA9F05163FB8530251/220884.png",
+    "details": {
+      "type": "Unlock",
+      "unlock_type": "CraftingRecipe",
+      "recipe_id": 14734,
+      "extra_recipe_ids": [
+        14325,
+        14506,
+        14372
+      ]
+    }
+  },
+  "105134": {
+    "name": "Round Boatsman Hat Skin",
+    "description": "Double-click to apply this look to any other helmet. This skin will be unlocked in your wardrobe for future use.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105134,
+    "chat_link": "[&AgGumgEA]",
+    "icon": "https://render.guildwars2.com/file/0D20FA2A42DABBA2BBE2FB062ADCC0B2A401F745/3653517.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        13136,
+        13171,
+        13180
+      ]
+    }
+  },
+  "105135": {
+    "name": "Leviathan Bone Greatsword",
+    "description": "<c=@flavor>Only the strong can long endure in the depths.</c>",
+    "type": "Weapon",
+    "level": 80,
+    "rarity": "Exotic",
+    "vendor_value": 396,
+    "default_skin": 13159,
+    "game_types": [
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "HideSuffix",
+      "NoSell",
+      "SoulBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105135,
+    "chat_link": "[&AgGvmgEA]",
+    "icon": "https://render.guildwars2.com/file/96CE28BFFE6EE3020B02E5BC15BF3DB1005FE09A/3653640.png",
+    "details": {
+      "type": "Greatsword",
+      "damage_type": "Physical",
+      "min_power": 995,
+      "max_power": 1100,
+      "defense": 0,
+      "infusion_slots": [],
+      "attribute_adjustment": 682.88,
+      "infix_upgrade": {
+        "id": 799,
+        "attributes": [
+          {
+            "attribute": "Power",
+            "modifier": 239
+          },
+          {
+            "attribute": "Precision",
+            "modifier": 171
+          },
+          {
+            "attribute": "Healing",
+            "modifier": 171
+          }
+        ]
+      },
+      "secondary_suffix_item_id": ""
+    }
+  },
+  "105137": {
+    "name": "Chromatic Resin Short Bow Skin",
+    "description": "Double-click to apply this look to any other short bow.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105137,
+    "chat_link": "[&AgGxmgEA]",
+    "icon": "https://render.guildwars2.com/file/152313505AA680962C155DFA221D5741280B57F1/3653841.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        13166
+      ]
+    }
+  },
+  "105138": {
+    "name": "Flat Boatsman Hat Skin",
+    "description": "Double-click to apply this look to any other helmet. This skin will be unlocked in your wardrobe for future use.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Masterwork",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105138,
+    "chat_link": "[&AgGymgEA]",
+    "icon": "https://render.guildwars2.com/file/26CE342A2EAB63B4A436351FE9F9BD299551D67F/3653516.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        13141,
+        13144,
+        13151
+      ]
+    }
+  },
+  "105139": {
+    "name": "Chromatic Resin Scepter Skin",
+    "description": "Double-click to apply this look to any other scepter.",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105139,
+    "chat_link": "[&AgGzmgEA]",
+    "icon": "https://render.guildwars2.com/file/EB7955777D69C8D43F9F08BE31FBAB4795ED0828/3653821.png",
+    "details": {
+      "type": "Transmutation",
+      "skins": [
+        13143
+      ]
+    }
+  },
+  "105141": {
+    "name": "Title Scroll: Eternal Alchemist",
+    "type": "Consumable",
+    "level": 0,
+    "rarity": "Rare",
+    "vendor_value": 0,
+    "game_types": [
+      "Pvp",
+      "PvpLobby",
+      "Activity",
+      "Wvw",
+      "Dungeon",
+      "Pve"
+    ],
+    "flags": [
+      "AccountBound",
+      "NoMysticForge",
+      "NoSalvage",
+      "NoSell",
+      "Unique",
+      "DeleteWarning",
+      "AccountBindOnUse"
+    ],
+    "restrictions": [],
+    "id": 105141,
+    "chat_link": "[&AgG1mgEA]",
+    "icon": "https://render.guildwars2.com/file/16D70F7A5C06D415E50EEF07986C46FBDB4D1E80/222818.png",
+    "details": {
+      "type": "Immediate"
+    }
+  }
+}

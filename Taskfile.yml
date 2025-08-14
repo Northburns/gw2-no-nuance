@@ -3,10 +3,37 @@
 version: '3'
 
 vars:
-  GREETING: Hello, World!
+  DIR: assets/data/gw2-api
+  URL: https://api.guildwars2.com/v2
+  CURL_RETRY: --retry 10
 
 tasks:
-  default:
+
+  install:
+    desc: Install needed stuff
     cmds:
-      - echo "{{.GREETING}}"
-    silent: true
+    - scoop install charm-gum jq
+  
+  init:
+    desc: initialize script project
+    dir: _scripts
+    cmds:
+    - yarn install
+  
+  do-api-all:
+    desc: Do all APIs in one go
+    cmds:
+    - { task: do-api-one, vars: { API: currencies,              DIR: currencies,        KEY: id } }
+    - { task: do-api-one, vars: { API: items,                   DIR: items,             KEY: id } }
+    - { task: do-api-one, vars: { API: achievements,            DIR: achievements,      KEY: id } }
+    - { task: do-api-one, vars: { API: achievements/groups,     DIR: achGroups,         KEY: id } }
+    - { task: do-api-one, vars: { API: achievements/categories, DIR: achCats,           KEY: id } }
+    - { task: do-api-one, vars: { API: masteries,               DIR: masteries,         KEY: id } }
+    - { task: do-api-one, vars: { API: skills,                  DIR: skills,            KEY: id } }
+    - { task: do-api-one, vars: { API: traits,                  DIR: traits,            KEY: id } }
+
+  do-api-one:
+    requires: { vars: [API, DIR, KEY] }
+    dir: _scripts
+    cmds:
+    - yarn run do-api {{.API}} {{.DIR}} {{.KEY}}

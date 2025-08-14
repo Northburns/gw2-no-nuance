@@ -1,0 +1,6935 @@
+{
+  "27": {
+    "id": 27,
+    "name": "Elemental Slayer",
+    "description": "Fire, earth, lightning, water, and ice can't stand up to steel and magic.",
+    "requirement": "Kill  elementals.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 10,
+        "points": 1
+      },
+      {
+        "count": 100,
+        "points": 5
+      },
+      {
+        "count": 500,
+        "points": 5
+      },
+      {
+        "count": 1000,
+        "points": 5
+      }
+    ]
+  },
+  "42": {
+    "id": 42,
+    "name": "Nightmare Court's Bane",
+    "description": "Haunt these evil sylvari like a bad dream.",
+    "requirement": "Kill  members of the Nightmare Court.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 10,
+        "points": 1
+      },
+      {
+        "count": 100,
+        "points": 5
+      },
+      {
+        "count": 500,
+        "points": 5
+      },
+      {
+        "count": 1000,
+        "points": 5
+      }
+    ]
+  },
+  "55": {
+    "id": 55,
+    "name": "Mace Master",
+    "description": "Blunt force trauma is your friend, and you enjoy sharing it with your enemies.",
+    "requirement": "Deliver  killing blows with a mace.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 100,
+        "points": 1
+      },
+      {
+        "count": 500,
+        "points": 5
+      },
+      {
+        "count": 5000,
+        "points": 5
+      }
+    ]
+  },
+  "138": {
+    "id": 138,
+    "name": "Master Crafter",
+    "description": "Everything's for sale—for a price.",
+    "requirement": "Master  crafting disciplines.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "bits": [
+      {
+        "type": "Text",
+        "text": "Armorsmith"
+      },
+      {
+        "type": "Text",
+        "text": "Tailor"
+      },
+      {
+        "type": "Text",
+        "text": "Leatherworker"
+      },
+      {
+        "type": "Text",
+        "text": "Jeweler"
+      },
+      {
+        "type": "Text",
+        "text": "Cook"
+      },
+      {
+        "type": "Text",
+        "text": "Weaponsmith"
+      },
+      {
+        "type": "Text",
+        "text": "Huntsman"
+      },
+      {
+        "type": "Text",
+        "text": "Artificer"
+      }
+    ],
+    "tiers": [
+      {
+        "count": 8,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Title",
+        "id": 11
+      }
+    ]
+  },
+  "202": {
+    "id": 202,
+    "name": "Vizier's Tower",
+    "description": "Climb the heights of the Vizier's Tower.",
+    "requirement": "Complete the jumping puzzle.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 10
+      }
+    ]
+  },
+  "249": {
+    "id": 249,
+    "name": "Avenger",
+    "description": "You're making a name for yourself.",
+    "requirement": "Obtain  rank points.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "IgnoreNearlyComplete",
+      "Pvp",
+      "RepairOnLogin",
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 56000,
+        "points": 10
+      },
+      {
+        "count": 63500,
+        "points": 10
+      },
+      {
+        "count": 71000,
+        "points": 10
+      },
+      {
+        "count": 78500,
+        "points": 10
+      },
+      {
+        "count": 86000,
+        "points": 10
+      },
+      {
+        "count": 93500,
+        "points": 10
+      },
+      {
+        "count": 101000,
+        "points": 10
+      },
+      {
+        "count": 108500,
+        "points": 10
+      },
+      {
+        "count": 116000,
+        "points": 10
+      },
+      {
+        "count": 123500,
+        "points": 10
+      }
+    ],
+    "prerequisites": [
+      248
+    ],
+    "rewards": [
+      {
+        "type": "Title",
+        "id": 119
+      }
+    ]
+  },
+  "255": {
+    "id": 255,
+    "name": "Legendary Champion",
+    "description": "Your battles have become legend.",
+    "requirement": "Obtain  rank points.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "IgnoreNearlyComplete",
+      "Pvp",
+      "RepairOnLogin",
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1093500,
+        "points": 20
+      }
+    ],
+    "prerequisites": [
+      254
+    ],
+    "rewards": [
+      {
+        "type": "Title",
+        "id": 125
+      }
+    ]
+  },
+  "316": {
+    "id": 316,
+    "name": "Nice View From Up Here",
+    "description": "The walls are nearly as tough as you are.",
+    "requirement": "Defend  keeps.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      },
+      {
+        "count": 125,
+        "points": 5
+      },
+      {
+        "count": 250,
+        "points": 10
+      },
+      {
+        "count": 500,
+        "points": 15
+      },
+      {
+        "count": 1000,
+        "points": 25
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Title",
+        "id": 55
+      }
+    ]
+  },
+  "516": {
+    "id": 516,
+    "name": "Champion Slayer",
+    "description": "Defeat champion foes where you find them.",
+    "requirement": "Kill  champion foes.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Pvp",
+      "Monthly"
+    ],
+    "tiers": [
+      {
+        "count": 15,
+        "points": 2
+      },
+      {
+        "count": 30,
+        "points": 2
+      },
+      {
+        "count": 45,
+        "points": 3
+      },
+      {
+        "count": 60,
+        "points": 3
+      }
+    ]
+  },
+  "520": {
+    "id": 520,
+    "name": "Monthly Successful Events",
+    "description": "A friend and hero to all.",
+    "requirement": "Complete  event.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Pvp",
+      "Monthly"
+    ],
+    "tiers": [
+      {
+        "count": 25,
+        "points": 2
+      },
+      {
+        "count": 50,
+        "points": 2
+      },
+      {
+        "count": 75,
+        "points": 3
+      },
+      {
+        "count": 100,
+        "points": 3
+      }
+    ]
+  },
+  "548": {
+    "id": 548,
+    "name": "Bachelor of Pioneering",
+    "description": "Left, left, left, left...wait a minute.",
+    "requirement": "Find the shortcut located in World 1, Zone 2.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 5
+      }
+    ]
+  },
+  "561": {
+    "id": 561,
+    "name": "Minor in Achievement",
+    "description": "...And complete a senior capstone project on bauble theory.",
+    "requirement": "Complete 15 achievements in World 1.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Hidden",
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 15,
+        "points": 15
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Title",
+        "id": 134
+      }
+    ]
+  },
+  "563": {
+    "id": 563,
+    "name": "Glutton for Punishment",
+    "description": "Serious fun amidst serious pain.",
+    "requirement": "Complete Zone 1, Zone 2, and Zone 3 in World 1 in Tribulation Mode.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "bits": [
+      {
+        "type": "Text",
+        "text": "Zone 01"
+      },
+      {
+        "type": "Text",
+        "text": "Zone 02"
+      },
+      {
+        "type": "Text",
+        "text": "Zone 03"
+      }
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 25
+      },
+      {
+        "count": 2,
+        "points": 25
+      },
+      {
+        "count": 3,
+        "points": 25
+      }
+    ]
+  },
+  "564": {
+    "id": 564,
+    "icon": "https://render.guildwars2.com/file/08A4FECA4EB071A0A607595ED600B409EC467042/511341.png",
+    "name": "PvP Monthly Rank Points",
+    "description": "Moving up the ranks.",
+    "requirement": "Earn  rank points.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Pvp",
+      "Monthly"
+    ],
+    "tiers": [
+      {
+        "count": 1500,
+        "points": 2
+      },
+      {
+        "count": 3000,
+        "points": 2
+      },
+      {
+        "count": 4500,
+        "points": 3
+      },
+      {
+        "count": 6000,
+        "points": 3
+      }
+    ]
+  },
+  "571": {
+    "id": 571,
+    "name": "Alliance Breaker",
+    "description": "",
+    "requirement": "Complete the following achievements for Flame and Frost: Refugee Volunteer, Lost and Found, the Gathering Storm, Secret Contact, and Avenger of the Dispossessed.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "RepairOnLogin",
+      "Permanent"
+    ],
+    "bits": [
+      {
+        "type": "Text",
+        "text": "Refugee Volunteer"
+      },
+      {
+        "type": "Text",
+        "text": "The Gathering Storm"
+      },
+      {
+        "type": "Text",
+        "text": "Lost and Found"
+      },
+      {
+        "type": "Text",
+        "text": "Secret Contact"
+      },
+      {
+        "type": "Text",
+        "text": "Avenger of the Dispossessed"
+      }
+    ],
+    "tiers": [
+      {
+        "count": 2,
+        "points": 25
+      },
+      {
+        "count": 4,
+        "points": 25
+      },
+      {
+        "count": 5,
+        "points": 25
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 97995,
+        "count": 1
+      }
+    ]
+  },
+  "585": {
+    "id": 585,
+    "name": "Soldier of the Arena",
+    "description": "",
+    "requirement": "",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Pvp",
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Title",
+        "id": 137
+      }
+    ]
+  },
+  "737": {
+    "id": 737,
+    "name": "Aspect Arena: Crystal Capper",
+    "description": "Bet you can't say \"Crystal Capper\" ten times in a row, fast.",
+    "requirement": "Capture crystals for your team's side in Aspect Arena.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Pvp",
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      },
+      {
+        "count": 3,
+        "points": 1
+      },
+      {
+        "count": 6,
+        "points": 1
+      },
+      {
+        "count": 10,
+        "points": 2
+      }
+    ]
+  },
+  "804": {
+    "id": 804,
+    "name": "Triple Threat",
+    "description": "",
+    "requirement": "Win  third tier matches with three active gambits.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 15
+      }
+    ]
+  },
+  "835": {
+    "id": 835,
+    "icon": "https://render.guildwars2.com/file/ED6940F77A75C0B7611521AB0C210DE7B611C536/625487.png",
+    "name": "Worldwide Invasion Responder",
+    "description": "",
+    "requirement": "Completely stop one of Scarlet's portal attacks in Gendarran Fields.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 7,
+        "points": 15
+      }
+    ]
+  },
+  "855": {
+    "id": 855,
+    "name": "Grandmaster Weaponsmith",
+    "description": "Now with 100% more pointy things.",
+    "requirement": "Reach rating  in the weaponsmith discipline.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 500,
+        "points": 25
+      }
+    ],
+    "prerequisites": [
+      92
+    ]
+  },
+  "915": {
+    "id": 915,
+    "name": "Twilight Triumphant",
+    "description": "",
+    "requirement": "Complete all Twilight Arbor dungeon paths.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Hidden",
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 4,
+        "points": 0
+      }
+    ]
+  },
+  "921": {
+    "id": 921,
+    "name": "Unshippable",
+    "description": "The skies should be more friendly now.",
+    "requirement": "Sabotage the Aetherblade ships during the Twilight Assault.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      },
+      {
+        "count": 2,
+        "points": 1
+      },
+      {
+        "count": 3,
+        "points": 1
+      }
+    ]
+  },
+  "994": {
+    "id": 994,
+    "name": "WvW Premier Season: 4th Place",
+    "description": "",
+    "requirement": "Win your league in a WvW Season.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Pvp",
+      "Hidden",
+      "MoveToTop",
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "prerequisites": [
+      990
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 48771,
+        "count": 1
+      }
+    ]
+  },
+  "1004": {
+    "id": 1004,
+    "name": "Containment",
+    "description": "",
+    "requirement": "You stood by Tassi's side as she tried to contain the reliquary.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Hidden",
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      },
+      {
+        "count": 2,
+        "points": 1
+      }
+    ]
+  },
+  "1018": {
+    "id": 1018,
+    "name": "Death to the Undying",
+    "description": "",
+    "requirement": "Defeat the Skeletal Lich in Mad King's Maze.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Hidden",
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 2
+      }
+    ]
+  },
+  "1029": {
+    "id": 1029,
+    "icon": "https://render.guildwars2.com/file/A0510AF3DC025EA7DDDEE037082BCD082E36081D/647965.png",
+    "name": "Shut and Locked II",
+    "description": "",
+    "requirement": "Complete 5 door events.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Daily"
+    ],
+    "tiers": [
+      {
+        "count": 5,
+        "points": 1
+      }
+    ]
+  },
+  "1032": {
+    "id": 1032,
+    "icon": "https://render.guildwars2.com/file/A0510AF3DC025EA7DDDEE037082BCD082E36081D/647965.png",
+    "name": "The Mad Inquisition II",
+    "description": "",
+    "requirement": "Finish a game of Inquisition.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Pvp",
+      "Daily"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      }
+    ]
+  },
+  "1087": {
+    "id": 1087,
+    "icon": "https://render.guildwars2.com/file/0931EA0BD743B895C404A7C4F910EB02DEC25C3F/665420.png",
+    "name": "Toxic Field Researcher",
+    "description": "",
+    "requirement": "Collect  toxic spore samples.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Daily"
+    ],
+    "tiers": [
+      {
+        "count": 20,
+        "points": 1
+      }
+    ]
+  },
+  "1118": {
+    "id": 1118,
+    "icon": "https://render.guildwars2.com/file/B01206DBC8D7569A60E3943A06CF3D39C85E57F3/674701.png",
+    "name": "Tower Antitoxin Injector",
+    "description": "",
+    "requirement": "Inject  dose of antitoxin to into the heart of the tower.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Daily"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      }
+    ]
+  },
+  "1167": {
+    "id": 1167,
+    "name": "Daily Fractal Runner",
+    "description": "A fractal a day...",
+    "requirement": "Complete a fractal dungeon.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Daily"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      }
+    ]
+  },
+  "1204": {
+    "id": 1204,
+    "name": "Aftermath Vermicide",
+    "description": "",
+    "requirement": "Defeat the toxic wurm queen.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 2
+      }
+    ]
+  },
+  "1246": {
+    "id": 1246,
+    "name": "Wintersday Wrecking Ball",
+    "description": "Nothing a little tape and some glue can't fix.",
+    "requirement": "Destroy every miniature piece of Tixx's toy diorama in Tixx's Infinirarium. (Dungeon instance only; not in the Toypocalypse activity.)",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Hidden",
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 5
+      }
+    ]
+  },
+  "1277": {
+    "id": 1277,
+    "icon": "https://render.guildwars2.com/file/C5CE0723E54B4B2F78A2E6E5496A04B54E7A65E6/602777.png",
+    "name": "Wintersday Skritt Hit III",
+    "description": "Give those stealers a snowball sandwich.",
+    "requirement": "Hit  skritt with snowballs anywhere in Tyria.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Daily"
+    ],
+    "tiers": [
+      {
+        "count": 10,
+        "points": 1
+      }
+    ]
+  },
+  "1302": {
+    "id": 1302,
+    "icon": "https://render.guildwars2.com/file/FE01AF14D91F52A1EF2B22FE0A552B9EE2E4C3F6/511340.png",
+    "name": "Three Total Team Arena Wins",
+    "description": "Team victory tastes so sweet.",
+    "requirement": "Win  Team Arena Match in PvP",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Pvp",
+      "Daily"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      }
+    ],
+    "prerequisites": [
+      1301
+    ]
+  },
+  "1363": {
+    "id": 1363,
+    "name": "No Road? No Problem!",
+    "description": "",
+    "requirement": "Spend  supply by building bridges.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 10,
+        "points": 1
+      },
+      {
+        "count": 100,
+        "points": 4
+      },
+      {
+        "count": 200,
+        "points": 5
+      }
+    ]
+  },
+  "1628": {
+    "id": 1628,
+    "name": "WvW Spring Tournament 2014: 6th Place",
+    "description": "",
+    "requirement": "Participate in a WvW tournament.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Pvp",
+      "Hidden",
+      "MoveToTop",
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "prerequisites": [
+      1566
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 66349,
+        "count": 1
+      }
+    ]
+  },
+  "1639": {
+    "id": 1639,
+    "name": "Prospect Valley Crash Site Climber",
+    "description": "Climb wreckage to reach the highest peak in Prospect Valley.",
+    "requirement": "Complete the jumping puzzle.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 10
+      }
+    ]
+  },
+  "1640": {
+    "id": 1640,
+    "name": "Zephyr's Ascent",
+    "description": "Story Instance: Fallen Hopes",
+    "requirement": "Climb to the highest point in Prospect Valley.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 66605,
+        "count": 1
+      }
+    ]
+  },
+  "1644": {
+    "id": 1644,
+    "name": "Explosive Avoidance",
+    "description": "Story Instance: Cornered",
+    "requirement": "Don't get hit by your enemy's timed blasts.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 5
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 66606,
+        "count": 1
+      }
+    ]
+  },
+  "1659": {
+    "id": 1659,
+    "name": "Entanglement",
+    "description": "Journal: \"Entanglement\" Completed",
+    "requirement": "Follow Scarlet's trail to uncover what she was after in Dry Top.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "MoveToTop",
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 66760,
+        "count": 1
+      },
+      {
+        "type": "Mastery",
+        "region": "Tyria",
+        "id": 212
+      }
+    ]
+  },
+  "1670": {
+    "id": 1670,
+    "name": "Toxicity Trampler",
+    "description": "",
+    "requirement": "Defeat the Mordrem champion in Iron Marches without being poisoned.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 5
+      }
+    ]
+  },
+  "1739": {
+    "id": 1739,
+    "name": "Dreamthistle Weapon Collection",
+    "description": "<c=@flavor>Pay tribute to your fallen comrades that were involved in bringing down the Nightmare Tower.</c>",
+    "requirement": "Unlock all  Dreamthistle weapon skins in your wardrobe.",
+    "locked_text": "",
+    "type": "ItemSet",
+    "flags": [
+      "IgnoreNearlyComplete",
+      "Pvp",
+      "Hidden",
+      "RepairOnLogin",
+      "Permanent"
+    ],
+    "bits": [
+      {
+        "type": "Skin",
+        "id": 3775
+      },
+      {
+        "type": "Skin",
+        "id": 3723
+      },
+      {
+        "type": "Skin",
+        "id": 3704
+      },
+      {
+        "type": "Skin",
+        "id": 3709
+      },
+      {
+        "type": "Skin",
+        "id": 3813
+      },
+      {
+        "type": "Skin",
+        "id": 3706
+      },
+      {
+        "type": "Skin",
+        "id": 3707
+      },
+      {
+        "type": "Skin",
+        "id": 3776
+      },
+      {
+        "type": "Skin",
+        "id": 3796
+      },
+      {
+        "type": "Skin",
+        "id": 3788
+      },
+      {
+        "type": "Skin",
+        "id": 3717
+      },
+      {
+        "type": "Skin",
+        "id": 3745
+      },
+      {
+        "type": "Skin",
+        "id": 3759
+      },
+      {
+        "type": "Skin",
+        "id": 3741
+      },
+      {
+        "type": "Skin",
+        "id": 3731
+      },
+      {
+        "type": "Skin",
+        "id": 3750
+      },
+      {
+        "type": "Skin",
+        "id": 3727
+      },
+      {
+        "type": "Skin",
+        "id": 3738
+      },
+      {
+        "type": "Skin",
+        "id": 3744
+      }
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      },
+      {
+        "count": 9,
+        "points": 1
+      },
+      {
+        "count": 19,
+        "points": 1
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 43992,
+        "count": 7
+      }
+    ]
+  },
+  "1754": {
+    "id": 1754,
+    "name": "Koutalophile",
+    "description": "<c=@flavor>They are so much more than cutlery!</c>",
+    "requirement": "Collect all of the spoon trinkets of Tyria.",
+    "locked_text": "Purchase a Collectible Spoon Box from Master Collector Rednax Youngblood in Lion's Arch.",
+    "type": "ItemSet",
+    "flags": [
+      "IgnoreNearlyComplete",
+      "Pvp",
+      "RepairOnLogin",
+      "RequiresUnlock",
+      "Permanent"
+    ],
+    "bits": [
+      {
+        "type": "Item",
+        "id": 23644
+      },
+      {
+        "type": "Item",
+        "id": 23655
+      },
+      {
+        "type": "Item",
+        "id": 39238
+      },
+      {
+        "type": "Item",
+        "id": 23664
+      },
+      {
+        "type": "Item",
+        "id": 23675
+      },
+      {
+        "type": "Item",
+        "id": 23583
+      },
+      {
+        "type": "Item",
+        "id": 23565
+      },
+      {
+        "type": "Item",
+        "id": 23535
+      },
+      {
+        "type": "Item",
+        "id": 23553
+      },
+      {
+        "type": "Item",
+        "id": 23797
+      },
+      {
+        "type": "Item",
+        "id": 23796
+      },
+      {
+        "type": "Item",
+        "id": 23723
+      },
+      {
+        "type": "Item",
+        "id": 23470
+      },
+      {
+        "type": "Item",
+        "id": 23483
+      },
+      {
+        "type": "Item",
+        "id": 23360
+      },
+      {
+        "type": "Item",
+        "id": 23377
+      },
+      {
+        "type": "Item",
+        "id": 23401
+      },
+      {
+        "type": "Item",
+        "id": 23416
+      },
+      {
+        "type": "Item",
+        "id": 67194
+      },
+      {
+        "type": "Item",
+        "id": 67193
+      },
+      {
+        "type": "Item",
+        "id": 67195
+      }
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      },
+      {
+        "count": 10,
+        "points": 1
+      },
+      {
+        "count": 21,
+        "points": 1
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 67230,
+        "count": 1
+      },
+      {
+        "type": "Mastery",
+        "region": "Tyria",
+        "id": 241
+      }
+    ]
+  },
+  "1755": {
+    "id": 1755,
+    "name": "World Contributor Round 1",
+    "description": "",
+    "requirement": "Participate in round one of the tournament. Complete any  WvW event this week.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 5,
+        "points": 1
+      }
+    ],
+    "prerequisites": [
+      1758
+    ]
+  },
+  "1856": {
+    "id": 1856,
+    "icon": "https://render.guildwars2.com/file/FE01AF14D91F52A1EF2B22FE0A552B9EE2E4C3F6/511340.png",
+    "name": "Daily PvP Reward Earner",
+    "description": "",
+    "requirement": "Earn  reward from a PvP Reward Track.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Pvp",
+      "Daily"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 68117,
+        "count": 1
+      }
+    ]
+  },
+  "1895": {
+    "id": 1895,
+    "name": "Daily Shaman's Rookery Jumping Puzzle",
+    "description": "",
+    "requirement": "Complete the Shaman's Rookery jumping puzzle in Wayfarer Foothills.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Pvp",
+      "Daily"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 68162,
+        "count": 1
+      }
+    ]
+  },
+  "1952": {
+    "id": 1952,
+    "name": "Daily Fields of Ruin Event Completer",
+    "description": "Scour the mountains.",
+    "requirement": "Complete events in the Fields of Ruin in Ascalon.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Daily"
+    ],
+    "tiers": [
+      {
+        "count": 4,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 68149,
+        "count": 1
+      }
+    ]
+  },
+  "1962": {
+    "id": 1962,
+    "name": "Daily Iron Marches Event Completer",
+    "description": "Scour the mountains.",
+    "requirement": "Complete events in the Iron Marches in Ascalon.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Daily"
+    ],
+    "tiers": [
+      {
+        "count": 4,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 68149,
+        "count": 1
+      }
+    ]
+  },
+  "1981": {
+    "id": 1981,
+    "name": "Daily Ascalon Miner",
+    "description": "Fueling the engines of the economy.",
+    "requirement": "Gather raw materials by mining ore in the following Ascalon maps: Plains of Ashford, Diessa Plateau, Fields of Ruin, Blazeridge Steppes, Iron Marches, and Fireheart Rise.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Daily"
+    ],
+    "tiers": [
+      {
+        "count": 10,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 68137,
+        "count": 1
+      }
+    ]
+  },
+  "2103": {
+    "id": 2103,
+    "icon": "https://render.guildwars2.com/file/FE01AF14D91F52A1EF2B22FE0A552B9EE2E4C3F6/511340.png",
+    "name": "Daily Ranger or Engineer Winner",
+    "description": "",
+    "requirement": "Win  PvP match as a ranger or engineer.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Pvp",
+      "Daily"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 68120,
+        "count": 1
+      }
+    ]
+  },
+  "2109": {
+    "id": 2109,
+    "icon": "https://render.guildwars2.com/file/FE01AF14D91F52A1EF2B22FE0A552B9EE2E4C3F6/511340.png",
+    "name": "Daily Engineer or Mesmer Winner",
+    "description": "",
+    "requirement": "Win  PvP match as an engineer or mesmer.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Pvp",
+      "Daily"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 68120,
+        "count": 1
+      }
+    ]
+  },
+  "2156": {
+    "id": 2156,
+    "name": "Master of the Molten Ore",
+    "description": "",
+    "requirement": "Only use four buckets during the boss encounter of the Underground Facility fractal.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 5
+      }
+    ]
+  },
+  "2254": {
+    "id": 2254,
+    "name": "Weed Whacker",
+    "description": "Story Instance: \"Torn from the Sky\"",
+    "requirement": "Defeat 30 Mordrem during the night attack.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 5
+      }
+    ],
+    "prerequisites": [
+      2264
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 76165,
+        "count": 3
+      }
+    ]
+  },
+  "2268": {
+    "id": 2268,
+    "name": "Astralaria IV: The Cosmos",
+    "description": "The heavens have aligned to support you in your quest! Chart their places within the heavens to discern their wisdom, and defeat the Elder Dragons and their spawn that threaten the world. Complete these tasks, and earn the Gift of the Cosmos, the penultimate step in attaining the legendary axe known as Astralaria.",
+    "requirement": "",
+    "locked_text": "",
+    "type": "ItemSet",
+    "flags": [
+      "IgnoreNearlyComplete",
+      "Pvp",
+      "Hidden",
+      "RepairOnLogin",
+      "RequiresUnlock",
+      "Permanent"
+    ],
+    "bits": [
+      {
+        "type": "Item",
+        "id": 74607,
+        "text": "Take the Sextant, Astrolabe, Incomplete Star Charts, and Star Charter's Bag along with Ogden's Notes to the Durmand Priory, and use the Cartographer's Workbench to create the Celestial Cartographer's Gear."
+      },
+      {
+        "type": "Item",
+        "id": 74008,
+        "text": "Take the Counterweighting Mechanism, Dredge Cogs, Magnification Lens, and Hollow Saurian Bone to the Durmand Priory and use the Cartographer's Workbench to craft a Sextant."
+      },
+      {
+        "type": "Item",
+        "id": 73886,
+        "text": "Take the Ancient Charting Device, Ancient Planetarium Slide, Finely Tuned Watchwork Mechanism, and Flawless Ancient Karka Husk to the Durmand Priory and use the Cartographer's Workbench to craft an Astrolabe."
+      },
+      {
+        "type": "Item",
+        "id": 76841,
+        "text": "Found in the chest inside the treasure room of the Collapsed Observatory in Kessex Hills."
+      },
+      {
+        "type": "Item",
+        "id": 73153,
+        "text": "Purchase this recipe from Grandmaster Craftsman Hobbs in Lion's Arch."
+      },
+      {
+        "type": "Item",
+        "id": 70965,
+        "text": ""
+      },
+      {
+        "type": "Item",
+        "id": 71208,
+        "text": "Purchase this recipe from Grandmaster Craftsman Hobbs in Lion's Arch."
+      },
+      {
+        "type": "Item",
+        "id": 75885,
+        "text": "Found by looting the Champion Dredge Commissar at Tribulation Rift in Dredgehaunt Cliffs."
+      },
+      {
+        "type": "Item",
+        "id": 70444,
+        "text": "Found by looting the Eye of Zhaitan while helping the Pact capture the Promenade of the Gods in Cursed Shore."
+      },
+      {
+        "type": "Item",
+        "id": 76181,
+        "text": "Occasionally looted from saurians in Auric Basin."
+      },
+      {
+        "type": "Item",
+        "id": 75641,
+        "text": "Found in the chest after defeating the statue of Dwayna located at the Cathedral of Zephyrs in Malchor's Leap."
+      },
+      {
+        "type": "Item",
+        "id": 70499,
+        "text": "Found in chest after defeating the Legendary Risen High Wizard in Cursed Shore."
+      },
+      {
+        "type": "Item",
+        "id": 72422,
+        "text": "Purchase this recipe from Grandmaster Craftsman Hobbs in Lion's Arch."
+      },
+      {
+        "type": "Item",
+        "id": 76589,
+        "text": "Found in the chest after defeating the Legendary Karka Queen in Southsun Cove."
+      },
+      {
+        "type": "Item",
+        "id": 72583,
+        "text": "Occasionally found while looting a krait's possessions."
+      },
+      {
+        "type": "Item",
+        "id": 75147,
+        "text": "Looted from the Mossman in the Swampland Fractal."
+      },
+      {
+        "type": "Item",
+        "id": 72052,
+        "text": "Found in the treasure room of the Windy Cave in Lornar's Pass."
+      },
+      {
+        "type": "Item",
+        "id": 75279,
+        "text": "Speak with Ogden in the Durmand Priory in Lornar's Pass to get his notes."
+      },
+      {
+        "type": "Item",
+        "id": 75587,
+        "text": "Take the long way around to loot this from the Grand Chest near Fryxx in Straits of Devastation."
+      },
+      {
+        "type": "Item",
+        "id": 71955,
+        "text": "Found in the chest at the end of the Aetherblade Fractal."
+      },
+      {
+        "type": "Item",
+        "id": 76393,
+        "text": "Purchase this recipe from Grandmaster Craftsman Hobbs in Lion's Arch."
+      },
+      {
+        "type": "Item",
+        "id": 70806,
+        "text": "Combine the four human star charts into the Human Constellation Chapter."
+      },
+      {
+        "type": "Item",
+        "id": 75810,
+        "text": "During the night, use the Celestial Cartographer's Gear near the chest at the top of the Vizier's Tower in the Straits of Devastation to chart the human constellation Eye of Grenth."
+      },
+      {
+        "type": "Item",
+        "id": 77205,
+        "text": "During the night, use the Celestial Cartographer's Gear near the Sylvan Chest after uncovering the secrets of the hidden garden in Mount Maelstrom to chart the human constellation, Gnarl of Melandru."
+      },
+      {
+        "type": "Item",
+        "id": 73899,
+        "text": "During the night, use the Celestial Cartographer's Gear at Balthazar's Rest in Auric Basin."
+      },
+      {
+        "type": "Item",
+        "id": 71762,
+        "text": "During the night, use the Celestial Cartographer's Gear in the Ossan Quarter of Divinity's Reach."
+      },
+      {
+        "type": "Item",
+        "id": 72522,
+        "text": "Combine the four charr star charts into the Charr Constellation Chapter."
+      },
+      {
+        "type": "Item",
+        "id": 72675,
+        "text": "Use the Celestial Cartographer's Gear near the chest after completing the Urban Battleground Fractal."
+      },
+      {
+        "type": "Item",
+        "id": 75403,
+        "text": "During the night, use the Celestial Cartographer's Gear near the chest at the end of Wall Breach Blitz in Diessa Plateau."
+      },
+      {
+        "type": "Item",
+        "id": 70445,
+        "text": "During the night, use the Celestial Cartographer's Gear at Steeleye Span in Blazeridge Steppes."
+      },
+      {
+        "type": "Item",
+        "id": 72841,
+        "text": "During the night, climb up to the canopy in Verdant Brink to the Pact wreckage above Stonetwist Paths and use the Celestial Cartographer's Gear near the Maguuma Mastery Insight."
+      },
+      {
+        "type": "Item",
+        "id": 70710,
+        "text": "Combine the four norn star charts into the Norn Constellation Chapter."
+      },
+      {
+        "type": "Item",
+        "id": 73159,
+        "text": "During the night, use the Celestial Cartographer's Gear near Shifting Waves, who stands in Snow Climb at Frostgorge Sound."
+      },
+      {
+        "type": "Item",
+        "id": 74892,
+        "text": "During the night, use the Celestial Cartographer's Gear near the chest of the Griffonrook Run in Lornar's Pass."
+      },
+      {
+        "type": "Item",
+        "id": 76864,
+        "text": "During the night, use the Celestial Cartographer's Gear near the chest of the Tribulation Rift Scaffolding in Dredgehaunt Cliffs."
+      },
+      {
+        "type": "Item",
+        "id": 71088,
+        "text": "During the night, use the Celestial Cartographer's Gear near the chest at the Shattered Ice Ruins in Frostgorge Sound."
+      },
+      {
+        "type": "Item",
+        "id": 72382,
+        "text": "Combine the Magic of the Elder Dragons, Power of the Ley Lines, Energy from the Mists, and a Vision Crystal to create the Cosmic Power."
+      },
+      {
+        "type": "Item",
+        "id": 72387,
+        "text": "After gathering the four elder dragons' magic, combine them into the Magic of the Elder Dragons."
+      },
+      {
+        "type": "Item",
+        "id": 76677,
+        "text": "Obtained from the chest after defeating Tequatl the Sunless in Sparkfly Fen."
+      },
+      {
+        "type": "Item",
+        "id": 72122,
+        "text": "Obtained from the chest after defeating Claw of Jormag in Frostgorge Sound."
+      },
+      {
+        "type": "Item",
+        "id": 74429,
+        "text": "Obtained from the chest after defeating the Shatterer in Blazeridge Steppes."
+      },
+      {
+        "type": "Item",
+        "id": 74692,
+        "text": "Obtained from the chest after defeating Mordremoth in Dragon's Stand."
+      },
+      {
+        "type": "Item",
+        "id": 70696,
+        "text": "Combine the four energies to create the Power of the Ley Lines."
+      },
+      {
+        "type": "Item",
+        "id": 76037,
+        "text": "Energy gathered from earning a rank of silver or better in the Ley-Line Run adventure in Tangled Depths."
+      },
+      {
+        "type": "Item",
+        "id": 74417,
+        "text": "Energy gathered while ley-line gliding through the Ley-Line Confluence in Tangled Depths."
+      },
+      {
+        "type": "Item",
+        "id": 73313,
+        "text": "Energy gathered by earning rank silver or better in the Wings of Gold adventure located inside Auric Basin."
+      },
+      {
+        "type": "Item",
+        "id": 73438,
+        "text": "Energy gathered from communing with the hero challenge point near Serenity's Cove in Dragon's Stand."
+      },
+      {
+        "type": "Item",
+        "id": 71594,
+        "text": "Combine the four Mists energies to create the Energy from the Mists."
+      },
+      {
+        "type": "Item",
+        "id": 72397,
+        "text": "An artifact full of Mists energy found in the chest after defeating the Jade Maw in the Solid Ocean Fractal."
+      },
+      {
+        "type": "Item",
+        "id": 73942,
+        "text": "Mists energy found by communing with the Temple of Ages hero challenge in Queensdale."
+      },
+      {
+        "type": "Item",
+        "id": 75410,
+        "text": "A wisp of Foefire and Mists energy occasionally found when killing those cursed by the Foefire."
+      },
+      {
+        "type": "Item",
+        "id": 76882,
+        "text": "An artifact laced with Mists energy, granted by Sage Salim in the Forgotten City of Tarir in Auric Basin after training the Exalted Acceptance Mastery ability."
+      },
+      {
+        "type": "Item",
+        "id": 72051,
+        "text": "Purchased from Grandmaster Craftsman Hobbs after training the Scholar of Secrets ability in the Legendary Crafting Mastery Track."
+      },
+      {
+        "type": "Item",
+        "id": 71426,
+        "text": ""
+      }
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      },
+      {
+        "count": 54,
+        "points": 2
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 72083,
+        "count": 1
+      }
+    ]
+  },
+  "2274": {
+    "id": 2274,
+    "name": "Revenant: Invocation",
+    "description": "",
+    "requirement": "Complete the Invocation revenant specialization to unlock the Mistward Legguards collection.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Pvp",
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 10
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 73770,
+        "count": 1
+      }
+    ]
+  },
+  "2379": {
+    "id": 2379,
+    "name": "Still Faster Than Light",
+    "description": "",
+    "requirement": "Complete Kleptotronic Advanced Designs without being hit by lasers.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 5
+      }
+    ]
+  },
+  "2476": {
+    "id": 2476,
+    "name": "Dark Harvest",
+    "description": "",
+    "requirement": "Collect these  items and skins to receive the reaper's greatsword, Dark Harvest.",
+    "locked_text": "Begin training the necromancer's reaper elite specialization.",
+    "type": "ItemSet",
+    "flags": [
+      "IgnoreNearlyComplete",
+      "Pvp",
+      "RepairOnLogin",
+      "RequiresUnlock",
+      "Permanent"
+    ],
+    "bits": [
+      {
+        "type": "Skin",
+        "id": 6313,
+        "text": ""
+      },
+      {
+        "type": "Item",
+        "id": 77253,
+        "text": ""
+      },
+      {
+        "type": "Item",
+        "id": 71067,
+        "text": ""
+      },
+      {
+        "type": "Skin",
+        "id": 5348,
+        "text": "Created in the Mystic Forge."
+      },
+      {
+        "type": "Item",
+        "id": 75807,
+        "text": ""
+      },
+      {
+        "type": "Item",
+        "id": 72982,
+        "text": ""
+      },
+      {
+        "type": "Item",
+        "id": 75933,
+        "text": "Earn bronze or better in this adventure."
+      },
+      {
+        "type": "Item",
+        "id": 74527,
+        "text": "Requires training Stealth Gliding in the Gliding Mastery line."
+      },
+      {
+        "type": "Item",
+        "id": 70429,
+        "text": "Purchased from Itzel vendors for airship parts."
+      },
+      {
+        "type": "Item",
+        "id": 71214,
+        "text": "Found on ore nodes in Auric Basin. Requires training Exalted Gathering in the Exalted Lore Mastery line."
+      },
+      {
+        "type": "Item",
+        "id": 70636,
+        "text": "Defeat a Treasure Mushroom. Requires training Nuhoch Stealth Detection in the Nuhoch Lore Mastery line."
+      },
+      {
+        "type": "Skin",
+        "id": 6418,
+        "text": "Completely unlock the elite specialization."
+      },
+      {
+        "type": "Item",
+        "id": 70479,
+        "text": ""
+      },
+      {
+        "type": "Skin",
+        "id": 6346,
+        "text": "Created from a plated weapon purchased for crystalline ore in Dragon's Stand."
+      }
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      },
+      {
+        "count": 7,
+        "points": 1
+      },
+      {
+        "count": 14,
+        "points": 1
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 69893,
+        "count": 1
+      }
+    ]
+  },
+  "2599": {
+    "id": 2599,
+    "name": "Egg Run",
+    "description": "Be quick, but be careful. Also, be quick!",
+    "requirement": "Deliver a wyvern egg to Utogi in less than 5 seconds.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 5
+      }
+    ]
+  },
+  "2613": {
+    "id": 2613,
+    "name": "Honorary Ogre",
+    "description": "The ogres consider you one of their own. In this case, that's a compliment.",
+    "requirement": "Participate in every stage of the ogres' survival in Tangled Depths.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "bits": [
+      {
+        "type": "Text",
+        "text": "Helped Nokta Scout Chak"
+      },
+      {
+        "type": "Text",
+        "text": "Collected Chak Eggs"
+      },
+      {
+        "type": "Text",
+        "text": "Destroyed Ley-Combs"
+      },
+      {
+        "type": "Text",
+        "text": "Killed Enraged Chak"
+      },
+      {
+        "type": "Text",
+        "text": "Escorted Ogres to Blighting Tree"
+      },
+      {
+        "type": "Text",
+        "text": "Fought Mordrem with Ogres"
+      }
+    ],
+    "tiers": [
+      {
+        "count": 6,
+        "points": 1
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Mastery",
+        "region": "Maguuma",
+        "id": 80
+      }
+    ]
+  },
+  "2633": {
+    "id": 2633,
+    "name": "Sanctum Scramble: Silver",
+    "description": "",
+    "requirement": "Jump, launch, and glide your way through the checkpoints and across the finish line!",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Pvp",
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Mastery",
+        "region": "Maguuma",
+        "id": 194
+      }
+    ]
+  },
+  "2732": {
+    "id": 2732,
+    "name": "League Elementalist—Recruit",
+    "description": "Completing this achievement advances the League Professional—Recruit achievement.",
+    "requirement": "Win 5 ranked matches as an elementalist.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "IgnoreNearlyComplete",
+      "Pvp",
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      },
+      {
+        "count": 3,
+        "points": 1
+      },
+      {
+        "count": 5,
+        "points": 1
+      }
+    ],
+    "prerequisites": [
+      2740
+    ]
+  },
+  "2777": {
+    "id": 2777,
+    "name": "Frozen Claw",
+    "description": "Even dragon lieutenants get cranky around the holidays.",
+    "requirement": "Defeat the Claw of Jormag  times during Wintersday.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Pvp",
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      },
+      {
+        "count": 2,
+        "points": 1
+      },
+      {
+        "count": 3,
+        "points": 1
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 77631,
+        "count": 1
+      }
+    ]
+  },
+  "2797": {
+    "id": 2797,
+    "name": "Medic!",
+    "description": "The only time it's wise to run toward the sound of mortars.",
+    "requirement": "Provide med kits to your allies using the mortars or the glider bomber kit.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      },
+      {
+        "count": 10,
+        "points": 2
+      },
+      {
+        "count": 25,
+        "points": 3
+      },
+      {
+        "count": 50,
+        "points": 4
+      }
+    ]
+  },
+  "2813": {
+    "id": 2813,
+    "name": "Crystal Clear",
+    "description": "Break them before they break you!",
+    "requirement": "Break  people out of crystal prisons created by the Shatterer.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      },
+      {
+        "count": 15,
+        "points": 4
+      },
+      {
+        "count": 40,
+        "points": 5
+      }
+    ]
+  },
+  "2863": {
+    "id": 2863,
+    "icon": "https://render.guildwars2.com/file/B3DA5159BA6318466403EA14A47F0760633C48C5/630734.png",
+    "name": "Environmental Science 202",
+    "description": "",
+    "requirement": "Smash the tree stump in World 2, Zone 2 of Super Adventure Box.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Daily"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 39752,
+        "count": 16
+      }
+    ]
+  },
+  "2876": {
+    "id": 2876,
+    "icon": "https://render.guildwars2.com/file/B3DA5159BA6318466403EA14A47F0760633C48C5/630734.png",
+    "name": "Course Work: Super Adventure Festival",
+    "description": "Study hard!",
+    "requirement": "Complete three daily achievements in Super Adventure Box. Completion will earn progress in the Course Load achievement, located in the Super Adventure Box: Nostalgia achievement tab.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Daily"
+    ],
+    "tiers": [
+      {
+        "count": 3,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 80862,
+        "count": 1
+      }
+    ]
+  },
+  "2897": {
+    "id": 2897,
+    "icon": "https://render.guildwars2.com/file/339192F5581BB3F771CF359BAB2C90537BD560CB/1228225.png",
+    "name": "Daily Tier 3 Urban Battleground",
+    "description": "",
+    "requirement": "Complete Urban Battleground at fractal scale 51 or higher.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Daily"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 78613,
+        "count": 1
+      }
+    ]
+  },
+  "2938": {
+    "id": 2938,
+    "name": "Daily Ruined City of Arah",
+    "description": "",
+    "requirement": "Complete any path in the Ruined City of Arah explorable dungeon.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Daily"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 68123,
+        "count": 1
+      }
+    ]
+  },
+  "2939": {
+    "id": 2939,
+    "icon": "https://render.guildwars2.com/file/620E0D3D2DD860700632BA7B3AC10C44CE55FD6C/1424206.png",
+    "name": "Daily Tier 4 Uncategorized",
+    "description": "",
+    "requirement": "Complete Uncategorized at fractal scale 76 or higher.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Daily"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 78572,
+        "count": 1
+      }
+    ]
+  },
+  "2978": {
+    "id": 2978,
+    "icon": "https://render.guildwars2.com/file/A442B13E7B0D4A2F7136702FA858EA0C9F0CE4B3/1228223.png",
+    "name": "Daily Tier 1 Captain Mai Trin Boss",
+    "description": "",
+    "requirement": "Complete Captain Mai Trin Boss at fractal scale 1 or higher.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Daily"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 78200,
+        "count": 1
+      }
+    ]
+  },
+  "2995": {
+    "id": 2995,
+    "name": "Magic Dispersed",
+    "description": "",
+    "requirement": "Defeat  coalescences to disperse their magic back to the ley-lines.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 2
+      },
+      {
+        "count": 5,
+        "points": 3
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 78740,
+        "count": 1
+      }
+    ]
+  },
+  "3033": {
+    "id": 3033,
+    "name": "Shana's Ambition",
+    "description": "<c=@flavor>\"If I can pull this off, my career is set!\"\n—Shana</c>",
+    "requirement": "In Snowden Drifts, successfully stop the Inquest from capturing  ley-line coalescences after contributing ley energy to the Consortium.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      },
+      {
+        "count": 3,
+        "points": 2
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Coins",
+        "count": 2500
+      }
+    ]
+  },
+  "3154": {
+    "id": 3154,
+    "name": "Candy Corn Crusher",
+    "description": "",
+    "requirement": "Defeat the Grand High Viscount of Candy Corn in Mad King's Labyrinth.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 2
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 36038,
+        "count": 5
+      }
+    ]
+  },
+  "3167": {
+    "id": 3167,
+    "icon": "https://render.guildwars2.com/file/7148FBEFC0071191C91BFD37D1346BF70DA65403/602778.png",
+    "name": "Halloween Fright",
+    "description": "",
+    "requirement": "Complete three of the available daily achievements in a single day in the Halloween festival. Completion will earn progress in the Eve of the Mad King achievement, located in the Halloween achievement tab.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Pvp",
+      "MoveToTop",
+      "Daily"
+    ],
+    "tiers": [
+      {
+        "count": 3,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 36039,
+        "count": 3
+      }
+    ]
+  },
+  "3247": {
+    "id": 3247,
+    "name": "Immortal Legend",
+    "description": "",
+    "requirement": "",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Pvp",
+      "Hidden",
+      "RepairOnLogin",
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Title",
+        "id": 257
+      }
+    ]
+  },
+  "3276": {
+    "id": 3276,
+    "name": "Firecracker Finder",
+    "description": "",
+    "requirement": "Find and light all of the firecrackers in the Crown Pavilion.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Pvp",
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      },
+      {
+        "count": 2,
+        "points": 1
+      },
+      {
+        "count": 3,
+        "points": 1
+      },
+      {
+        "count": 4,
+        "points": 1
+      },
+      {
+        "count": 5,
+        "points": 1
+      },
+      {
+        "count": 6,
+        "points": 1
+      },
+      {
+        "count": 7,
+        "points": 1
+      },
+      {
+        "count": 8,
+        "points": 1
+      },
+      {
+        "count": 9,
+        "points": 1
+      },
+      {
+        "count": 10,
+        "points": 1
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 68645,
+        "count": 10
+      }
+    ]
+  },
+  "3372": {
+    "id": 3372,
+    "name": "Breaking the Siege",
+    "description": "Journal: Breaking the Siege Completed",
+    "requirement": "Assist the Seraph and the people of Lake Doric.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ]
+  },
+  "3394": {
+    "id": 3394,
+    "name": "Beastslayer Weapon Collection",
+    "description": "",
+    "requirement": "Unlock all  Beastslayer weapon skins in your wardrobe.",
+    "locked_text": "",
+    "type": "ItemSet",
+    "flags": [
+      "IgnoreNearlyComplete",
+      "Pvp",
+      "Hidden",
+      "RepairOnLogin",
+      "Permanent"
+    ],
+    "bits": [
+      {
+        "type": "Skin",
+        "id": 7174
+      },
+      {
+        "type": "Skin",
+        "id": 7178
+      },
+      {
+        "type": "Skin",
+        "id": 7189
+      },
+      {
+        "type": "Skin",
+        "id": 7180
+      },
+      {
+        "type": "Skin",
+        "id": 7191
+      },
+      {
+        "type": "Skin",
+        "id": 7195
+      },
+      {
+        "type": "Skin",
+        "id": 7193
+      },
+      {
+        "type": "Skin",
+        "id": 7171
+      },
+      {
+        "type": "Skin",
+        "id": 7181
+      },
+      {
+        "type": "Skin",
+        "id": 7168
+      },
+      {
+        "type": "Skin",
+        "id": 7175
+      },
+      {
+        "type": "Skin",
+        "id": 7197
+      },
+      {
+        "type": "Skin",
+        "id": 7186
+      },
+      {
+        "type": "Skin",
+        "id": 7192
+      },
+      {
+        "type": "Skin",
+        "id": 7183
+      },
+      {
+        "type": "Skin",
+        "id": 7177
+      }
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      },
+      {
+        "count": 8,
+        "points": 1
+      },
+      {
+        "count": 16,
+        "points": 1
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 43992,
+        "count": 7
+      }
+    ]
+  },
+  "3424": {
+    "id": 3424,
+    "name": "Wurm Slurper",
+    "description": "Yet another victim of the bloodstone fad diet.",
+    "requirement": "Slay the champion bloodstone-charged lava wurm in Heathen's Hold.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 3
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Mastery",
+        "region": "Maguuma",
+        "id": 299
+      }
+    ]
+  },
+  "3442": {
+    "id": 3442,
+    "name": "\"Flashpoint\" Mastery",
+    "description": "Out of the frying pan, into the volcano.",
+    "requirement": "Complete  \"Flashpoint\" achievement.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "RepairOnLogin",
+      "CategoryDisplay",
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      },
+      {
+        "count": 3,
+        "points": 1
+      },
+      {
+        "count": 5,
+        "points": 1
+      },
+      {
+        "count": 10,
+        "points": 1
+      },
+      {
+        "count": 20,
+        "points": 1
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 81156,
+        "count": 1
+      }
+    ]
+  },
+  "3493": {
+    "id": 3493,
+    "icon": "https://render.guildwars2.com/file/1B3B7103E5FFFEB4B94137CFEF6AC5A528AE1BA8/1730771.png",
+    "name": "Graffiti Artist",
+    "description": "Story Instance: \"Where's Balthazar?\"<br><br>\"Don't you think it would look better like this?\"",
+    "requirement": "Destroy a statue in the hideout.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      }
+    ]
+  },
+  "3496": {
+    "id": 3496,
+    "icon": "https://render.guildwars2.com/file/1B3B7103E5FFFEB4B94137CFEF6AC5A528AE1BA8/1730771.png",
+    "name": "Feeling Beastly",
+    "description": "Don't feed the beast.",
+    "requirement": "Capture the gargantuan beast.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 2
+      }
+    ]
+  },
+  "3508": {
+    "id": 3508,
+    "icon": "https://render.guildwars2.com/file/1B3B7103E5FFFEB4B94137CFEF6AC5A528AE1BA8/1730771.png",
+    "name": "Siren's Landing Insight: Dwayna's Tears",
+    "description": "",
+    "requirement": "Discover this Mastery Insight in Siren's Landing.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Mastery",
+        "region": "Maguuma",
+        "id": 312
+      }
+    ]
+  },
+  "3574": {
+    "id": 3574,
+    "name": "Crystal Oasis Griffon Master: Silver",
+    "description": "",
+    "requirement": "Fly your griffon through the rings as quickly as you can!",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 2
+      }
+    ],
+    "prerequisites": [
+      3858
+    ]
+  },
+  "3588": {
+    "id": 3588,
+    "name": "The Departing",
+    "description": "Journal: The Departing Completed",
+    "requirement": "Find your way back to your team.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 83871,
+        "count": 1
+      },
+      {
+        "type": "Mastery",
+        "region": "Desert",
+        "id": 389
+      }
+    ]
+  },
+  "3620": {
+    "id": 3620,
+    "name": "Desolation Insight: Shattered Ravines",
+    "description": "",
+    "requirement": "Discover this Crystal Desert Mastery Insight in the Desolation.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Mastery",
+        "region": "Desert",
+        "id": 360
+      }
+    ]
+  },
+  "3623": {
+    "id": 3623,
+    "icon": "https://render.guildwars2.com/file/B0A70F5A307EDD53DD462EBF517376057242AC74/1769809.png",
+    "name": "Elon Riverlands Explorer",
+    "description": "You've explored the abundant countryside and rolling dunes of the Elon Riverlands.",
+    "requirement": "Explore all the areas in Elon Riverlands.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "bits": [
+      {
+        "type": "Text",
+        "text": "Arid Gladefields"
+      },
+      {
+        "type": "Text",
+        "text": "Augury Rock"
+      },
+      {
+        "type": "Text",
+        "text": "Deadlock Sweep"
+      },
+      {
+        "type": "Text",
+        "text": "Ustulate Barrens"
+      },
+      {
+        "type": "Text",
+        "text": "Abandoned Barrows"
+      },
+      {
+        "type": "Text",
+        "text": "Champion's Gap"
+      },
+      {
+        "type": "Text",
+        "text": "The Bone Wall"
+      },
+      {
+        "type": "Text",
+        "text": "Skimshallow Cove"
+      },
+      {
+        "type": "Text",
+        "text": "Skimmer Ranch"
+      },
+      {
+        "type": "Text",
+        "text": "The Deadhouse"
+      },
+      {
+        "type": "Text",
+        "text": "Prophet's Path"
+      },
+      {
+        "type": "Text",
+        "text": "Elon Flow"
+      },
+      {
+        "type": "Text",
+        "text": "Elon Riverbank"
+      },
+      {
+        "type": "Text",
+        "text": "Shallows of Despair"
+      },
+      {
+        "type": "Text",
+        "text": "The Scavengelands"
+      },
+      {
+        "type": "Text",
+        "text": "Skyward Reach"
+      },
+      {
+        "type": "Text",
+        "text": "Vulture Drifts"
+      },
+      {
+        "type": "Text",
+        "text": "Shoals of Sovereignty"
+      },
+      {
+        "type": "Text",
+        "text": "Whispering Grottos"
+      },
+      {
+        "type": "Text",
+        "text": "The Quickmire"
+      }
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      },
+      {
+        "count": 5,
+        "points": 1
+      },
+      {
+        "count": 10,
+        "points": 1
+      },
+      {
+        "count": 20,
+        "points": 2
+      }
+    ]
+  },
+  "3665": {
+    "id": 3665,
+    "name": "Master Renegade",
+    "description": "",
+    "requirement": "Completely train the revenant's renegade elite specialization.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Pvp",
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 10
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 84776,
+        "count": 1
+      }
+    ]
+  },
+  "3685": {
+    "id": 3685,
+    "icon": "https://render.guildwars2.com/file/F128B57A5548D4F10C99963091530DB79B37DE14/1769817.png",
+    "name": "Veilrender",
+    "description": "",
+    "requirement": "Collect these  items and skins to receive the mirage's axe, Veilrender.",
+    "locked_text": "Begin training the mesmer's mirage elite specialization.",
+    "type": "ItemSet",
+    "flags": [
+      "Pvp",
+      "RepairOnLogin",
+      "RequiresUnlock",
+      "Permanent"
+    ],
+    "bits": [
+      {
+        "type": "Skin",
+        "id": 7402,
+        "text": "Begin training the mesmer's mirage elite specialization."
+      },
+      {
+        "type": "Item",
+        "id": 83920,
+        "text": "Drops from fanged ibogas in the Crystal Desert."
+      },
+      {
+        "type": "Item",
+        "id": 82743,
+        "text": "Purchased from Amusement Adjunct Cagri in the Garden of Seborhin, in the Domain of Vabbi."
+      },
+      {
+        "type": "Item",
+        "id": 82531,
+        "text": "As a mesmer, use a Mystic Coin in the wishing well in the Garden of Seborhin, in the Domain of Vabbi."
+      },
+      {
+        "type": "Item",
+        "id": 83494,
+        "text": "Complete the bounty for Dunechaser in the Necropolis in the Domain of Vabbi"
+      },
+      {
+        "type": "Item",
+        "id": 84411,
+        "text": "Purchased from Keeper Pamir at Torment's Watch in the Desolation."
+      },
+      {
+        "type": "Item",
+        "id": 84797,
+        "text": "Complete a race event as a mesmer in any Crystal Desert map."
+      },
+      {
+        "type": "Item",
+        "id": 83927,
+        "text": "Found when identifying gear, or purchased from the Black Lion Trading Post."
+      },
+      {
+        "type": "Item",
+        "id": 82625,
+        "text": "Escort Priest Bashshar from the Northern Way Station to the Temple of Kormir in the Crystal Oasis."
+      },
+      {
+        "type": "Item",
+        "id": 82194,
+        "text": "Explore the Deadhouse in the Elon Riverlands with your jackal."
+      },
+      {
+        "type": "Item",
+        "id": 84370,
+        "text": "Drops for mesmers from caffeinated skritt in any Crystal Desert map."
+      },
+      {
+        "type": "Skin",
+        "id": 7411,
+        "text": "Completely train the mesmer's mirage elite specialization."
+      },
+      {
+        "type": "Item",
+        "id": 84856,
+        "text": "Earn map complete on any Crystal Desert map as a mesmer."
+      },
+      {
+        "type": "Skin",
+        "id": 7497,
+        "text": "Craft with recipes purchased in the Desolation or the Domain of Vabbi."
+      }
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      },
+      {
+        "count": 7,
+        "points": 1
+      },
+      {
+        "count": 14,
+        "points": 1
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 84687,
+        "count": 1
+      }
+    ]
+  },
+  "3755": {
+    "id": 3755,
+    "name": "Desert Highlands Insight: Standstill Spire",
+    "description": "",
+    "requirement": "Discover this Crystal Desert Mastery Insight in the Desert Highlands.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Mastery",
+        "region": "Desert",
+        "id": 368
+      }
+    ]
+  },
+  "3765": {
+    "id": 3765,
+    "name": "Vehjin Supply Run: Silver",
+    "description": "",
+    "requirement": "Earn a silver medal or better in the Vehjin Supply Run adventure.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      }
+    ]
+  },
+  "3836": {
+    "id": 3836,
+    "name": "Yitfei the Light",
+    "description": "",
+    "requirement": "Successfully answer all of the riddles posed by the fire djinn Yitfei the Light.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Mastery",
+        "region": "Desert",
+        "id": 400
+      }
+    ]
+  },
+  "3858": {
+    "id": 3858,
+    "name": "Griffon Master",
+    "description": "",
+    "requirement": "Unlock the Aerial Finesse Mastery for griffons.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Hidden",
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 5
+      }
+    ]
+  },
+  "3920": {
+    "id": 3920,
+    "icon": "https://render.guildwars2.com/file/CC9E0FB5F06B6D466BEBCA68649DAB929EA9A19E/1862652.png",
+    "name": "Lunatic Court's Finery",
+    "description": "",
+    "requirement": "Unlock all  Lunatic armor skins in your wardrobe.",
+    "locked_text": "",
+    "type": "ItemSet",
+    "flags": [
+      "IgnoreNearlyComplete",
+      "Pvp",
+      "RepairOnLogin",
+      "Permanent"
+    ],
+    "bits": [
+      {
+        "type": "Skin",
+        "id": 7766
+      },
+      {
+        "type": "Skin",
+        "id": 7789
+      },
+      {
+        "type": "Skin",
+        "id": 7757
+      },
+      {
+        "type": "Skin",
+        "id": 7773
+      },
+      {
+        "type": "Skin",
+        "id": 7768
+      },
+      {
+        "type": "Skin",
+        "id": 7771
+      },
+      {
+        "type": "Skin",
+        "id": 7793
+      },
+      {
+        "type": "Skin",
+        "id": 7759
+      },
+      {
+        "type": "Skin",
+        "id": 7792
+      },
+      {
+        "type": "Skin",
+        "id": 7776
+      },
+      {
+        "type": "Skin",
+        "id": 7780
+      },
+      {
+        "type": "Skin",
+        "id": 7763
+      },
+      {
+        "type": "Skin",
+        "id": 7803
+      },
+      {
+        "type": "Skin",
+        "id": 7781
+      },
+      {
+        "type": "Skin",
+        "id": 7799
+      },
+      {
+        "type": "Skin",
+        "id": 7770
+      },
+      {
+        "type": "Skin",
+        "id": 7774
+      },
+      {
+        "type": "Skin",
+        "id": 7796
+      }
+    ],
+    "tiers": [
+      {
+        "count": 6,
+        "points": 1
+      },
+      {
+        "count": 12,
+        "points": 2
+      },
+      {
+        "count": 18,
+        "points": 2
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 85479,
+        "count": 1
+      }
+    ]
+  },
+  "3953": {
+    "id": 3953,
+    "icon": "https://render.guildwars2.com/file/3FB1AE472DF109D022146F26B0F420140BFC26FE/1824200.png",
+    "name": "A Legend in the Flesh",
+    "description": "",
+    "requirement": "Unlock  Bounty Hunter's skins in your wardrobe by crafting or using the Trading Post. Recipes can be found by completing bounties or purchased from Elisa the Traveling Researcher in the Crystal Desert.",
+    "locked_text": "",
+    "type": "ItemSet",
+    "flags": [
+      "Pvp",
+      "RepairOnLogin",
+      "Permanent"
+    ],
+    "bits": [
+      {
+        "type": "Skin",
+        "id": 7701
+      },
+      {
+        "type": "Skin",
+        "id": 7570
+      },
+      {
+        "type": "Skin",
+        "id": 7493
+      },
+      {
+        "type": "Skin",
+        "id": 7390
+      },
+      {
+        "type": "Skin",
+        "id": 7426
+      },
+      {
+        "type": "Skin",
+        "id": 7509
+      },
+      {
+        "type": "Skin",
+        "id": 7467
+      },
+      {
+        "type": "Skin",
+        "id": 7640
+      },
+      {
+        "type": "Skin",
+        "id": 7504
+      },
+      {
+        "type": "Skin",
+        "id": 7455
+      },
+      {
+        "type": "Skin",
+        "id": 7639
+      },
+      {
+        "type": "Skin",
+        "id": 7648
+      },
+      {
+        "type": "Skin",
+        "id": 7695
+      },
+      {
+        "type": "Skin",
+        "id": 7703
+      },
+      {
+        "type": "Skin",
+        "id": 7675
+      },
+      {
+        "type": "Skin",
+        "id": 7550
+      },
+      {
+        "type": "Skin",
+        "id": 7653
+      },
+      {
+        "type": "Skin",
+        "id": 7635
+      }
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      },
+      {
+        "count": 6,
+        "points": 1
+      },
+      {
+        "count": 12,
+        "points": 1
+      },
+      {
+        "count": 18,
+        "points": 2
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 85624,
+        "count": 1
+      }
+    ]
+  },
+  "4057": {
+    "id": 4057,
+    "name": "Dauntless Donator",
+    "description": "",
+    "requirement": "Get wrapped gifts from the Wintersday vendor and give them to orphans around Divinity's Reach.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Pvp",
+      "Repeatable",
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 30,
+        "points": 5
+      }
+    ],
+    "point_cap": 25,
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 77604,
+        "count": 5
+      }
+    ]
+  },
+  "4065": {
+    "id": 4065,
+    "name": "Mini Jackal Pup Collection",
+    "description": "",
+    "requirement": "Unlock all jackal pup miniatures in your wardrobe.",
+    "locked_text": "",
+    "type": "ItemSet",
+    "flags": [
+      "IgnoreNearlyComplete",
+      "Pvp",
+      "Hidden",
+      "RepairOnLogin",
+      "Permanent"
+    ],
+    "bits": [
+      {
+        "type": "Minipet",
+        "id": 640
+      },
+      {
+        "type": "Minipet",
+        "id": 637
+      },
+      {
+        "type": "Minipet",
+        "id": 645
+      },
+      {
+        "type": "Minipet",
+        "id": 644
+      },
+      {
+        "type": "Minipet",
+        "id": 642
+      },
+      {
+        "type": "Minipet",
+        "id": 638
+      },
+      {
+        "type": "Minipet",
+        "id": 641
+      },
+      {
+        "type": "Minipet",
+        "id": 643
+      },
+      {
+        "type": "Minipet",
+        "id": 639
+      },
+      {
+        "type": "Minipet",
+        "id": 646
+      }
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      },
+      {
+        "count": 5,
+        "points": 3
+      },
+      {
+        "count": 10,
+        "points": 6
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 86800,
+        "count": 1
+      }
+    ]
+  },
+  "4067": {
+    "id": 4067,
+    "name": "(Annual) Light Up the Sky",
+    "description": "",
+    "requirement": "Set off  Lunar New Year fireworks.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Pvp",
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 100,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 68645,
+        "count": 8
+      }
+    ]
+  },
+  "4094": {
+    "id": 4094,
+    "icon": "https://render.guildwars2.com/file/165AAA573E041398062D427DBF557F20710D9D33/1948118.png",
+    "name": "Daily Sandswept Isles Adventurer",
+    "description": "",
+    "requirement": "Complete an adventure within the Sandswept Isles.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Daily"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 87269,
+        "count": 3
+      }
+    ]
+  },
+  "4130": {
+    "id": 4130,
+    "name": "Talk to the Fist",
+    "description": "Story Instance: Tracking the Scientist",
+    "requirement": "Be combative during questioning by Inquest guards.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      }
+    ]
+  },
+  "4239": {
+    "id": 4239,
+    "icon": "https://render.guildwars2.com/file/4477BAA7620C4C3B0826E70F1843E0D9DDF4214B/1999734.png",
+    "name": "Daily Kourna: Plague Stopper",
+    "description": "",
+    "requirement": "Destroy the plague experiments in the Inquest lab.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Daily"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 87935,
+        "count": 3
+      }
+    ]
+  },
+  "4246": {
+    "id": 4246,
+    "icon": "https://render.guildwars2.com/file/4477BAA7620C4C3B0826E70F1843E0D9DDF4214B/1999734.png",
+    "name": "Loquacious Orator",
+    "description": "Story Instance: Seized",
+    "requirement": "Hear all the arguments during the trial.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "bits": [
+      {
+        "type": "Text",
+        "text": "Ask to speak."
+      },
+      {
+        "type": "Text",
+        "text": "Defend your friend's honor."
+      },
+      {
+        "type": "Text",
+        "text": "Find an error in the court's process."
+      },
+      {
+        "type": "Text",
+        "text": "Explain the circumstances."
+      },
+      {
+        "type": "Text",
+        "text": "Call out racial bias."
+      },
+      {
+        "type": "Text",
+        "text": "Ask for proof."
+      },
+      {
+        "type": "Text",
+        "text": "Tell the truth."
+      },
+      {
+        "type": "Text",
+        "text": "Ask for the councilor's trust"
+      }
+    ],
+    "tiers": [
+      {
+        "count": 8,
+        "points": 1
+      }
+    ]
+  },
+  "4251": {
+    "id": 4251,
+    "name": "The Gandaran Service Medal",
+    "description": "Earn foreign glory in foreign lands by spilling foreign blood.",
+    "requirement": "Acquire all the available medals from the Gandaran campaign.",
+    "locked_text": "",
+    "type": "ItemSet",
+    "flags": [
+      "Pvp",
+      "RepairOnLogin",
+      "RequiresUnlock",
+      "Permanent"
+    ],
+    "bits": [
+      {
+        "type": "Item",
+        "id": 87819,
+        "text": "Shut down Inquest cannons in Kourna."
+      },
+      {
+        "type": "Item",
+        "id": 87692,
+        "text": "Shut down Inquest cannons in Kourna."
+      },
+      {
+        "type": "Item",
+        "id": 88010,
+        "text": "Shut down Inquest cannons in Kourna."
+      },
+      {
+        "type": "Item",
+        "id": 88072,
+        "text": "Kill the Awakened abomination in Kourna."
+      },
+      {
+        "type": "Item",
+        "id": 87808,
+        "text": "Reprogram a golem in Kourna."
+      },
+      {
+        "type": "Item",
+        "id": 87870,
+        "text": "Defend the thorn wall against the Awakened attackers in Kourna, or regrow it."
+      },
+      {
+        "type": "Item",
+        "id": 87599,
+        "text": "Regrow the thorn wall in Kourna, or defend it."
+      },
+      {
+        "type": "Item",
+        "id": 87681,
+        "text": "Defend the caravan from loyalist attackers in Kourna."
+      },
+      {
+        "type": "Item",
+        "id": 87986,
+        "text": "Help test an asuran \"Rez-o-Matic\" golem in Kourna."
+      },
+      {
+        "type": "Item",
+        "id": 87843,
+        "text": ""
+      }
+    ],
+    "tiers": [
+      {
+        "count": 10,
+        "points": 1
+      }
+    ]
+  },
+  "4283": {
+    "id": 4283,
+    "name": "Kite Chaser",
+    "description": "",
+    "requirement": "Find fallen Zephyrite kite baskets throughout Tyria and loot their contents.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Daily"
+    ],
+    "tiers": [
+      {
+        "count": 3,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 88178,
+        "count": 1
+      }
+    ]
+  },
+  "4297": {
+    "id": 4297,
+    "name": "Masters of Ceremony",
+    "description": "Ellen Kiel and Evon Gnashblade greet festivalgoers at the Sky Docks in the Labyrinthine Cliffs.",
+    "requirement": "Attend the opening ceremony of the Festival of the Four Winds with Ellen Kiel and Evon Gnashblade.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 5
+      }
+    ]
+  },
+  "4372": {
+    "id": 4372,
+    "name": "From the Ashes",
+    "description": "Journal: From the Ashes Completed",
+    "requirement": "Search for Balthazar's sword.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ]
+  },
+  "4455": {
+    "id": 4455,
+    "name": "Djinn's Dominion Defender",
+    "description": "Yasmi isn't impressed by those who cannot defend their own territory.",
+    "requirement": "Defeat  enemy while defending your team's capture points during rated Djinn's Dominion matches.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Pvp",
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      },
+      {
+        "count": 5,
+        "points": 1
+      },
+      {
+        "count": 10,
+        "points": 1
+      },
+      {
+        "count": 15,
+        "points": 1
+      },
+      {
+        "count": 25,
+        "points": 1
+      },
+      {
+        "count": 50,
+        "points": 3
+      }
+    ]
+  },
+  "4481": {
+    "id": 4481,
+    "name": "Rolling Ace: Ghostfire Run",
+    "description": "",
+    "requirement": "Complete a lap of the roller beetle race in Diessa Plateau within the challenge time limit. (This achievement can be completed in the race event or adventure.)",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 5
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 104655,
+        "count": 1
+      }
+    ]
+  },
+  "4497": {
+    "id": 4497,
+    "name": "The Crystal Blooms",
+    "description": "Journal: The Crystal Blooms",
+    "requirement": "Bear witness to a demonstration of Aurene's power.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ]
+  },
+  "4506": {
+    "id": 4506,
+    "name": "Branded-on-a-Stick",
+    "description": "Story Instance: Scion & Champion",
+    "requirement": "As the instance owner, pierce four or more Branded with a single use of the Dragonsblood Spear.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      }
+    ]
+  },
+  "4560": {
+    "id": 4560,
+    "name": "Chasing Tales: Mouglon the Watchful",
+    "description": "",
+    "requirement": "Acquire a Dragonsblood mace and perform tasks to re-create Mouglon's legend.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Pvp",
+      "Hidden",
+      "RepairOnLogin",
+      "RequiresUnlock",
+      "Permanent"
+    ],
+    "bits": [
+      {
+        "type": "Text",
+        "text": "Acquire the tome entry Chasing Tales: Mouglon the Watchful."
+      },
+      {
+        "type": "Text",
+        "text": "Acquire the heroic spirit of Mouglon: deed #1."
+      },
+      {
+        "type": "Text",
+        "text": "Acquire the heroic spirit of Mouglon: deed #2."
+      },
+      {
+        "type": "Text",
+        "text": "Acquire the heroic spirit of Mouglon: deed #3."
+      },
+      {
+        "type": "Text",
+        "text": "Meet with the spirit of Mouglon at a heroic font."
+      }
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      },
+      {
+        "count": 5,
+        "points": 5
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Title",
+        "id": 322
+      }
+    ]
+  },
+  "4564": {
+    "id": 4564,
+    "name": "Grand Prize",
+    "description": "",
+    "requirement": "Uncover hidden treasures in the resplendent dwarven treasure cache.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      },
+      {
+        "count": 5,
+        "points": 1
+      },
+      {
+        "count": 10,
+        "points": 1
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Mastery",
+        "region": "Desert",
+        "id": 450
+      }
+    ]
+  },
+  "4621": {
+    "id": 4621,
+    "name": "Junk Debunk",
+    "description": "",
+    "requirement": "Help Tirabikkr look for a big nonexistent shiny at all dig-site locations.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "bits": [
+      {
+        "type": "Text",
+        "text": "Sewage Dig Site"
+      },
+      {
+        "type": "Text",
+        "text": "Mountain Plateau Dig Site"
+      },
+      {
+        "type": "Text",
+        "text": "Shipwreck Dig Site"
+      }
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      },
+      {
+        "count": 3,
+        "points": 3
+      }
+    ]
+  },
+  "4685": {
+    "id": 4685,
+    "name": "Dragonfall Insight: Grenth's Teeth Coastline",
+    "description": "",
+    "requirement": "Discover this Crystal Desert Mastery Insight in Dragonfall.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Mastery",
+        "region": "Desert",
+        "id": 460
+      }
+    ]
+  },
+  "4720": {
+    "id": 4720,
+    "icon": "https://render.guildwars2.com/file/E5F9091000FBE4025FE2E1EBBE2544D865ECD5C7/2141696.png",
+    "name": "Daily Dragonfall Mist Warden Base Builder",
+    "description": "",
+    "requirement": "Upgrade the camp in Melandru's Lost Domain by completing events in the area.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Daily"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 90187,
+        "count": 3
+      }
+    ]
+  },
+  "4769": {
+    "id": 4769,
+    "name": "Bonus Event: Meta-Event Rush",
+    "description": "Participate in meta-events around Tyria to earn bonus rewards!",
+    "requirement": "",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Hidden",
+      "Repeatable",
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "point_cap": -1,
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 91116,
+        "count": 5
+      }
+    ]
+  },
+  "4805": {
+    "id": 4805,
+    "icon": "https://render.guildwars2.com/file/B0564CD9E97C6D630EA6C6A593DC6CDCC903F42D/1302678.png",
+    "name": "Coalescence III: Culmination",
+    "description": "Your energy friend is keenly interested in your decisions.",
+    "requirement": "",
+    "locked_text": "Available upon completion of the achievement \"Coalescence II: The Gift.\"",
+    "type": "ItemSet",
+    "flags": [
+      "IgnoreNearlyComplete",
+      "Pvp",
+      "RepairOnLogin",
+      "Permanent"
+    ],
+    "bits": [
+      {
+        "type": "Item",
+        "id": 91242
+      },
+      {
+        "type": "Item",
+        "id": 91258
+      },
+      {
+        "type": "Item",
+        "id": 91256
+      },
+      {
+        "type": "Item",
+        "id": 91213
+      },
+      {
+        "type": "Item",
+        "id": 91161
+      },
+      {
+        "type": "Item",
+        "id": 91268
+      },
+      {
+        "type": "Item",
+        "id": 91188
+      },
+      {
+        "type": "Item",
+        "id": 91214
+      }
+    ],
+    "tiers": [
+      {
+        "count": 8,
+        "points": 10
+      }
+    ],
+    "prerequisites": [
+      4412
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 91193,
+        "count": 1
+      }
+    ]
+  },
+  "5022": {
+    "id": 5022,
+    "icon": "https://render.guildwars2.com/file/0AAD072E707AE02AE1B9984FD8BCE1A113E759B7/2221432.png",
+    "name": "Daily Bjora Marches Eternal Ice Gatherer",
+    "description": "",
+    "requirement": "Gather 10 eternal ice shards in Bjora Marches.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Daily"
+    ],
+    "tiers": [
+      {
+        "count": 10,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 92338,
+        "count": 3
+      }
+    ]
+  },
+  "5023": {
+    "id": 5023,
+    "name": "Legendary Voice of the Fallen and Claw of the Fallen",
+    "description": "",
+    "requirement": "Defeat the Voice of the Fallen and Claw of the Fallen in the Sanctum Arena.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 10
+      }
+    ]
+  },
+  "5082": {
+    "id": 5082,
+    "name": "Party Guardian",
+    "description": "",
+    "requirement": "Defeat all possible threats to Grothmar's festivities.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "bits": [
+      {
+        "type": "Text",
+        "text": "Devourer"
+      },
+      {
+        "type": "Text",
+        "text": "Parasite Devourer"
+      },
+      {
+        "type": "Text",
+        "text": "River Drake"
+      },
+      {
+        "type": "Text",
+        "text": "Ghost Captain"
+      },
+      {
+        "type": "Text",
+        "text": "Ghost Mage"
+      },
+      {
+        "type": "Text",
+        "text": "Rogue Prisoner"
+      }
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      },
+      {
+        "count": 3,
+        "points": 1
+      },
+      {
+        "count": 6,
+        "points": 2
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Mastery",
+        "region": "Tundra",
+        "id": 480
+      }
+    ]
+  },
+  "5102": {
+    "id": 5102,
+    "name": "Lost Spirits Found",
+    "description": "Journal: Lost Spirits Found Completed",
+    "requirement": "Complete Lost Spirits Found.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      }
+    ]
+  },
+  "5259": {
+    "id": 5259,
+    "name": "League Slayer—3v3 Season One",
+    "description": "",
+    "requirement": "Defeat  players in ranked matches during 3v3 Season One.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "IgnoreNearlyComplete",
+      "Pvp",
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 25,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 70820,
+        "count": 25
+      }
+    ]
+  },
+  "5262": {
+    "id": 5262,
+    "name": "Scorched",
+    "description": "Story Instance: Snapping Steel",
+    "requirement": "Take down a leader inside the secret base within the time limit.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 3
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Mastery",
+        "region": "Tundra",
+        "id": 506
+      }
+    ]
+  },
+  "5356": {
+    "id": 5356,
+    "name": "Death to the Corrupted",
+    "description": "",
+    "requirement": "Collect Charr Commendations for the legions by defeating Dominion forces and accomplishing objectives in the Drizzlewood Coast.\nSpeak with a quaestor in any allied base to change which legion your commendations go to.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "IgnoreNearlyComplete",
+      "Pvp",
+      "Repeatable",
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 250,
+        "points": 0
+      },
+      {
+        "count": 500,
+        "points": 0
+      },
+      {
+        "count": 750,
+        "points": 0
+      },
+      {
+        "count": 1000,
+        "points": 0
+      },
+      {
+        "count": 1250,
+        "points": 0
+      },
+      {
+        "count": 1500,
+        "points": 0
+      },
+      {
+        "count": 1750,
+        "points": 0
+      },
+      {
+        "count": 2000,
+        "points": 0
+      },
+      {
+        "count": 2250,
+        "points": 0
+      },
+      {
+        "count": 2500,
+        "points": 0
+      },
+      {
+        "count": 2750,
+        "points": 0
+      },
+      {
+        "count": 3000,
+        "points": 0
+      },
+      {
+        "count": 3250,
+        "points": 0
+      },
+      {
+        "count": 3500,
+        "points": 0
+      },
+      {
+        "count": 3750,
+        "points": 0
+      },
+      {
+        "count": 4000,
+        "points": 0
+      },
+      {
+        "count": 4250,
+        "points": 0
+      },
+      {
+        "count": 4500,
+        "points": 0
+      },
+      {
+        "count": 4750,
+        "points": 0
+      },
+      {
+        "count": 5000,
+        "points": 0
+      }
+    ],
+    "prerequisites": [
+      5364
+    ],
+    "point_cap": -1
+  },
+  "5478": {
+    "id": 5478,
+    "name": "Champions Insight: Caledon Forest",
+    "description": "",
+    "requirement": "Discover this Icebrood Saga Mastery Insight in the Caledon Forest Dragon Response Mission, accessed via asura gate in Eye of the North.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Mastery",
+        "region": "Tundra",
+        "id": 524
+      }
+    ]
+  },
+  "5482": {
+    "id": 5482,
+    "icon": "https://render.guildwars2.com/file/245AA24CF4D3D529AAAB123CE5B9EBB0DF534F49/2352419.png",
+    "name": "Daily Dragon Responder",
+    "description": "",
+    "requirement": "Complete any Dragon Response Missions.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Daily"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      },
+      {
+        "count": 2,
+        "points": 0
+      },
+      {
+        "count": 3,
+        "points": 0
+      }
+    ]
+  },
+  "5485": {
+    "id": 5485,
+    "name": "Champions Insight: Bloodtide Coast",
+    "description": "",
+    "requirement": "Discover this Icebrood Saga Mastery Insight in the Bloodtide Coast Dragon Response Mission, accessed via asura gate in Eye of the North.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Mastery",
+        "region": "Tundra",
+        "id": 544
+      }
+    ]
+  },
+  "5496": {
+    "id": 5496,
+    "name": "Top Dragon Responder: Gendarran Fields",
+    "description": "",
+    "requirement": "Complete  Gendarran Fields Dragon Response Mission with all challenges active.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      },
+      {
+        "count": 3,
+        "points": 2
+      },
+      {
+        "count": 5,
+        "points": 2
+      }
+    ]
+  },
+  "5499": {
+    "id": 5499,
+    "icon": "https://render.guildwars2.com/file/245AA24CF4D3D529AAAB123CE5B9EBB0DF534F49/2352419.png",
+    "name": "Daily Destroyer Hunter",
+    "description": "",
+    "requirement": "Defeat  destroyers in open missions.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Daily"
+    ],
+    "tiers": [
+      {
+        "count": 25,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 94357,
+        "count": 3
+      }
+    ]
+  },
+  "5721": {
+    "id": 5721,
+    "name": "Second Dive: Bloodstone Fen",
+    "description": "",
+    "requirement": "Use the diving goggles near the highest floating island.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 20323,
+        "count": 3
+      }
+    ]
+  },
+  "5725": {
+    "id": 5725,
+    "name": "Return to Recalibrating the Waypoints",
+    "description": "",
+    "requirement": "Complete the mission Recalibrating the Waypoints in Living World Season 2 Episode 4.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 66608,
+        "count": 50
+      }
+    ]
+  },
+  "5735": {
+    "id": 5735,
+    "name": "Return to The Concordia Incident",
+    "description": "",
+    "requirement": "Complete the mission The Concordia Incident in Living World Season 2 Episode 2.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 66608,
+        "count": 50
+      }
+    ]
+  },
+  "5792": {
+    "id": 5792,
+    "name": "Ore Miner: Lake Doric",
+    "description": "",
+    "requirement": "Mine ore  times in Lake Doric.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 30,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 68137,
+        "count": 3
+      }
+    ]
+  },
+  "5793": {
+    "id": 5793,
+    "name": "Reconquer the Crash Site Climb",
+    "description": "",
+    "requirement": "Climb the wreckage site to reach the highest peak in Prospect Valley.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 20323,
+        "count": 3
+      }
+    ]
+  },
+  "5839": {
+    "id": 5839,
+    "name": "Revenge of the Destroyer Twins",
+    "description": "",
+    "requirement": "Slay either the legendary Destroyer Aestus or the legendary Destroyer Ignis near the Boiling Sea.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 44421,
+        "count": 5
+      }
+    ]
+  },
+  "5866": {
+    "id": 5866,
+    "name": "Return to Storm Tracking",
+    "description": "",
+    "requirement": "Complete the story mission Storm Tracking in Living World Season 4 Episode 4.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 85742,
+        "count": 5
+      }
+    ]
+  },
+  "5875": {
+    "id": 5875,
+    "name": "Revenge of the Pestilent Golem",
+    "description": "",
+    "requirement": "Destroy the plague experiments in the Inquest lab.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 84305,
+        "count": 3
+      }
+    ]
+  },
+  "5945": {
+    "id": 5945,
+    "name": "Ore Miner: Domain of Kourna",
+    "description": "",
+    "requirement": "Mine ore  times in the Domain of Kourna.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 30,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 68137,
+        "count": 3
+      }
+    ]
+  },
+  "6009": {
+    "id": 6009,
+    "name": "Return to Primordus Rising",
+    "description": "",
+    "requirement": "Complete the story mission Primordus Rising in Living World Icebrood Saga Episode 5.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 94228,
+        "count": 10
+      }
+    ]
+  },
+  "6049": {
+    "id": 6049,
+    "name": "Venombite Weapon Collection",
+    "description": "",
+    "requirement": "Unlock all  Venombite weapon skins in your wardrobe.",
+    "locked_text": "",
+    "type": "ItemSet",
+    "flags": [
+      "IgnoreNearlyComplete",
+      "Pvp",
+      "Hidden",
+      "RepairOnLogin",
+      "Permanent"
+    ],
+    "bits": [
+      {
+        "type": "Skin",
+        "id": 10138
+      },
+      {
+        "type": "Skin",
+        "id": 10144
+      },
+      {
+        "type": "Skin",
+        "id": 10143
+      },
+      {
+        "type": "Skin",
+        "id": 10146
+      },
+      {
+        "type": "Skin",
+        "id": 10141
+      },
+      {
+        "type": "Skin",
+        "id": 10135
+      },
+      {
+        "type": "Skin",
+        "id": 10150
+      },
+      {
+        "type": "Skin",
+        "id": 10136
+      },
+      {
+        "type": "Skin",
+        "id": 10145
+      },
+      {
+        "type": "Skin",
+        "id": 10147
+      },
+      {
+        "type": "Skin",
+        "id": 10137
+      },
+      {
+        "type": "Skin",
+        "id": 10151
+      },
+      {
+        "type": "Skin",
+        "id": 10148
+      },
+      {
+        "type": "Skin",
+        "id": 10142
+      },
+      {
+        "type": "Skin",
+        "id": 10152
+      },
+      {
+        "type": "Skin",
+        "id": 10153
+      }
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      },
+      {
+        "count": 8,
+        "points": 1
+      },
+      {
+        "count": 16,
+        "points": 1
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 43992,
+        "count": 7
+      }
+    ]
+  },
+  "6056": {
+    "id": 6056,
+    "name": "League Conqueror—Conquest Season Thirty-One",
+    "description": "",
+    "requirement": "Win  ranked matches during Conquest Season Thirty-One.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "IgnoreNearlyComplete",
+      "Pvp",
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 25,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 68110,
+        "count": 5
+      }
+    ]
+  },
+  "6070": {
+    "id": 6070,
+    "name": "Seitung Province Insight: Affluent House",
+    "description": "",
+    "requirement": "Discover this End of Dragons Mastery Insight in Seitung Province.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Mastery",
+        "region": "Jade",
+        "id": 613
+      }
+    ]
+  },
+  "6084": {
+    "id": 6084,
+    "name": "Xunlai Jade Junkyard",
+    "description": "",
+    "requirement": "Complete the Xunlai Jade Junkyard Strike Mission.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 5
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Mastery",
+        "region": "Jade",
+        "id": 569
+      }
+    ]
+  },
+  "6102": {
+    "id": 6102,
+    "name": "Echovald Wilds Insight: House zu Heltzer",
+    "description": "",
+    "requirement": "Discover this End of Dragons Mastery Insight in the Echovald Wilds.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Mastery",
+        "region": "Jade",
+        "id": 650
+      }
+    ]
+  },
+  "6150": {
+    "id": 6150,
+    "name": "Seitung Harbor Shenanigans",
+    "description": "Harbors are the temporal crossroads where life on land intersects life at sea. They remind us that existence, though often viewed in fragments, is of one whole.",
+    "requirement": "Successfully complete events around Seitung Harbor on Seitung Province.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "bits": [
+      {
+        "type": "Text",
+        "text": "Help Hei-Ryung deliver her goods to the correct recipient."
+      },
+      {
+        "type": "Text",
+        "text": "Help Ji-Cheol deliver his goods to the correct recipient."
+      },
+      {
+        "type": "Text",
+        "text": "Find the toys stolen by the mischievous spirits."
+      },
+      {
+        "type": "Text",
+        "text": "Subdue Tae-Sung to protect the spirits of Zen Daijun."
+      },
+      {
+        "type": "Text",
+        "text": "Stop the extremist Speakers from binding the spirits."
+      },
+      {
+        "type": "Text",
+        "text": "Escort the ritualist to the main temple in Zen Daijun."
+      }
+    ],
+    "tiers": [
+      {
+        "count": 3,
+        "points": 1
+      },
+      {
+        "count": 6,
+        "points": 1
+      }
+    ]
+  },
+  "6178": {
+    "id": 6178,
+    "name": "Catch Me If You Can",
+    "description": "",
+    "requirement": "Defeat the Jade Maw without getting struck by its tentacles.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      }
+    ]
+  },
+  "6181": {
+    "id": 6181,
+    "name": "Daily Seitung Province 'Blade Slayer",
+    "description": "",
+    "requirement": "Kill 25 Aetherblades in Seitung Province.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Daily"
+    ],
+    "tiers": [
+      {
+        "count": 25,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 96019,
+        "count": 1
+      }
+    ]
+  },
+  "6195": {
+    "id": 6195,
+    "name": "Repair Crew Royale",
+    "description": "",
+    "requirement": "Complete repair crew escort events in the north and south of New Kaineng.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "bits": [
+      {
+        "type": "Text",
+        "text": "North Repair Crew Escort"
+      },
+      {
+        "type": "Text",
+        "text": "South Repair Crew Escort"
+      }
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      },
+      {
+        "count": 2,
+        "points": 2
+      }
+    ]
+  },
+  "6225": {
+    "id": 6225,
+    "name": "Laser Light Footed",
+    "description": "",
+    "requirement": "Make it through the defenses without being hit by laser or shock-wave turrets.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      }
+    ]
+  },
+  "6242": {
+    "id": 6242,
+    "name": "Crow Catcher",
+    "description": "",
+    "requirement": "Use your springer to catch every crow in Grub Lane.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 6,
+        "points": 3
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Mastery",
+        "region": "Jade",
+        "id": 597
+      }
+    ]
+  },
+  "6260": {
+    "id": 6260,
+    "name": "Tsunami Dodger",
+    "description": "",
+    "requirement": "Avoid getting struck by Soo-Won's full-sized tsunamis by standing behind the crystals 10 times.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 10,
+        "points": 1
+      }
+    ]
+  },
+  "6285": {
+    "id": 6285,
+    "name": "Cultures of Echovald: The Kurzicks",
+    "description": "",
+    "requirement": "Participate in all the events related to Kurzick culture.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "bits": [
+      {
+        "type": "Text",
+        "text": "Assist archaeologists in extracting Kurzick relics from their magical wards."
+      },
+      {
+        "type": "Text",
+        "text": "Stop the Speakers from stealing Kurzick relics."
+      },
+      {
+        "type": "Text",
+        "text": "Defeat the Speakers harvesting souls in the zu Heltzer cemetery."
+      },
+      {
+        "type": "Text",
+        "text": "Prevent gang poachers from claiming the corrupted moa."
+      },
+      {
+        "type": "Text",
+        "text": "Defeat the corrupted moa currently terrorizing people near the zu Heltzer ruins."
+      },
+      {
+        "type": "Text",
+        "text": "Help Jan Lutgardis cleanse the Lutgardis ruins with their ancestral songs."
+      },
+      {
+        "type": "Text",
+        "text": "Neutralize the haywire Gods' Vengeance."
+      },
+      {
+        "type": "Text",
+        "text": "Gather the needed sap to restore what might be the final Forever Tree."
+      },
+      {
+        "type": "Text",
+        "text": "Protect the sylvari trying to restore the final Forever Tree."
+      }
+    ],
+    "tiers": [
+      {
+        "count": 3,
+        "points": 1
+      },
+      {
+        "count": 9,
+        "points": 2
+      }
+    ]
+  },
+  "6297": {
+    "id": 6297,
+    "name": "Daily Kryta Fisher",
+    "description": "Fueling the engines of the economy.",
+    "requirement": "Gather raw materials by catching fish in the following locations: Queensdale, Kessex Hills, Gendarran Fields, Harathi Hinterlands, Bloodtide Coast, or Southsun Cove.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Daily"
+    ],
+    "tiers": [
+      {
+        "count": 4,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 95956,
+        "count": 1
+      }
+    ]
+  },
+  "6368": {
+    "id": 6368,
+    "icon": "https://render.guildwars2.com/file/EEB87DB9BDC5CCCB20F4D6F353E16A7C020A0F0E/3009909.png",
+    "name": "Deadly Delicacies",
+    "description": "Maguuma-harvested mushrooms have become a trendy Canthan delicacy, and unscrupulous traders smuggled cartloads of them without performing safety inspections.",
+    "requirement": "Find and slay a newly arrived invasive species.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      }
+    ]
+  },
+  "6403": {
+    "id": 6403,
+    "name": "Hatchery Helper",
+    "description": "Thanks to your help, these fish will get a chance at an \"Extra Life.\"",
+    "requirement": "Help Conservationist An and Bubbles cull the invasive species.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Title",
+        "id": 375
+      }
+    ]
+  },
+  "6469": {
+    "id": 6469,
+    "name": "Daily Dragon's End Naga Slayer",
+    "description": "",
+    "requirement": "Kill 25 naga in Dragon's End.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Daily"
+    ],
+    "tiers": [
+      {
+        "count": 25,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 97417,
+        "count": 1
+      }
+    ]
+  },
+  "6470": {
+    "id": 6470,
+    "name": "The Floor Is Void",
+    "description": "",
+    "requirement": "Avoid reaching 10 stacks of corruption during the fight with Soo-Won.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Mastery",
+        "region": "Jade",
+        "id": 595
+      }
+    ]
+  },
+  "6476": {
+    "id": 6476,
+    "name": "New Kaineng Insight: Naksi Bay Ruins",
+    "description": "",
+    "requirement": "Discover this End of Dragons Mastery Insight in New Kaineng City.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Mastery",
+        "region": "Jade",
+        "id": 565
+      }
+    ]
+  },
+  "6507": {
+    "id": 6507,
+    "name": "New Kaineng Insight: Pool of Tranquility",
+    "description": "",
+    "requirement": "Discover this End of Dragons Mastery Insight in New Kaineng City.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Mastery",
+        "region": "Jade",
+        "id": 602
+      }
+    ]
+  },
+  "6519": {
+    "id": 6519,
+    "icon": "https://render.guildwars2.com/file/B3DA5159BA6318466403EA14A47F0760633C48C5/630734.png",
+    "name": "Extracurricular Adventures",
+    "description": "",
+    "requirement": "Complete levels in Super Adventure Box or defeat any champion enemies across Tyria.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Daily"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      },
+      {
+        "count": 2,
+        "points": 0
+      },
+      {
+        "count": 3,
+        "points": 0
+      }
+    ]
+  },
+  "6547": {
+    "id": 6547,
+    "name": "Against the Alliance",
+    "description": "",
+    "requirement": "Stabilize Diessa Plateau against the Molten Alliance by completing events and returning audio logs to Agent Brandubh. Molten Alliance events award extra progress.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 20,
+        "points": 5
+      }
+    ]
+  },
+  "6549": {
+    "id": 6549,
+    "name": "Clarity",
+    "description": "",
+    "requirement": "Complete the Xunlai Jade Junkyard Strike Mission without taking damage from any hallucinations.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 5
+      }
+    ]
+  },
+  "6637": {
+    "id": 6637,
+    "icon": "https://render.guildwars2.com/file/F25702AB080ADE05E14F6755C9BF9DB2D40FB6A8/2700770.png",
+    "name": "Adventure Guide: Volume One",
+    "description": "",
+    "requirement": "Complete 14 of the 16 Adventure Guide: Volume One achievements.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "RepairOnLogin",
+      "CategoryDisplay",
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      },
+      {
+        "count": 14,
+        "points": 0
+      }
+    ],
+    "prerequisites": [
+      6615
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 98925,
+        "count": 1
+      }
+    ]
+  },
+  "6669": {
+    "id": 6669,
+    "icon": "https://render.guildwars2.com/file/F25702AB080ADE05E14F6755C9BF9DB2D40FB6A8/2700770.png",
+    "name": "Discovering Points of Interest I",
+    "description": "",
+    "requirement": "Discover  point of interest in Queensdale, Metrica Province, Caledon Forest, Wayfarer Foothills, or the Plains of Ashford.\n\n<c=@reminder>Points of interest are special locations marked by name in the world, indicated by a square icon on the map. </c>",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 5,
+        "points": 0
+      }
+    ],
+    "prerequisites": [
+      6615
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 98907,
+        "count": 1
+      }
+    ]
+  },
+  "6768": {
+    "id": 6768,
+    "name": "League Participator—Conquest Season Thirty-Four",
+    "description": "",
+    "requirement": "Play  ranked matches during Conquest Season Thirty-Four.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "IgnoreNearlyComplete",
+      "Pvp",
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 60,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 86745,
+        "count": 1
+      }
+    ]
+  },
+  "6783": {
+    "id": 6783,
+    "name": "After the Battle",
+    "description": "",
+    "requirement": "Complete the story chapter After the Battle.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 99118,
+        "count": 1
+      }
+    ]
+  },
+  "6809": {
+    "id": 6809,
+    "name": "Guarding the Fields 2",
+    "description": "",
+    "requirement": "Complete events in Gendarran Fields to safeguard settlements in the area.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 15,
+        "points": 3
+      }
+    ],
+    "prerequisites": [
+      6696
+    ]
+  },
+  "6903": {
+    "id": 6903,
+    "name": "Energized Tools of the Luxon Hunters",
+    "description": "",
+    "requirement": "Unlock all of the Energized Luxon Hunter's weapons.",
+    "locked_text": "",
+    "type": "ItemSet",
+    "flags": [
+      "Pvp",
+      "RepairOnLogin",
+      "Permanent"
+    ],
+    "bits": [
+      {
+        "type": "Skin",
+        "id": 11457
+      },
+      {
+        "type": "Skin",
+        "id": 11444
+      },
+      {
+        "type": "Skin",
+        "id": 11441
+      },
+      {
+        "type": "Skin",
+        "id": 11454
+      },
+      {
+        "type": "Skin",
+        "id": 11452
+      },
+      {
+        "type": "Skin",
+        "id": 11442
+      },
+      {
+        "type": "Skin",
+        "id": 11455
+      },
+      {
+        "type": "Skin",
+        "id": 11440
+      },
+      {
+        "type": "Skin",
+        "id": 11464
+      },
+      {
+        "type": "Skin",
+        "id": 11450
+      },
+      {
+        "type": "Skin",
+        "id": 11446
+      },
+      {
+        "type": "Skin",
+        "id": 11443
+      },
+      {
+        "type": "Skin",
+        "id": 11456
+      },
+      {
+        "type": "Skin",
+        "id": 11463
+      },
+      {
+        "type": "Skin",
+        "id": 11466
+      },
+      {
+        "type": "Skin",
+        "id": 11468
+      }
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      },
+      {
+        "count": 4,
+        "points": 1
+      },
+      {
+        "count": 8,
+        "points": 2
+      },
+      {
+        "count": 12,
+        "points": 3
+      },
+      {
+        "count": 16,
+        "points": 4
+      }
+    ]
+  },
+  "6919": {
+    "id": 6919,
+    "name": "Fast Break",
+    "description": "",
+    "requirement": "During the final battle of Gyala Delve, break the ravenous wanderer's defiance within a short period after its appearance or recovery.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      }
+    ]
+  },
+  "6946": {
+    "id": 6946,
+    "name": "Demon Hunter",
+    "description": "Thank you for prepurchasing Guild Wars 2: Secrets of the Obscure.",
+    "requirement": "",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Hidden",
+      "MoveToTop",
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Title",
+        "id": 400
+      }
+    ]
+  },
+  "6957": {
+    "id": 6957,
+    "name": "League Participator—Conquest Season Thirty-Eight",
+    "description": "",
+    "requirement": "Play  ranked matches during Conquest Season Thirty-Eight.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "IgnoreNearlyComplete",
+      "Pvp",
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 60,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 86745,
+        "count": 1
+      }
+    ]
+  },
+  "7039": {
+    "id": 7039,
+    "name": "Rank Doesn't Matter Here",
+    "description": "",
+    "requirement": "Defeat the champion bosses in the Bastions of Balance, the Natural, and the Celestial.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "bits": [
+      {
+        "type": "Text",
+        "text": "Defeat the champion boss roaming around the Bastion of Balance."
+      },
+      {
+        "type": "Text",
+        "text": "Defeat the champion boss roaming around the Bastion of the Natural."
+      },
+      {
+        "type": "Text",
+        "text": "Defeat the champion boss roaming around the Bastion of the Celestial."
+      }
+    ],
+    "tiers": [
+      {
+        "count": 3,
+        "points": 1
+      }
+    ]
+  },
+  "7116": {
+    "id": 7116,
+    "name": "Temple of Febe",
+    "description": "",
+    "requirement": "Complete the Temple of Febe Strike Mission.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 5
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Mastery",
+        "region": "Sky",
+        "id": 698
+      }
+    ]
+  },
+  "7195": {
+    "id": 7195,
+    "name": "The Healing of Amnytas",
+    "description": "",
+    "requirement": "Kill  Kryptis in Amnytas.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 10,
+        "points": 1
+      },
+      {
+        "count": 50,
+        "points": 1
+      },
+      {
+        "count": 100,
+        "points": 1
+      }
+    ]
+  },
+  "7412": {
+    "id": 7412,
+    "name": "A Shadow in the Night",
+    "description": "Journal: Commander Without a Cause",
+    "requirement": "Sneak through the camp without being caught.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      }
+    ]
+  },
+  "7632": {
+    "id": 7632,
+    "name": "Iron Marches Rift Hunting",
+    "description": "",
+    "requirement": "Take down tier 1, tier 2, and tier 3 rift hunt targets in Iron Marches.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "bits": [
+      {
+        "type": "Text",
+        "text": "Tier 1 Rift Hunt Target"
+      },
+      {
+        "type": "Text",
+        "text": "Tier 2 Rift Hunt Target"
+      },
+      {
+        "type": "Text",
+        "text": "Tier 3 Rift Hunt Target"
+      }
+    ],
+    "tiers": [
+      {
+        "count": 3,
+        "points": 5
+      }
+    ]
+  },
+  "7696": {
+    "id": 7696,
+    "name": "Consecrated Saryx Weapon Collector",
+    "description": "A healthy consecration routine helps your skin glow!",
+    "requirement": "Unlock all  Consecrated Saryx weapon skins by crafting or purchasing them from the trading post and binding them to you. Recipes can be purchased from Faction Provisioners in Inner Nayos after unlocking Saryx weapon skins.",
+    "locked_text": "",
+    "type": "ItemSet",
+    "flags": [
+      "IgnoreNearlyComplete",
+      "Pvp",
+      "RepairOnLogin",
+      "Permanent"
+    ],
+    "bits": [
+      {
+        "type": "Skin",
+        "id": 11881
+      },
+      {
+        "type": "Skin",
+        "id": 11923
+      },
+      {
+        "type": "Skin",
+        "id": 11924
+      },
+      {
+        "type": "Skin",
+        "id": 11891
+      },
+      {
+        "type": "Skin",
+        "id": 11890
+      },
+      {
+        "type": "Skin",
+        "id": 11915
+      },
+      {
+        "type": "Skin",
+        "id": 11883
+      },
+      {
+        "type": "Skin",
+        "id": 11884
+      },
+      {
+        "type": "Skin",
+        "id": 11882
+      },
+      {
+        "type": "Skin",
+        "id": 11894
+      },
+      {
+        "type": "Skin",
+        "id": 11919
+      },
+      {
+        "type": "Skin",
+        "id": 11925
+      },
+      {
+        "type": "Skin",
+        "id": 11930
+      },
+      {
+        "type": "Skin",
+        "id": 11886
+      },
+      {
+        "type": "Skin",
+        "id": 11929
+      },
+      {
+        "type": "Skin",
+        "id": 11913
+      }
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      },
+      {
+        "count": 4,
+        "points": 0
+      },
+      {
+        "count": 8,
+        "points": 1
+      },
+      {
+        "count": 12,
+        "points": 1
+      },
+      {
+        "count": 16,
+        "points": 1
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 101297,
+        "count": 50
+      }
+    ]
+  },
+  "7902": {
+    "id": 7902,
+    "name": "Reconquer the Retrospective Runaround (Weekly)",
+    "description": "",
+    "requirement": "Complete the Retrospective Runaround jumping puzzle in Sand Dune Caverns in the Silverwastes.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 20323,
+        "count": 3
+      }
+    ]
+  },
+  "7913": {
+    "id": 7913,
+    "name": "Reliving the Seasons 2",
+    "description": "",
+    "requirement": "Complete pivotal story missions from Living World Season 2.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "bits": [
+      {
+        "type": "Text",
+        "text": "Episode 1: Disturbance in Brisban Wildlands"
+      },
+      {
+        "type": "Text",
+        "text": "Episode 1: Fallen Hopes"
+      },
+      {
+        "type": "Text",
+        "text": "Episode 1: Cornered"
+      },
+      {
+        "type": "Text",
+        "text": "Episode 2: Discovering Scarlet's Breakthrough"
+      },
+      {
+        "type": "Text",
+        "text": "Episode 2: The Concordia Incident"
+      },
+      {
+        "type": "Text",
+        "text": "Episode 2: Trouble at Fort Salma"
+      },
+      {
+        "type": "Text",
+        "text": "Episode 3: The Waypoint Conundrum"
+      },
+      {
+        "type": "Text",
+        "text": "Episode 3: Plan of Attack"
+      },
+      {
+        "type": "Text",
+        "text": "Episode 4: Party Politics"
+      },
+      {
+        "type": "Text",
+        "text": "Episode 4: Recalibrating the Waypoints"
+      },
+      {
+        "type": "Text",
+        "text": "Episode 4: The World Summit"
+      },
+      {
+        "type": "Text",
+        "text": "Episode 5: Caithe's Reconnaissance Squad"
+      },
+      {
+        "type": "Text",
+        "text": "Episode 5: Hidden Arcana"
+      },
+      {
+        "type": "Text",
+        "text": "Episode 6: Tracking the Aspect Masters"
+      },
+      {
+        "type": "Text",
+        "text": "Episode 6: Into the Labyrinth"
+      },
+      {
+        "type": "Text",
+        "text": "Episode 7: Meeting the Asura"
+      },
+      {
+        "type": "Text",
+        "text": "Episode 7: No Refuge"
+      },
+      {
+        "type": "Text",
+        "text": "Episode 8: Arcana Obscura"
+      },
+      {
+        "type": "Text",
+        "text": "Episode 8: Pact Assaulted"
+      },
+      {
+        "type": "Text",
+        "text": "Episode 8: The Mystery Cave"
+      }
+    ],
+    "tiers": [
+      {
+        "count": 4,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 36457,
+        "count": 10
+      }
+    ]
+  },
+  "7949": {
+    "id": 7949,
+    "name": "Fort Ranik Veteran",
+    "description": "Days gone by...",
+    "requirement": "Purchase and use a corresponding world title.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Pvp",
+      "Hidden",
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Title",
+        "id": 514
+      }
+    ]
+  },
+  "7950": {
+    "id": 7950,
+    "icon": "https://render.guildwars2.com/file/620E0D3D2DD860700632BA7B3AC10C44CE55FD6C/1424206.png",
+    "name": "Daily Tier 4 Lonely Tower",
+    "description": "",
+    "requirement": "Complete Lonely Tower at fractal scale 76 or higher.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Daily"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 78572,
+        "count": 1
+      }
+    ]
+  },
+  "7965": {
+    "id": 7965,
+    "name": "Tour of the Tower",
+    "description": "Journal: Sovereign of Nayos",
+    "requirement": "Explore all areas of the Wizard's Tower during the instance.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "bits": [
+      {
+        "type": "Text",
+        "text": "1. Watch the Kryptis play hide-and-seek."
+      },
+      {
+        "type": "Text",
+        "text": "2. View the fireworks being launched."
+      },
+      {
+        "type": "Text",
+        "text": "3. Explore the snow-filled hall."
+      },
+      {
+        "type": "Text",
+        "text": "4. Visit Mabon's room."
+      },
+      {
+        "type": "Text",
+        "text": "5. Visit the lawn with R'tchikk and Gladium's new friends."
+      },
+      {
+        "type": "Text",
+        "text": "6. Visit the Kryptis gathered on the lawn."
+      },
+      {
+        "type": "Text",
+        "text": "7. See the painting by Tyria's newest artist."
+      },
+      {
+        "type": "Text",
+        "text": "8. Party by the pool."
+      },
+      {
+        "type": "Text",
+        "text": "9. Visit the reliquary."
+      },
+      {
+        "type": "Text",
+        "text": "10. Admire the view by the telescope."
+      }
+    ],
+    "tiers": [
+      {
+        "count": 10,
+        "points": 1
+      }
+    ]
+  },
+  "7966": {
+    "id": 7966,
+    "name": "Astral Salute",
+    "description": "Journal: The Eleventh Hour",
+    "requirement": "Salute Frode when he enters the portal.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      }
+    ]
+  },
+  "8000": {
+    "id": 8000,
+    "icon": "https://render.guildwars2.com/file/339192F5581BB3F771CF359BAB2C90537BD560CB/1228225.png",
+    "name": "Daily Tier 3 Lonely Tower",
+    "description": "",
+    "requirement": "Complete Lonely Tower at fractal scale 51 or higher.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Daily"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 78613,
+        "count": 1
+      }
+    ]
+  },
+  "8044": {
+    "id": 8044,
+    "name": "Wayfind Yourself Out",
+    "description": "",
+    "requirement": "Complete the Lonely Tower fractal on the Master tier.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 3
+      }
+    ]
+  },
+  "8047": {
+    "id": 8047,
+    "name": "Voracious Reader",
+    "description": "Journal: The Eleventh Hour",
+    "requirement": "Find the books and artifacts scattered around Zakiros.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "bits": [
+      {
+        "type": "Text",
+        "text": "Memory in the Council of Houses chamber."
+      },
+      {
+        "type": "Text",
+        "text": "Memory in the sealed chamber."
+      },
+      {
+        "type": "Text",
+        "text": "Memory outside the throne room."
+      },
+      {
+        "type": "Text",
+        "text": "Book 1."
+      },
+      {
+        "type": "Text",
+        "text": "Book 2."
+      },
+      {
+        "type": "Text",
+        "text": "Book 3."
+      },
+      {
+        "type": "Text",
+        "text": "Book 4."
+      },
+      {
+        "type": "Text",
+        "text": "Book 5."
+      },
+      {
+        "type": "Text",
+        "text": "Book 6."
+      }
+    ],
+    "tiers": [
+      {
+        "count": 9,
+        "points": 1
+      }
+    ]
+  },
+  "8101": {
+    "id": 8101,
+    "name": "Inner Nayos Explorer",
+    "description": "You've explored the deepest parts of the realm of dreams.",
+    "requirement": "Explore all areas in Inner Nayos.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "RepairOnLogin",
+      "Permanent"
+    ],
+    "bits": [
+      {
+        "type": "Text",
+        "text": "Memory's Hollow"
+      },
+      {
+        "type": "Text",
+        "text": "The Forgotten Path"
+      },
+      {
+        "type": "Text",
+        "text": "The Bleeding Wastes"
+      },
+      {
+        "type": "Text",
+        "text": "Heitor's Dominion"
+      },
+      {
+        "type": "Text",
+        "text": "Mourning's Shade"
+      },
+      {
+        "type": "Text",
+        "text": "The Commons"
+      },
+      {
+        "type": "Text",
+        "text": "Nyedra, Dreamer's Sanctum"
+      },
+      {
+        "type": "Text",
+        "text": "The Old Settlement"
+      },
+      {
+        "type": "Text",
+        "text": "Defiled Cradle"
+      },
+      {
+        "type": "Text",
+        "text": "Stormcarved Hollows"
+      },
+      {
+        "type": "Text",
+        "text": "Spire of Dreams"
+      },
+      {
+        "type": "Text",
+        "text": "Spire of Redemption"
+      },
+      {
+        "type": "Text",
+        "text": "The Midnight Abyss"
+      },
+      {
+        "type": "Text",
+        "text": "Spire of Creation"
+      }
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      },
+      {
+        "count": 4,
+        "points": 1
+      },
+      {
+        "count": 14,
+        "points": 3
+      }
+    ]
+  },
+  "8141": {
+    "id": 8141,
+    "name": "Local Response: Draconis Mons (Weekly)",
+    "description": "",
+    "requirement": "Complete  events in Draconis Mons.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 5,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 81036,
+        "count": 1
+      }
+    ]
+  },
+  "8148": {
+    "id": 8148,
+    "name": "True Ending: The Eleventh Hour",
+    "description": "Journal: The Eleventh Hour",
+    "requirement": "Successfully complete the Into the Spider's Lair meta-event in Inner Nayos before beginning The Eleventh Hour.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      }
+    ]
+  },
+  "8247": {
+    "id": 8247,
+    "name": "Home Sweet Home",
+    "description": "Journal: Home Sweet Home",
+    "requirement": "Establish a home.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 103193,
+        "count": 1
+      },
+      {
+        "type": "Mastery",
+        "region": "Unknown",
+        "id": 806
+      }
+    ]
+  },
+  "8295": {
+    "id": 8295,
+    "name": "Lowland Shore Insight: Alessia's Secret",
+    "description": "",
+    "requirement": "Discover this Janthir Wilds Mastery Insight in Lowland Shore.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Mastery",
+        "region": "Unknown",
+        "id": 803
+      }
+    ]
+  },
+  "8330": {
+    "id": 8330,
+    "name": "(Repeatable) Lowland Shore: Autumn's Vale Renown Heart",
+    "description": "",
+    "requirement": "Successfully complete the Autumn's Vale Renown Heart on  unique days.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "IgnoreNearlyComplete",
+      "Pvp",
+      "RepairOnLogin",
+      "Repeatable",
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 3,
+        "points": 5
+      }
+    ],
+    "prerequisites": [
+      8346
+    ],
+    "point_cap": 15,
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 102334,
+        "count": 1
+      }
+    ]
+  },
+  "8405": {
+    "id": 8405,
+    "name": "Local Response: Dragonfall (Weekly)",
+    "description": "",
+    "requirement": "Complete  events in Dragonfall.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 10,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 90783,
+        "count": 250
+      }
+    ]
+  },
+  "8482": {
+    "id": 8482,
+    "name": "Show Me Those Moves, Isgarren!",
+    "description": "If he didn't help with the Elder Dragons, do you really think he's going to join the dance circle?",
+    "requirement": "Convince Isgarren to dance.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      }
+    ]
+  },
+  "8507": {
+    "id": 8507,
+    "name": "Blood Moon Weapon Collector",
+    "description": "",
+    "requirement": "Unlock all  Blood Moon weapon skins from Convergences: Mount Balrior in Janthir Wilds or by purchasing them from the Trading Post and binding them to you.",
+    "locked_text": "",
+    "type": "ItemSet",
+    "flags": [
+      "Pvp",
+      "RepairOnLogin",
+      "Permanent"
+    ],
+    "bits": [
+      {
+        "type": "Skin",
+        "id": 12742
+      },
+      {
+        "type": "Skin",
+        "id": 12702
+      },
+      {
+        "type": "Skin",
+        "id": 12700
+      },
+      {
+        "type": "Skin",
+        "id": 12674
+      },
+      {
+        "type": "Skin",
+        "id": 12714
+      },
+      {
+        "type": "Skin",
+        "id": 12713
+      },
+      {
+        "type": "Skin",
+        "id": 12739
+      },
+      {
+        "type": "Skin",
+        "id": 12673
+      },
+      {
+        "type": "Skin",
+        "id": 12681
+      },
+      {
+        "type": "Skin",
+        "id": 12723
+      },
+      {
+        "type": "Skin",
+        "id": 12725
+      },
+      {
+        "type": "Skin",
+        "id": 12710
+      },
+      {
+        "type": "Skin",
+        "id": 12679
+      },
+      {
+        "type": "Skin",
+        "id": 12677
+      },
+      {
+        "type": "Skin",
+        "id": 12738
+      },
+      {
+        "type": "Skin",
+        "id": 12744
+      },
+      {
+        "type": "Skin",
+        "id": 12693
+      }
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      },
+      {
+        "count": 5,
+        "points": 1
+      },
+      {
+        "count": 10,
+        "points": 1
+      },
+      {
+        "count": 17,
+        "points": 2
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 101295,
+        "count": 1
+      }
+    ]
+  },
+  "8536": {
+    "id": 8536,
+    "name": "Daily Bjora Marches",
+    "description": "",
+    "requirement": "Complete  events in Bjora Marches.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Daily"
+    ],
+    "tiers": [
+      {
+        "count": 3,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 19976,
+        "count": 1
+      }
+    ]
+  },
+  "8671": {
+    "id": 8671,
+    "name": "League Slayer—Conquest",
+    "description": "",
+    "requirement": "Defeat  players in ranked matches during a Conquest season.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "IgnoreNearlyComplete",
+      "Pvp"
+    ],
+    "tiers": [
+      {
+        "count": 50,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 70820,
+        "count": 25
+      }
+    ]
+  },
+  "8706": {
+    "id": 8706,
+    "name": "Case 382: Titan Organ Smuggling",
+    "description": "One person's opportunist is another's entrepreneur.",
+    "requirement": "Complete each step to help Inspector Lutze solve the case.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "bits": [
+      {
+        "type": "Text",
+        "text": "Read the letter from Chief Inspector Lutze."
+      },
+      {
+        "type": "Text",
+        "text": "Find Chief Inspector Lutze in Mantle's Arrival."
+      },
+      {
+        "type": "Text",
+        "text": "Find the crate of smuggled organs in Mantle's Arrival."
+      },
+      {
+        "type": "Text",
+        "text": "Return to Chief Inspector Lutze."
+      },
+      {
+        "type": "Text",
+        "text": "Lutze thinks there is a potential buyer among the elite of Divinity's Reach. Where do the rich like Lord Faren live again?"
+      },
+      {
+        "type": "Text",
+        "text": "This is where the elite live; there must be something here."
+      },
+      {
+        "type": "Text",
+        "text": "You found a large amount of gold; looks like there is a note nearby."
+      },
+      {
+        "type": "Text",
+        "text": "The note ties Countess Cindy Breaud to the smuggling ring. Chief Inspector Lutze would like to see this."
+      },
+      {
+        "type": "Text",
+        "text": "Lutze thinks someone around Mantle's Arrival must be moving the organ crates around."
+      },
+      {
+        "type": "Text",
+        "text": "You found a crate of smuggled organs a charr was carrying, and it looks like there is a note nearby."
+      },
+      {
+        "type": "Text",
+        "text": "The note ties Saturninus Deepsmoke to the smuggling ring; Chief Inspector Lutze would like to see this."
+      },
+      {
+        "type": "Text",
+        "text": "Lutze's findings point toward a sylvari handling logistics. Question both suspects: Ylani and Isla."
+      },
+      {
+        "type": "Text",
+        "text": "You've talked to Ylani and Isla, but one is lying (or maybe both). Find a way to prove it."
+      },
+      {
+        "type": "Text",
+        "text": "Something about this report does not match up; it could have been doctored."
+      },
+      {
+        "type": "Text",
+        "text": "Something does not add up here. Return to Lutze once you figure out who is lying."
+      },
+      {
+        "type": "Text",
+        "text": "Lutze thinks there is a potential buyer around the docks in Lion's Arch."
+      },
+      {
+        "type": "Text",
+        "text": "The shipping manifests you found show Alden Wamser moving large sums of money. Interview him."
+      },
+      {
+        "type": "Text",
+        "text": "You've talked to Alden; it appears there is nothing suspicious about the money moving through Lion's Arch."
+      },
+      {
+        "type": "Text",
+        "text": "Lutze thinks some organs are making their way to Amnytas. You should poke around after helping the kodan destroy the titan organ sacs."
+      },
+      {
+        "type": "Text",
+        "text": "You've helped destroy some organs. Wait...is that someone hiding nearby?"
+      },
+      {
+        "type": "Text",
+        "text": "You talked to Jaxi, but he gave nothing up. Maybe there is some evidence nearby?"
+      },
+      {
+        "type": "Text",
+        "text": "The note ties Jaxi to the smuggling ring; Chief Inspector Lutze would like to see this."
+      },
+      {
+        "type": "Text",
+        "text": "You should talk to Chief Inspector Lutze about everything you found."
+      },
+      {
+        "type": "Text",
+        "text": "Lutze needs proof that the ringleader is Hedda the Cunning. Check out her former Lionguard post at Twinspur Haven."
+      },
+      {
+        "type": "Text",
+        "text": "You've made it to Twinspur Haven; there has to be something here."
+      },
+      {
+        "type": "Text",
+        "text": "You've found some hastily burned notes; putting them together you can barely make out the remnants of words: \"Li-  -ch  -itt c-ve chest be-d -rone.\""
+      },
+      {
+        "type": "Text",
+        "text": "You found a chest with a massive amount of gold and notes from Hedda the Cunning; return to Lutze with this proof."
+      },
+      {
+        "type": "Text",
+        "text": "Lutze has what she needs to make the arrest. Good job, detective!"
+      }
+    ],
+    "tiers": [
+      {
+        "count": 5,
+        "points": 1
+      },
+      {
+        "count": 10,
+        "points": 1
+      },
+      {
+        "count": 15,
+        "points": 1
+      },
+      {
+        "count": 20,
+        "points": 1
+      },
+      {
+        "count": 28,
+        "points": 1
+      }
+    ],
+    "prerequisites": [
+      8713
+    ]
+  },
+  "8710": {
+    "id": 8710,
+    "name": "Kinfall Challenge Mode",
+    "description": "Bling-9009 has received reports of your exploits and now carries new items!",
+    "requirement": "Defeat the final boss of the Kinfall fractal in challenge mode.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 5
+      }
+    ]
+  },
+  "8781": {
+    "id": 8781,
+    "name": "Pure Soul",
+    "description": "",
+    "requirement": "Defeat Lextalion without being affected by Malefic Darkness for more than 10 seconds.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Permanent"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 5
+      }
+    ]
+  }
+}
