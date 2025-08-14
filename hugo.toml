@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://northburns.github.io/gw2-no-nuance/'
 languageCode = 'en-us'
 title = "Northburns' GW2 \"no nuance notes\""
 theme = 'hugo-theme-relearn'
