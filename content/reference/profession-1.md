@@ -6,3 +6,5 @@ title = 'Profession ref test'
 
 
 Helloooo professions!
+
+{{< profession-weapon-table "Guardian" "Greatsword" >}}

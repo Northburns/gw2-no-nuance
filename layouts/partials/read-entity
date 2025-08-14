@@ -1,0 +1,21 @@
+{{- /* Context: */ -}}
+{{- /* Required: .api */ -}}
+{{- /* Required one of : .id .name */ -}}
+
+{{ $dir := printf "data/gw2-api/%s" .api -}}
+{{ $index := printf "%s/_index.json" $dir | resources.Get | transform.Unmarshal -}}
+
+{{ $id := 0 -}}
+{{ if .id -}}
+    {{ $id = string .id -}}
+{{ else -}}
+    {{ $names := printf "%s/_names.json" $dir | resources.Get | transform.Unmarshal -}}
+    {{ $id = index $names .name -}}
+{{ end -}}
+
+{{ $file := index $index $id -}}
+{{ $data := printf "%s/%s" $dir $file | resources.Get | transform.Unmarshal -}}
+
+{{ $e := index $data $id -}}
+
+{{ return $e -}}

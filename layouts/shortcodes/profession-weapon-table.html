@@ -1,0 +1,29 @@
+{{ $profession := index .Params 0 -}}
+{{ $weapon     := index .Params 1 -}}
+
+{{ $p := partial "read-entity" (dict "api" "professions" "name" $profession) }}
+{{ $w := index $p.weapons $weapon -}}
+
+<table>
+    <tr>
+        <th>#</th>
+        <th>Skill</th>
+        <th><img src="https://wiki.guildwars2.com/images/6/6e/Activation.png" alt="Activation time"></th>
+        <th><img src="https://wiki.guildwars2.com/images/f/f4/Tango-recharge-darker.png" alt="Recharge time"></th>
+        <th>Description</th>
+    </tr>
+
+    {{ range $skill := $w.skills }}
+        {{ $s := partial "read-entity" (dict "api" "skills" "id" $skill.id ) }}
+
+        <tr>
+            <td>{{ strings.TrimPrefix "Weapon_" $s.slot }}</td>
+            <td>
+                <img src="{{$s.icon}}" alt="{{$s.name}}" style="display:inline-block; height:2em; width:auto; transform:translate(0, 0.5em);" >
+                {{ $s.name }}
+            </td>
+        </tr>
+
+    {{ end }}
+
+</table>

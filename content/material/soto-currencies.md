@@ -142,6 +142,8 @@ All of the events give map currency. I don't have _any_ math for this, yet.
 
 _Sidenote!_ You have to do the lantern achievements for the the map gifts (or map completion, but it's a lot easier to do lantern runs). After you have all the map gifts for all the {{< inlineIcon "items" "Gift of the Astral Ward" true >}} you need, you can convert the rest into map currencies.
 
+Hot tip for lantern runs! Things you can do while powering: be on your mount, dismount, move, use map. Things you _can't do_ while powering (will cancel): mount up, use any F thing (e.g. upraft generator), use waypoint. Once you practive a bit, you can really whiz by the lanterns on your mount 😄
+
 It's easiest to do these if you follow an overlay path, and do one map in one sitting. Otherwise you'll have to keep track of which lanterns you've already done. And don't miss any, or prepare to cross-reference the achievement panel and the wiki for your missing lanterns 😉
 
 _Gharr Leadclaw_ (or the {{< inlineIcon "items" "Portable Wizard's Tower Exchange" true >}} they sell) trades in a lot of stuff, including SotO currencies. You can convert map gifts into 200 {{< inlineIcon "currencies" "Static Charge" true >}}, 200 {{< inlineIcon "currencies" "Pinch of Stardust" true >}}, or 100 {{< inlineIcon "currencies" "Calcified Gasp" true >}}. I can do one lantern run in 10-20 minutes (Inner Nayos is the fastest), so this is _fine_ way of getting the map currencies. The problem is that _it's so boring_! 😅 There's no fighting, and the only rewards you get besides the gift are 1 transmutation charge and 1 exotic piece of gear.
