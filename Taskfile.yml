@@ -35,8 +35,11 @@ tasks:
     - { task: do-api-one, vars: { API: achievements/categories, DIR: achCats,           KEY: id, NAME: name  } }
     - { task: do-api-one, vars: { API: masteries,               DIR: masteries,         KEY: id, NAME: name  } }
     - { task: do-api-one, vars: { API: skills,                  DIR: skills,            KEY: id, NAME: name  } }
-    - { task: do-api-one, vars: { API: traits,                  DIR: traits,            KEY: id, NAME: name } }
-    - { task: do-api-one, vars: { API: files,                   DIR: files,             KEY: id, NAME: id } }
+    - { task: do-api-one, vars: { API: legends,                 DIR: legends,           KEY: id, NAME: id    } }
+    - { task: do-api-one, vars: { API: traits,                  DIR: traits,            KEY: id, NAME: name  } }
+    - { task: do-api-one, vars: { API: files,                   DIR: files,             KEY: id, NAME: id    } }
+    - { task: do-api-one, vars: { API: professions,             DIR: professions,       KEY: id, NAME: name  } }
+    - { task: do-api-one, vars: { API: specializations,         DIR: specializations,   KEY: id, NAME: name  } }
 
   do-api-one:
     requires: { vars: [API, DIR, KEY, NAME] }

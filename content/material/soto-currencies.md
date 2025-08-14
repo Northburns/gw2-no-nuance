@@ -1,7 +1,7 @@
 +++
 date = '2025-08-14T14:28:31+03:00'
 draft = false
-title = 'SotO Map Currencies'
+title = 'SotO Currencies'
 +++
 
 So, you're crafting the legendary Obsidian armor. Sweet! But you need SotO map currencies and rift essences, specifically:
