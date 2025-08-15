@@ -126,7 +126,7 @@ Each map has [Latent Magic](https://wiki.guildwars2.com/wiki/Latent_Magic) float
 
 Greater Arcane Chests reset daily _per account_. Lesser Arcane Chests reset on new map instance _per character_.
 
-_Skywatch Archipelago_ and _Inner Nayos_ have many Greater Arcane Chests. I use (the name of the BlishHUD marker pack here) to gather them daily. _Amnytas_ has... three? And one of them is behind the event that requires 5 people. Not very farmable. I have one character parked at one of the greater chests, though.
+_Skywatch Archipelago_ and _Inner Nayos_ have many Greater Arcane Chests. I use (the name of the BlishHUD marker pack here) to gather them daily. _Amnytas_ has... three? And one of them is behind the event that requires 5 people. Not very farmable. I have one character parked at one of the greater chests, though. I can run Skywatch Archipelago's 10 Greater chests in less than 10 minutes, and Inner Nayos' 5 Greater chests in 3 minutes (Roller Beetle and Griffon help out a lot).
 
 _Amnytas_ map closes after meta-event, so you can park multiple characters at Bastion of the Natural, and check on them every two hours. There's 4 possible spawn points for the chest, you'll soon get the hang of checking them places.
 
