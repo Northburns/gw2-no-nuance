@@ -158,16 +158,46 @@ Not as lucrative as the lantern runs - when only looking at rift essence. But I 
 
 ## TL;DR
 
-Doing both convergences 3 times a week yields enough rift essence for 6 {{< inlineIcon "items" "Amalgamated Rift Essence" true >}}. If you manage that, your  Obsidian Armor crafting has other bottlenecks, surely. You can squeeze a bit more out of them by doing each convergence max once per day.
+Doing both convergences 3 times a week yields enough rift essence for 6 {{< inlineIcon "items" "Amalgamated Rift Essence" true >}}. If you manage that, your  Obsidian Armor crafting has other bottlenecks, surely. You can squeeze a bit more out of them by doing each convergence max once per day, but don't stress that.
 
 Weekly convergence rewards yield total of 2 {{< inlineIcon "items" "Unstable Rift Motivation" true >}}. I think if you're doing the convergences regularly, you can spare to insta-sell these for {{< coins g=6 s=00 c=49 >}} each.
 
 Repeating convergences after those 3 weekly ones is fine. Maybe you're after the buff to use with your motivations?
 
+The weekly rift hunting achievements net you nice amount of rift essences, too. I don't like doing Inner Nayos rift hunts, alone at least. JW's first to maps give out Heart tokens, as well, which is nice. Limitless rift hunting to farm essences may be fine, needs more calculation.
+
 Look into Greater Arcane Chest routes. Maybe you're interested in Latent Magic routes as well. Maybe alt-park characters at Lesser Arcane Chests, at least in _Amnytas_. These will provide a slow but steady flow of map currencies for you.
 
 Participate in SotO meta-events, max once per day per map. These will give the rare crafting materials to you, one per day.
 
-Lantern Runs are boring, but efficient way of accumulating map currencies. I prefer Tier 1 Rift hunting and converting {{< inlineIcon "currencies" "Fine Rift Essence" >}} into map currencies. I have mixed feelings on using {{< inlineIcon "items" "Fine Rift Motivation" true >}}, they do speed up considerably the essence gathering.
+Lantern Runs are boring, but efficient way of accumulating map currencies. I prefer Tier 1 Rift hunting and converting {{< inlineIcon "currencies" "Fine Rift Essence" >}} into map currencies. I have mixed feelings on using {{< inlineIcon "items" "Fine Rift Motivation" true >}}, they do speed up considerably the essence gathering, but they're quite expensive.
 
+Rift Essences:
 
+| Source of Rift Essences | Amount |
+|--------|--------|
+| Convergence: Outer Nayos | 25-50 {{< inlineIcon "currencies" "Fine Rift Essence" >}}, 10-20 {{< inlineIcon "currencies" "Masterwork Rift Essence" >}}, 5-10 {{< inlineIcon "currencies" "Rare Rift Essence" >}} |
+| Convergence: Outer Nayos (Daily) | 1x {{< inlineIcon "items" "Convergence: Hero's Choice Chest" true >}} {{< br >}} = 100 {{< inlineIcon "currencies" "Fine Rift Essence" >}} / 40 {{< inlineIcon "currencies" "Masterwork Rift Essence" >}} / 20 {{< inlineIcon "currencies" "Rare Rift Essence" >}} |
+| Convergence: Outer Nayos (Weekly) x2/x3 | 1x/3x {{< inlineIcon "items" "Convergence Extraction" true >}} {{< br >}} = 250 {{< inlineIcon "currencies" "Fine Rift Essence" >}}, 100 {{< inlineIcon "currencies" "Masterwork Rift Essence" >}}, 50 {{< inlineIcon "currencies" "Rare Rift Essence" >}} each {{< br >}} = 750 {{< inlineIcon "currencies" "Fine Rift Essence" >}}, 300 {{< inlineIcon "currencies" "Masterwork Rift Essence" >}}, 150 {{< inlineIcon "currencies" "Rare Rift Essence" >}} |
+| Convergence: Outer Nayos (Challenge Mode, daily: Demon Knight, Dreadwing) | 1x {{< inlineIcon "items" "Convergence Challenge Mode: Gold" true >}} {{< br >}} = 24-50 {{< inlineIcon "currencies" "Fine Rift Essence" >}}, 10-20 {{< inlineIcon "currencies" "Masterwork Rift Essence" >}}, 4-10 {{< inlineIcon "currencies" "Rare Rift Essence" >}} |
+| Convergence: Outer Nayos (Challenge Mode, daily: Hell Sister, Sorrow) | 1x {{< inlineIcon "items" "Convergence Challenge Mode: Gold" true >}} {{< br >}} = 48-100 {{< inlineIcon "currencies" "Fine Rift Essence" >}}, 20-40 {{< inlineIcon "currencies" "Masterwork Rift Essence" >}}, 8-20 {{< inlineIcon "currencies" "Rare Rift Essence" >}} |
+| Convergence: Outer Nayos (Challenge Mode, daily: Umbriel or first time completion of any boss) | 1x {{< inlineIcon "items" "Convergence Challenge Mode: Gold" true >}} {{< br >}} = 72-150 {{< inlineIcon "currencies" "Fine Rift Essence" >}}, 30-60 {{< inlineIcon "currencies" "Masterwork Rift Essence" >}}, 12-30 {{< inlineIcon "currencies" "Rare Rift Essence" >}} |
+| Convergence: Mount Balrior |  25-50 {{< inlineIcon "currencies" "Fine Rift Essence" >}}, 10-20 {{< inlineIcon "currencies" "Masterwork Rift Essence" >}}, 5-10 {{< inlineIcon "currencies" "Rare Rift Essence" >}} |
+| Convergence: Mount Balrior (Daily) | 1x {{< inlineIcon "items" "Convergence: Mount Balrior Commander's Choice Chest" true >}} {{< br >}} = 100 {{< inlineIcon "currencies" "Fine Rift Essence" >}} / 40 {{< inlineIcon "currencies" "Masterwork Rift Essence" >}} / 20 {{< inlineIcon "currencies" "Rare Rift Essence" >}} |
+| Convergence: Mount Balrior (Weekly) x2/x3 | 1x/3x {{< inlineIcon "items" "Convergence Extraction" true >}} {{< br >}} = 250 {{< inlineIcon "currencies" "Fine Rift Essence" >}}, 100 {{< inlineIcon "currencies" "Masterwork Rift Essence" >}}, 50 {{< inlineIcon "currencies" "Rare Rift Essence" >}} each {{< br >}} = 750 {{< inlineIcon "currencies" "Fine Rift Essence" >}}, 300 {{< inlineIcon "currencies" "Masterwork Rift Essence" >}}, 150 {{< inlineIcon "currencies" "Rare Rift Essence" >}} |
+| Convergence: Mount Balrior (Challenge Mode, daily: Decima) | 1x {{< inlineIcon "items" "Convergence Challenge Mode: Gold" true >}} {{< br >}} = 24-50 {{< inlineIcon "currencies" "Fine Rift Essence" >}}, 10-20 {{< inlineIcon "currencies" "Masterwork Rift Essence" >}}, 4-10 {{< inlineIcon "currencies" "Rare Rift Essence" >}} |
+| Convergence: Mount Balrior (Challenge Mode, daily: Ura) | 1x {{< inlineIcon "items" "Convergence Challenge Mode: Gold" true >}} {{< br >}} = 48-100 {{< inlineIcon "currencies" "Fine Rift Essence" >}}, 20-40 {{< inlineIcon "currencies" "Masterwork Rift Essence" >}}, 8-20 {{< inlineIcon "currencies" "Rare Rift Essence" >}} |
+| Convergence: Mount Balrior (Challenge Mode, daily: Greer or first time completion of any boss) | 1x {{< inlineIcon "items" "Convergence Challenge Mode: Gold" true >}} {{< br >}} = 72-150 {{< inlineIcon "currencies" "Fine Rift Essence" >}}, 30-60 {{< inlineIcon "currencies" "Masterwork Rift Essence" >}}, 12-30 {{< inlineIcon "currencies" "Rare Rift Essence" >}} |
+| Convergence repeatable achievements | {{< inlineIcon "items" "Nugget of Rift Essence" true >}} {{< br >}} = ~18 {{< inlineIcon "currencies" "Fine Rift Essence" >}}, ~7 {{< inlineIcon "currencies" "Masterwork Rift Essence" >}}, ~3 {{< inlineIcon "currencies" "Rare Rift Essence" >}} |
+| {{< inlineIcon "items" "Rift Essence Coffer" true >}} + {{< inlineIcon "items" "Unstable Rift Motivation" true >}} {{< br >}} (from both Convergence's first clear of week, or from TP) | {{< inlineIcon "items" "Unlocked Rift Essence Coffer" true >}} {{< br >}} = ~38 {{< inlineIcon "currencies" "Fine Rift Essence" >}}, ~15 {{< inlineIcon "currencies" "Masterwork Rift Essence" >}}, ~7 {{< inlineIcon "currencies" "Rare Rift Essence" >}} |
+| Rift Hunting weekly achievements {{< br >}} 5 rifts each in 4 JW maps, 3 SotO maps, 3 other maps {{< br >}} 5th in each map yields one extra extraction | 60x {{< inlineIcon "items" "Rift Extraction" true >}} {{< br >}} = 4-8 {{< inlineIcon "currencies" "Fine Rift Essence" >}}, 4-8 {{< inlineIcon "currencies" "Masterwork Rift Essence" >}}, 3-8 {{< inlineIcon "currencies" "Rare Rift Essence" >}} each {{< br >}} = 24-48 {{< inlineIcon "currencies" "Fine Rift Essence" >}}, 24-48 {{< inlineIcon "currencies" "Masterwork Rift Essence" >}}, 18-48 {{< inlineIcon "currencies" "Rare Rift Essence" >}} per map {{< br >}}= 240-480 {{< inlineIcon "currencies" "Fine Rift Essence" >}}, 240-480 {{< inlineIcon "currencies" "Masterwork Rift Essence" >}}, 180-480 {{< inlineIcon "currencies" "Rare Rift Essence" >}} |
+| Rift Hunt event | 3-7 {{< inlineIcon "currencies" "Fine Rift Essence" >}} |
+| Rift Hunt boss  | 6-14 {{< inlineIcon "currencies" "Fine Rift Essence" >}} / {{< inlineIcon "currencies" "Masterwork Rift Essence" >}} / {{< inlineIcon "currencies" "Rare Rift Essence" >}} (Tier 1/2/3) |
+| Rift Hunt motivation+buff  | 30-50 {{< inlineIcon "currencies" "Fine Rift Essence" >}} / {{< inlineIcon "currencies" "Masterwork Rift Essence" >}} / {{< inlineIcon "currencies" "Rare Rift Essence" >}} (Tier 1/2/3) |
+
+SotO Currencies
+
+| Currency | Cost |
+| --- | --- |
+| 200 {{< inlineIcon "currencies" "Static Charge" true >}} | 1 {{< inlineIcon "items" "Gift of Skywatch Archipelago" true >}} |
+| 10 {{< inlineIcon "currencies" "Static Charge" true >}} | 35 {{< inlineIcon "currencies" "Fine Rift Essence" >}} / {{< inlineIcon "currencies" "Masterwork Rift Essence" >}} / {{< inlineIcon "currencies" "Rare Rift Essence" >}}

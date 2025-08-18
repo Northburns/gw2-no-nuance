@@ -1,0 +1,4 @@
+{{- $assetBusting := partialCached "assetbusting.gotmpl" . }}
+{{- with resources.Get "/js/main.js" }}
+<script src="{{ (. | minify).RelPermalink }}{{ $assetBusting }}" defer></script>
+{{- end }}

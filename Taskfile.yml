@@ -9,6 +9,11 @@ vars:
 
 tasks:
 
+  default:
+    cmds:
+    - task: js-bundle
+    - task: hugo-server
+
   install:
     desc: Install needed stuff
     cmds:
@@ -17,7 +22,7 @@ tasks:
   hugo-server:
     desc: Runs Hugo server (with drafts)
     cmds:
-    - hugo server -D
+    - hugo server -D --disableLiveReload
   
   init:
     desc: initialize script project
@@ -46,3 +51,11 @@ tasks:
     dir: _scripts
     cmds:
     - yarn run do-api {{.API}} {{.DIR}} {{.KEY}} {{.NAME}}
+
+  js-bundle:
+    desc: Bundle my js
+    dir: _scripts
+    cmds:
+    - yarn run bundle
+    - cp dist/* ../assets/js/
+

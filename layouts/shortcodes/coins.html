@@ -1,14 +1,17 @@
+{{ $gg := .Params.gg -}}
 {{ $g := .Params.g -}}
 {{ $s := .Params.s -}}
 {{ $c := .Params.c -}}
 
-{{ if $g -}}
+{{ if or $gg $g -}}
     {{ $ig := dict "api" "files" "name" "ui_coin_gold" -}}
-    {{" "}}{{ $g }}{{ partial "inlineIcon" $ig -}}
+    {{" "}}{{ default $g $gg }}{{ partial "inlineIcon" $ig -}}
 {{ end -}}
-{{ if or $g $s -}}
-    {{ $is := dict "api" "files" "name" "ui_coin_silver" -}}
-    {{" "}}{{ $s }}{{ partial "inlineIcon" $is -}}
+{{ if not $gg -}}
+    {{ if or $g $s -}}
+        {{ $is := dict "api" "files" "name" "ui_coin_silver" -}}
+        {{" "}}{{ $s | default "0" }}{{ partial "inlineIcon" $is -}}
+    {{ end -}}
+    {{ $ic := dict "api" "files" "name" "ui_coin_copper" -}}
+    {{" "}}{{ $c | default "0" }}{{ partial "inlineIcon" $ic -}}
 {{ end -}}
-{{ $ic := dict "api" "files" "name" "ui_coin_copper" -}}
-{{" "}}{{ $c }}{{ partial "inlineIcon" $ic -}}

@@ -5,6 +5,15 @@ import fs from 'fs';
 import fetch from 'node-fetch';
 import { v4 as uuidv4 } from 'uuid';
 
+/*
+    Notes!
+
+    I use this script to download data for use in my Hugo templates/shortcordes/etc.
+    I could improve this with a use of some ready GW2 Api wrapper.
+    The most interesting thing is the file structure, though.
+    I think that's pretty good for use in the Hugo templates.
+ */
+
 /* ************************************************************************************ */
 /* **********  Input ****************************************************************** */
 /* ************************************************************************************ */
@@ -50,6 +59,12 @@ async function api_getJson(endpoint) {
 /* ************************************************************************************ */
 /* **********  Work ******************************************************************* */
 /* ************************************************************************************ */
+
+require(api,()=>"api not provided")
+require(dirName,()=>"dirName not provided")
+require(key,()=>"key not provided")
+require(nameKey,()=>"nameKey not provided")
+
 log(`Doing API '${api}', KEY '${key}'`)
 fs.mkdirSync(dir, { recursive: true });
 
@@ -98,6 +113,6 @@ for(const file of datafiles()) {
             nameToId[name] = key;
         }
     }
-}
+}1
 file_writeJson("_index.json", index);
 file_writeJson("_names.json", nameToId);
