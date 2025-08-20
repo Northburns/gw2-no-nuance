@@ -1,7 +1,7 @@
 {{ $profession := index .Params 0 -}}
 {{ $weapon     := index .Params 1 -}}
 
-{{ $p := partial "read-entity" (dict "api" "professions" "name" $profession) }}
+{{ $p := partial "data/get-entity" (dict "api" "professions" "name" $profession) }}
 {{ $w := index $p.weapons $weapon -}}
 
 <table>
@@ -14,7 +14,7 @@
     </tr>
 
     {{ range $skill := $w.skills }}
-        {{ $s := partial "read-entity" (dict "api" "skills" "id" $skill.id ) }}
+        {{ $s := partial "data/get-entity" (dict "api" "skills" "id" $skill.id ) }}
 
         <tr>
             <td>{{ strings.TrimPrefix "Weapon_" $s.slot }}</td>

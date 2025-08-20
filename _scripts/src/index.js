@@ -1,5 +1,8 @@
 import printMe from './print.js';
 
+import './api-holder.js';
+import apiHolder from './api-holder.js';
+
 console.log("HELLO!");
 
 function hello() {
@@ -7,8 +10,9 @@ function hello() {
 }
 
 window.gw2 = {
-    hello: printMe
+    hello: printMe,
+    apiHolder: apiHolder,
 }
 export default {
-    hello: hello
+    hello: hello,
 }

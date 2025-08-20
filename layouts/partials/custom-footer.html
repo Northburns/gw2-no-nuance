@@ -2,3 +2,52 @@
 {{- with resources.Get "/js/main.js" }}
 <script src="{{ (. | minify).RelPermalink }}{{ $assetBusting }}" defer></script>
 {{- end }}
+<script>
+    addEventListener("load", () => { 
+        // Setup apiholder to window
+        gw2.apiHolder.getApiHolder(); 
+
+        // player-table-achievements
+
+
+        Promise.all(
+            apiHolder.players.map((player)=> player.api.account().achievements().get().then((aa)=>[player.name, aa]) )
+        ).then((accountsAchievements)=>{
+            let achievementStatuses = {};
+            let divs = document.querySelectorAll('[gw2=player-table-achievements]');
+            divs.forEach((div) => achievementStatuses[div.getAttribute("achievement-id")] = {});
+
+            for(aa of accountsAchievements) {
+                let playerName = aa[0];
+                let accountAchievements = aa[1];
+                for(accountAchievement of accountAchievements) {
+                    if(achievementStatuses.hasOwnProperty(accountAchievement.id)) {
+                        console.log(achievementStatuses.hasOwnProperty(accountAchievement.id));
+                        achievementStatuses[accountAchievement.id][playerName] = accountAchievement;
+                    }
+                }
+            }
+            console.log(achievementStatuses)
+            console.log("FOOBAR! JEAH JEAH JEAH");
+            for(let div of divs) {
+                let statuses = achievementStatuses[div.getAttribute("achievement-id")];
+                let txt = [];
+                for(let player of apiHolder.players) {
+                    let status = statuses[player.name];
+                    let done = status?.done ?? false;
+                    let current = status?.current ?? 0;
+                    let max = status?.max
+                    let t = "";
+                    if(done) t = "✅"
+                    else {
+                        t = "〰️"
+                    }
+                    console.log(status);
+                    txt.push(`${player.emoji} ${t}`);
+                }
+                div.appendChild(document.createElement("code")).innerText = txt.join("<br>");
+                div.appendChild(document.createElement("code")).innerText = JSON.stringify(statuses);
+            }
+        });
+    });
+</script>

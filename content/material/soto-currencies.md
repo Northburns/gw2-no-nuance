@@ -201,3 +201,8 @@ SotO Currencies
 | --- | --- |
 | 200 {{< inlineIcon "currencies" "Static Charge" true >}} | 1 {{< inlineIcon "items" "Gift of Skywatch Archipelago" true >}} |
 | 10 {{< inlineIcon "currencies" "Static Charge" true >}} | 35 {{< inlineIcon "currencies" "Fine Rift Essence" >}} / {{< inlineIcon "currencies" "Masterwork Rift Essence" >}} / {{< inlineIcon "currencies" "Rare Rift Essence" >}}
+| 200 {{< inlineIcon "currencies" "Pinch of Stardust" true >}} | 1 {{< inlineIcon "items" "Gift of Amnytas" true >}} |
+| 10 {{< inlineIcon "currencies" "Pinch of Stardust" true >}} | 35 {{< inlineIcon "currencies" "Fine Rift Essence" >}} / {{< inlineIcon "currencies" "Masterwork Rift Essence" >}} / {{< inlineIcon "currencies" "Rare Rift Essence" >}}
+| 100 {{< inlineIcon "currencies" "Calcified Gasp" true >}} | 1 {{< inlineIcon "items" "Gift of Inner Nayos" true >}} |
+| 10 {{< inlineIcon "currencies" "Calcified Gasp" true >}} | 35 {{< inlineIcon "currencies" "Fine Rift Essence" >}} / {{< inlineIcon "currencies" "Masterwork Rift Essence" >}} / {{< inlineIcon "currencies" "Rare Rift Essence" >}}
+

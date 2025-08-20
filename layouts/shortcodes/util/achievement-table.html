@@ -1,0 +1,33 @@
+{{ $achievementInputs := split (.Inner | strings.TrimSpace) "\n" -}}
+{{ $achievementIds := slice -}}
+{{ $achievementInputs }}
+
+<table>
+    <tr>
+        <th>Achievement</th>
+        <th></th>
+    </tr>
+    {{ range $achievementInputs }}
+        {{ $input := split . "|" }}
+        {{ $achievementName := index $input 0 | strings.TrimSpace }}
+        {{ $achievement := partial "data/get-entity" (dict "api" "achievements" "name" $achievementName) }}
+
+        <tr>
+            <div style="display:none;">{{$achievement}}</div>
+            <td>
+                <b>{{$achievement.name}}</b><br>
+                {{$achievement.requirement}}<br>
+                {{ partial "shortcodes/highlight.html" (dict
+                    "page"    $.Page
+                    "content" (jsonify  (dict "indent" "  ") $achievement)
+                    "options" "lineNos=false,wrap=true,title=JSON"
+                    "type"    "json"
+                )}}
+            </td>
+            <td>
+                <div gw2="player-table-achievements" achievement-id="{{$achievement.id}}" ></div>
+            </td>
+
+        </tr>
+    {{ end }}
+</table>
