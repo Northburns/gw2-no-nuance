@@ -1,0 +1,139 @@
+{{ $id := "player-fragment-tp-overview" -}}
+<div id="{{$id}}"></div>
+<script>
+    addEventListener("load", async () => { 
+        let div = document.getElementById("{{$id}}");
+
+        let player = gw2.apiHolder.getApiHolder().players
+                .find((player)=>window.location.hash.slice(1) == player.name);
+        if(!player) {
+            div.replaceChildren(document.createTextNode("Please pick player"));
+            return;
+        }
+        let api = gw2.apiHolder.getApiHolder().api;
+
+        let divSpinner = div.appendChild(gw2.util.createSpinner());
+        let divTxt = div.appendChild(document.createElement("span"));
+        div.appendChild(document.createElement("h2")).innerText = "Delivery Box";
+        let divDeliveryCoins = div.appendChild(document.createElement("div"));
+        let divDeliveryTable = div.appendChild(document.createElement("div"));
+        div.appendChild(document.createElement("h2")).innerText = "Transaction History - Buys (first 5 pages only)";
+        let divTxHistoryBuysTable = div.appendChild(document.createElement("div"));
+        // Do the work
+
+        divDeliveryCoins.appendChild(document.createTextNode("Delivery coins: "));
+        
+        // Delivery: Coins
+        divTxt.innerText="Downloading delivery box contents";
+        let delivery = await player.api.account().delivery().get();
+        console.log(delivery);
+        divDeliveryCoins.appendChild(document.createTextNode(gw2.util.int2coins(delivery.coins).txt));
+        
+        divTxt.innerText="Creating delivery box table";
+        let formatterCoin = (cell, formatterParams, onRendered) => {
+            let v = cell.getValue();
+            if(v) {
+                return gw2.util.int2coins(v).txt
+            } else return "-";
+        }
+        // coin column
+        let c = (col) => {
+            col.headerHozAlign = "right";
+            col.hozAlign = "right";
+            col.formatter = formatterCoin;
+            if(col.bottomCalc) col.bottomCalcFormatter = formatterCoin;
+            return col;
+        }
+
+        let table1 = gw2.tables.createTableFromData(
+            divDeliveryTable,
+            [
+                { title: "ID",      field: "id" },
+                { title: "Cnt",     field: "count", headerHozAlign: "right", hozAlign:"right", mutateLink: ["buySum","sellSum"] },
+                { title: "",        field: "icon", formatter:"image", formatterParams:{ height:"50px", width:"50px" } },
+                { title: "Item",    field: "name" },
+                c({ title: "Buy á",   field: "buys.unit_price", mutateLink: "buySum",  }),
+                c({ title: "Buy Sum", field: "buySum", bottomCalc:"sum",  mutator:(value, data)=>{
+                    return (data?.count ?? 0) * (data?.buys?.unit_price ?? 0);
+                }}),
+                c({ title: "Sell á",   field: "sells.unit_price", mutateLink: "sellSum",  }),
+                c({ title: "Sell Sum", field: "sellSum", bottomCalc:"sum",  mutator:(value, data)=>{
+                    return (data?.count ?? 0) * (data?.sells?.unit_price ?? 0);
+                }})
+            ],
+            delivery.items.map((i)=>{
+                i.icon = "data:,"; // Stop the browser from doing "https://..../undefined" GETs. Maybe Tabular could be configured to stop 'em?..
+                return i;
+            })
+        );
+        await new Promise(resolve => table1.on("tableBuilt", response => resolve(response)));
+
+        divTxt.innerText="Downloading delivery box items";
+        let itemIds = delivery.items.map((item)=>item.id);
+        let items = await api.items().many(itemIds);
+        await table1.updateData(items);
+        await table1.redraw();
+        await table1.recalc();
+
+        divTxt.innerText="Downloading delivery box items' prices";
+        let itemPrices = await api.commerce().prices().many(itemIds);
+        console.log(itemPrices);
+        await table1.updateData(itemPrices);
+        await table1.redraw();
+        await table1.recalc();
+
+        divTxt.innerText="Create table for transaction history (buys)";
+        /*
+            Since we are not interested in the a perfect history of the transactions, but instead
+            in just the price we bought the item at,
+            we fabricate the table id as follows: `${item_id}/${price}`.
+            This combines "same item bought at the same price".
+            We can omit the purchased and quantity fields, we're not interested in them.
+            If we need more detailed analysis, we go to GW2Efficiency!
+         */
+        let table2 = gw2.tables.createTableFromData(
+            divTxHistoryBuysTable,
+            [
+                { title: "ID",        field: "id" },
+                { title: "",        field: "icon", formatter:"image", formatterParams:{ height:"50px", width:"50px" } },
+                { title: "Item",    field: "name" },
+                c({ title: "Price á",   field: "price", mutateLink: "sell_for_zero_profit",  }),
+                c({ title: "Sell for 0 profit", field: "sell_for_zero_profit", mutator:(value, data)=>{
+                    return Math.ceil(data.price/0.85);
+                }})
+            ],
+            [],
+        );
+        await new Promise(resolve => table2.on("tableBuilt", response => resolve(response)));
+
+        for (let page = 0; page < 5; page++) {
+            divTxt.innerText=`Downloading transaction history (buys) - page ${page}`;
+            let txs = await player.api.commerce().transactions().history().buys().page(page, 50);
+            let txsItems = (await api.items().many(txs.map((tx)=>tx.item_id)))
+                    .reduce(function(map, obj) {
+                        map[obj.id] = obj;
+                        return map;
+                    }, {});
+            
+
+            await table2.updateOrAddData(txs.map((tx)=>{
+                return {
+                    id: `${tx.item_id}/${tx.price}`,
+                    name: txsItems[tx.item_id].name,
+                    icon: txsItems[tx.item_id].icon,
+                    price: tx.price,
+                };
+            }));
+            await table2.redraw();
+            await table2.recalc();
+        }
+        // divTxt.innerText="Downloading transaction history (buys) - items";
+        // let txsItemIds = txs.map((tx)=>tx.item_id);
+        // let txsItems = await api.items().many(itemIds);
+        // await table2.updateData(items);
+
+
+        divSpinner.remove();
+        divTxt.remove();
+    });
+</script>

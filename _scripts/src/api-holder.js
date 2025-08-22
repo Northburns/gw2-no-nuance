@@ -127,5 +127,5 @@ function apiHolderSetupHtml(elementId) {
 
 export default {
     getApiHolder: getApiHolder,
-    apiHolderSetupHtml: apiHolderSetupHtml
+    apiHolderSetupHtml: apiHolderSetupHtml,
 }

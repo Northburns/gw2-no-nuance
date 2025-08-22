@@ -1,0 +1,29 @@
+{{ $id := "player-fragment-picker" -}}
+<div id="{{$id}}" class="control"></div>
+<script>
+    addEventListener("load", () => { 
+        let div = document.getElementById("{{$id}}");
+
+        for(player of gw2.apiHolder.getApiHolder().players) {
+            let c = div.appendChild(document.createElement("label"));
+
+            let input = c.appendChild(document.createElement("input"));
+            input.setAttribute("player", player.name);
+            input.setAttribute("type", "radio");
+            input.setAttribute("name", "{{$id}}");
+            if(window.location.hash.slice(1) == player.name) {
+                input.setAttribute("checked","");
+            }
+            input.onchange = (src)=>{
+                let chosenPlayer = src.target.getAttribute("player");
+                window.location.hash = chosenPlayer;
+                window.location.reload();
+                // TODO Alternatively fire an event, "player-fragment-changed" or something.
+                // Not the most important part of this project.... maybe I could learn Vue!
+            };
+
+            c.appendChild(document.createTextNode(player.name));
+        }
+    });
+</script>
+<hr>

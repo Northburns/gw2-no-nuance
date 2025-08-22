@@ -7,6 +7,12 @@
         // Setup apiholder to window
         gw2.apiHolder.getApiHolder(); 
 
+        // gw2="data-table-w-players"
+        let divs1 = document.querySelectorAll('[gw2=data-table-w-players]');
+        for(let div1 of divs1) {
+            gw2.tables.createDataTable(div1);
+        }
+
         // player-table-achievements
 
 

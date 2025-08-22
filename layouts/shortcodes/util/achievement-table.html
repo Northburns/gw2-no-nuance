@@ -2,6 +2,30 @@
 {{ $achievementIds := slice -}}
 {{ $achievementInputs }}
 
+<table gw2="data-table-w-players" >
+    <thead>
+        <tr>
+            <th>id</th>
+            <th>Achievement</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{ range $achievementInputs }}
+            {{ $input := split . "|" }}
+            {{ $achievementName := index $input 0 | strings.TrimSpace }}
+            {{ $achievement := partial "data/get-entity" (dict "api" "achievements" "name" $achievementName) }}
+            <tr>
+                <td>{{$achievement.id}}</td>
+                <td>
+                    <b>{{$achievement.name}}</b><br>
+                    {{$achievement.requirement}}<br>
+                </td>
+
+            </tr>
+        {{ end }}
+    </tbody>
+</table>
+
 <table>
     <tr>
         <th>Achievement</th>
