@@ -48,9 +48,11 @@ function readPlayers() {
     console.log("todo readplayers");
     var players = [];
     try {
-        for(var p of JSON.parse(localStorage.getItem("gw2-no-nuance-players"))) {
-            players.push(new Player(p.name, p.emoji, p.iconUrl, p.key));
-        }
+        let storedValue = localStorage.getItem("gw2-no-nuance-players");
+        if(storedValue)
+            for(var p of JSON.parse(storedValue)) {
+                players.push(new Player(p.name, p.emoji, p.iconUrl, p.key));
+            }
     } catch(e) {
         alert(e);
     }
@@ -61,7 +63,9 @@ function readPlayers() {
 function writePlayers(players) {
     console.log("saveplayers todo");
     console.log(players);
-    localStorage.setItem("gw2-no-nuance-players", JSON.stringify(players));
+    let storedValue = JSON.stringify(players, (key,value) => { if (key=="api") return undefined; else return value; });
+    // console.log(storedValue);
+    localStorage.setItem("gw2-no-nuance-players", storedValue);
 }
 
 function apiHolderSetupHtml(elementId) {
