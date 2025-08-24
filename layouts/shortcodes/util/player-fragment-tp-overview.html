@@ -70,17 +70,19 @@
 
         divTxt.innerText="Downloading delivery box items";
         let itemIds = delivery.items.map((item)=>item.id);
-        let items = await api.items().many(itemIds);
-        await table1.updateData(items);
-        await table1.redraw();
-        await table1.recalc();
+        if(itemIds.length > 0 ) {
+            let items = await api.items().many(itemIds);
+            await table1.updateData(items);
+            await table1.redraw();
+            await table1.recalc();
 
-        divTxt.innerText="Downloading delivery box items' prices";
-        let itemPrices = await api.commerce().prices().many(itemIds);
-        console.log(itemPrices);
-        await table1.updateData(itemPrices);
-        await table1.redraw();
-        await table1.recalc();
+            divTxt.innerText="Downloading delivery box items' prices";
+            let itemPrices = await api.commerce().prices().many(itemIds);
+            console.log(itemPrices);
+            await table1.updateData(itemPrices);
+            await table1.redraw();
+            await table1.recalc();
+        }
 
         divTxt.innerText="Create table for transaction history (buys)";
         /*

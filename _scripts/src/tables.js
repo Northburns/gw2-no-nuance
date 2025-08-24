@@ -1,9 +1,9 @@
 // https://datatables.net/manual/installation
 
-import {Tabulator, HtmlTableImportModule, FilterModule, EditModule, FormatModule, ColumnCalcsModule, MutatorModule} from 'tabulator-tables';
+import {Tabulator, HtmlTableImportModule, FilterModule, EditModule, FormatModule, ColumnCalcsModule, MutatorModule, GroupRowsModule} from 'tabulator-tables';
 import apiHolder from './api-holder.js';
 
-Tabulator.registerModule([HtmlTableImportModule, FilterModule, EditModule, FormatModule, ColumnCalcsModule, MutatorModule]);
+Tabulator.registerModule([HtmlTableImportModule, FilterModule, EditModule, FormatModule, ColumnCalcsModule, MutatorModule, GroupRowsModule]);
 
 /**
  * 
@@ -115,6 +115,7 @@ function createDataTable(tableElement) {
 }
 
 export default {
+    tabulator: Tabulator,
     createDataTable: createDataTable,
     createTableFromData: createTableFromData,
 }

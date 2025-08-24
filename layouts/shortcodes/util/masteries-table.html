@@ -1,0 +1,110 @@
+{{ $id := "masteries-table" -}}
+<div id="{{$id}}"></div>
+<script>
+    addEventListener("load", async () => { 
+        let div = document.getElementById("{{$id}}");
+        let api = gw2.apiHolder.getApiHolder().api;
+        let players = gw2.apiHolder.getApiHolder().players;
+        
+        let regions = {
+            "Tyria":   0,
+            "Maguuma": 1,
+            "Desert":  2,
+            "Tundra":  3,
+            "Jade":    5,
+            "Sky":     6,
+        }
+        let regionsIcons = {
+            "Tyria":   "https://wiki.guildwars2.com/images/b/b7/Mastery_point_%28Central_Tyria%29.png",
+            "Maguuma": "https://wiki.guildwars2.com/images/8/84/Mastery_point_%28Heart_of_Thorns%29.png",
+            "Desert":  "https://wiki.guildwars2.com/images/4/41/Mastery_point_%28Path_of_Fire%29.png",
+            "Tundra":  "https://wiki.guildwars2.com/images/2/25/Mastery_point_%28Icebrood_Saga%29.png",
+            "Jade":    "https://wiki.guildwars2.com/images/b/b6/Mastery_point_%28End_of_Dragons%29.png",
+            "Sky":     "https://wiki.guildwars2.com/images/3/31/Mastery_point_%28Secrets_of_the_Obscure%29.png",
+            "JW?!?!?": "https://wiki.guildwars2.com/images/d/d1/Mastery_point_%28Janthir_Wilds%29.png",
+        }
+        let regionNames = {
+            "Tyria":   "Core",
+            "Maguuma": "HoT",
+            "Desert":  "PoF",
+            "Tundra":  "IBS",
+            "Jade":    "EoD",
+            "Sky":     "SotO",
+        }
+        
+        let masteries = (await api.masteries().all()).sort((a,b)=>{
+            if(!(a.region in regions)) throw `Unexpected region: ${a.region}`;
+            if(!(b.region in regions)) throw `Unexpected region: ${b.region}`;
+            let region = regions[a.region] - regions[b.region];
+            if(region != 0) return region;
+            let order = a.order-b.order;
+            if(order != 0) return order;
+            return 0; // Shouldn't happen...
+        });
+        let masteriesById = masteries.reduce(function(map, obj) {
+            map[obj.id] = obj;
+            return map;
+        }, {});
+        let levels = masteries
+            .flatMap((m)=>m.levels.map((l,i)=>{
+                l.id = `${m.id}/${i}`;
+                l.mastery=m;
+                l.mastery_id=m.id; // Tabulator's groupBy doesn't read nested fields?..
+                return l;
+            }));
+        console.log(levels);
+
+
+        let table = new gw2.tables.tabulator(div, {
+            layout: "fitDataFill",
+            groupBy:"mastery_id",
+            columns: [
+                { title: "ID",     field: "id", visible: true },
+                { title: "Region", field: "mastery.region",headerHozAlign: "center", hozAlign:"center", visible: false},
+                { title: "",       field: "icon", formatter:"image", formatterParams:{ height:"50px", width:"50px" } },
+                { title: "Name",   field: "name", },
+                { title: "Cost",   field: "point_cost" , headerHozAlign: "right", hozAlign:"right" }
+            ],
+            groupHeader: (value, count, data, group) => {
+                // https://tabulator.info/docs/6.3/group#setup-headers
+                let m = data[0].mastery;
+                let regionIcon = regionsIcons[m.region];
+                let regionName = regionNames[m.region];
+
+                return `${regionName}<img src="${regionIcon}" style="display:inline-block; height:1.5em; width:auto;transform:translate(0, 0.2em);"> ${m.name}`;
+            },
+            data: levels
+        });
+        await new Promise(resolve => table.on("tableBuilt", response => resolve(response)));
+        
+        for(player of players) {
+            table.addColumn({
+                title: player.emoji,
+                field: player.name,
+                headerHozAlign: "center",
+                hozAlign: "center",
+                headerFilter: "tickCross",
+                headerFilterParams:{tristate:true},
+            });
+            let aMs = await player.api.account().masteries().get();
+            let aMps= await player.api.account().mastery().points().get();
+
+            let aMsData = [];
+            for(aM of aMs) {
+                let masteryId          = aM.id;
+                let mastery            = masteriesById[masteryId];
+                let achievedLevelIndex = aM.level;
+                for(let lvl = 0; lvl < mastery.levels.length ; lvl++) {
+                    let d = {id: `${masteryId}/${lvl}`};
+                    d[player.name] = lvl <= achievedLevelIndex;
+                    aMsData.push(d);
+                }
+            }
+            await table.updateData(aMsData);
+
+            // console.log(aMs);
+            // console.log(aMps);
+        }
+
+    });
+</script>

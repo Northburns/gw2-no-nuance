@@ -102,6 +102,8 @@ The difference between the tiers is how tough the enemies are, the location of t
 
 Before (and during?) rift's boss, you can also put a motivation in the rift (_consuming_ it!) to yield _additional_ essence if the boss is defeated. If you have the convergence buff "Rift Essence Extractor", it's 30-50 {{< inlineIcon "currencies" "Fine Rift Essence" >}} / {{< inlineIcon "currencies" "Masterwork Rift Essence" >}} / {{< inlineIcon "currencies" "Rare Rift Essence" >}} (and without the buff, only 17-32 {{< inlineIcon "currencies" "Fine Rift Essence" >}} / {{< inlineIcon "currencies" "Masterwork Rift Essence" >}} / {{< inlineIcon "currencies" "Rare Rift Essence" >}}) (so maybe it's bet not to use motivations without the buff active, as the motivations are quite pricey). This bonus is _personal_, i.e. each player wanting this bonus has to put their own motivation into the rift (TODO: citation needed!).
 
+_NOTE!_ Using motivations in Tier 1 is optional, but in Tier 2 and Tier 3 _someone_ has to use a motivation to lure out the boss.
+
 How long does a rift take? TODO Some numbers here. But a lot of the time is also used traveling between rift locations. Please see the Rift Hunting wiki page for maps of all the maps' rift spawn locations. JW has good maps:
 
 * _Mistburned Barrens_ has only two Tier 1 rift locations pretty close to each other (Beetle recommended)
