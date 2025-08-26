@@ -14,22 +14,15 @@
 
         let divSpinner = div.appendChild(gw2.util.createSpinner());
         let divTxt = div.appendChild(document.createElement("span"));
-        div.appendChild(document.createElement("h2")).innerText = "Delivery Box";
+        div.appendChild(document.createElement("h3")).innerText = "Summary";
+        let divSummary = div.appendChild(document.createElement("div"));
+        div.appendChild(document.createElement("h3")).innerText = "Delivery Box";
         let divDeliveryCoins = div.appendChild(document.createElement("div"));
         let divDeliveryTable = div.appendChild(document.createElement("div"));
-        div.appendChild(document.createElement("h2")).innerText = "Transaction History - Buys (first 5 pages only)";
+        div.appendChild(document.createElement("h3")).innerText = "Transaction History - Buys (first 5 pages only)";
         let divTxHistoryBuysTable = div.appendChild(document.createElement("div"));
         // Do the work
 
-        divDeliveryCoins.appendChild(document.createTextNode("Delivery coins: "));
-        
-        // Delivery: Coins
-        divTxt.innerText="Downloading delivery box contents";
-        let delivery = await player.api.account().delivery().get();
-        console.log(delivery);
-        divDeliveryCoins.appendChild(document.createTextNode(gw2.util.int2coins(delivery.coins).txt));
-        
-        divTxt.innerText="Creating delivery box table";
         let formatterCoin = (cell, formatterParams, onRendered) => {
             let v = cell.getValue();
             if(v) {
@@ -45,6 +38,44 @@
             return col;
         }
 
+        let tableSummary = gw2.tables.createTableFromData(
+            divSummary,
+            [
+                { title: "Include in sum",    field: "incl", hozAlign:"center", mutateLink: "c",  },
+                { title: "",    field: "id" },
+                c({ title: "Sum",  field: "c", bottomCalc: (values, data, calcParams)=> {
+                    let calc = 0;
+                    data.forEach((d)=>{ if(d.incl) { calc += d.c; } });
+                    return calc;
+                } }),
+                
+            ],
+            [
+                // WARNING! IDs are used as ids! See code below.
+                { c: 0, incl: true,   id: "Wallet coins" },
+                { c: 0, incl: true,   id: "Delivery Box coins" },
+                { c: 0, incl: true,   id: "Delivery Box (sell)" },
+                { c: 0, incl: true,   id: "Buy listings (listing)" },
+                { c: 0, incl: true,   id: "Sell listings (listing)" },
+                { c: 0, incl: false,  id: "Sell listings (buy)" },
+                { c: 0, incl: false,  id: "Sell listings (sell)" },
+            ]
+        );
+        await new Promise(resolve => tableSummary.on("tableBuilt", response => resolve(response)));
+
+        divDeliveryCoins.appendChild(document.createTextNode("Delivery coins: "));
+        
+        // Delivery: Coins
+        divTxt.innerText="Downloading delivery box contents";
+        let delivery = await player.api.account().delivery().get();
+        console.log(delivery);
+        divDeliveryCoins.appendChild(document.createTextNode(gw2.util.int2coins(delivery.coins).txt));
+        await tableSummary.updateData([{id:"Delivery Box coins", c: delivery.coins}]);
+        await tableSummary.redraw();
+        await tableSummary.recalc();
+        
+        divTxt.innerText="Creating delivery box table";
+
         let table1 = gw2.tables.createTableFromData(
             divDeliveryTable,
             [
@@ -57,9 +88,22 @@
                     return (data?.count ?? 0) * (data?.buys?.unit_price ?? 0);
                 }}),
                 c({ title: "Sell á",   field: "sells.unit_price", mutateLink: "sellSum",  }),
-                c({ title: "Sell Sum", field: "sellSum", bottomCalc:"sum",  mutator:(value, data)=>{
-                    return (data?.count ?? 0) * (data?.sells?.unit_price ?? 0);
-                }})
+                c({ 
+                    title: "Sell Sum",
+                    field: "sellSum",
+                    bottomCalc: (values, data, calcParams)=> {
+                        let calc = 0;
+                        data.forEach((d)=>{ calc += d.sellSum ?? 0; });
+                        // This arrow-func can't be async. Let's just call these async functions and hope for the best...
+                        tableSummary.updateData([{id:"Delivery Box (sell)", c: calc}]);
+                        tableSummary.redraw();
+                        tableSummary.recalc();
+                        return calc;
+                    },
+                    mutator:(value, data)=>{
+                       return (data?.count ?? 0) * (data?.sells?.unit_price ?? 0);
+                    }
+                })
             ],
             delivery.items.map((i)=>{
                 i.icon = "data:,"; // Stop the browser from doing "https://..../undefined" GETs. Maybe Tabular could be configured to stop 'em?..
@@ -82,7 +126,15 @@
             await table1.updateData(itemPrices);
             await table1.redraw();
             await table1.recalc();
+            
         }
+
+        divTxt.innerText="Downloading wallet";
+        let walletCoins = (await player.api.account().wallet().get()).find((w)=>w.id == 1).value;
+        console.log("wallet", walletCoins);
+        await tableSummary.updateData([{id:"Wallet coins", c: walletCoins}]);
+        await tableSummary.redraw();
+        await tableSummary.recalc();
 
         divTxt.innerText="Create table for transaction history (buys)";
         /*
@@ -134,6 +186,27 @@
         // let txsItems = await api.items().many(itemIds);
         // await table2.updateData(items);
 
+        let coinsBuyListings = 0;
+        let coinsSellListings =0;
+        let coinsSellListingsBuy = 0;
+        let coinsSellListingsSell = 0;
+        
+        divTxt.innerText=`Downloading current buys`;
+        let txsBuys = await player.api.commerce().transactions().current().buys().get();
+        txsBuys.forEach((tx)=>{ coinsBuyListings += tx.quantity * tx.price; });
+        await tableSummary.updateData([{id:"Buy listings (listing)", c: coinsBuyListings}]);
+        await tableSummary.redraw();
+        await tableSummary.recalc();
+
+        divTxt.innerText=`Downloading current sells`;
+        let txsSells = await player.api.commerce().transactions().current().sells().get();
+        txsSells.forEach((tx)=>{ coinsSellListings += tx.quantity * tx.price; })
+        await tableSummary.updateData([{id:"Sell listings (listing)", c: coinsSellListings}]);
+        await tableSummary.redraw();
+        await tableSummary.recalc();
+
+        divTxt.innerText=`Downloading current sells - current price data`;        
+        
 
         divSpinner.remove();
         divTxt.remove();
