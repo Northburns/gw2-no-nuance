@@ -192,14 +192,14 @@
         let coinsSellListingsSell = 0;
         
         divTxt.innerText=`Downloading current buys`;
-        let txsBuys = await player.api.commerce().transactions().current().buys().get();
+        let txsBuys = await player.api.commerce().transactions().current().buys().all();
         txsBuys.forEach((tx)=>{ coinsBuyListings += tx.quantity * tx.price; });
         await tableSummary.updateData([{id:"Buy listings (listing)", c: coinsBuyListings}]);
         await tableSummary.redraw();
         await tableSummary.recalc();
 
         divTxt.innerText=`Downloading current sells`;
-        let txsSells = await player.api.commerce().transactions().current().sells().get();
+        let txsSells = await player.api.commerce().transactions().current().sells().all();
         txsSells.forEach((tx)=>{ coinsSellListings += tx.quantity * tx.price; })
         await tableSummary.updateData([{id:"Sell listings (listing)", c: coinsSellListings}]);
         await tableSummary.redraw();
