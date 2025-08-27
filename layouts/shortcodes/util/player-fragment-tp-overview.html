@@ -201,7 +201,7 @@
         divTxt.innerText=`Downloading current sells`;
         let txsSells = await player.api.commerce().transactions().current().sells().all();
         txsSells.forEach((tx)=>{ coinsSellListings += tx.quantity * tx.price; })
-        await tableSummary.updateData([{id:"Sell listings (listing, after tax)", c: coinsSellListings*0.9}]); // 0.9 = the 5% listing fee has already been paid when listing the items. The 10% is shaved when the transaction completes.
+        await tableSummary.updateData([{id:"Sell listings (listing, after tax)", c: Math.floor(coinsSellListings*0.9)}]); // 0.9 = the 5% listing fee has already been paid when listing the items. The 10% is shaved when the transaction completes.
         await tableSummary.redraw();
         await tableSummary.recalc();
 
