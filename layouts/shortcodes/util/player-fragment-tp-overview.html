@@ -54,7 +54,7 @@
                 // WARNING! IDs are used as ids! See code below.
                 { c: 0, incl: true,   id: "Wallet coins" },
                 { c: 0, incl: true,   id: "Delivery Box coins" },
-                { c: 0, incl: true,   id: "Delivery Box (sell)" },
+                { c: 0, incl: true,   id: "Delivery Box (sell, after tax)" },
                 { c: 0, incl: true,   id: "Buy listings (listing)" },
                 { c: 0, incl: true,   id: "Sell listings (listing, after tax)" },
                 { c: 0, incl: false,  id: "Sell listings (buy)" },
@@ -95,7 +95,7 @@
                         let calc = 0;
                         data.forEach((d)=>{ calc += d.sellSum ?? 0; });
                         // This arrow-func can't be async. Let's just call these async functions and hope for the best...
-                        tableSummary.updateData([{id:"Delivery Box (sell)", c: calc}]);
+                        tableSummary.updateData([{id:"Delivery Box (sell, after tax)", c: Math.floor(calc*0.85)}]);
                         tableSummary.redraw();
                         tableSummary.recalc();
                         return calc;
