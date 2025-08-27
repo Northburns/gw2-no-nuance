@@ -91,11 +91,25 @@
                 c({ 
                     title: "Sell Sum",
                     field: "sellSum",
+                    mutateLink: "sellSumAfterTax",
                     bottomCalc: (values, data, calcParams)=> {
                         let calc = 0;
                         data.forEach((d)=>{ calc += d.sellSum ?? 0; });
+                        return calc;
+                    },
+                    mutator:(value, data)=>{
+                       return (data?.count ?? 0) * (data?.sells?.unit_price ?? 0);
+                    }
+                }),
+                c({ 
+                    title: "Sell Sum After Tax",
+                    field: "sellSumAfterTax",
+                    mutator: (value, data) => { return Math.floor(0.85 * (data.sellSum ?? 0)) },
+                    bottomCalc: (values, data, calcParams)=> {
+                        let calc = 0;
+                        data.forEach((d)=>{ calc += d.sellSumAfterTax ?? 0; });
                         // This arrow-func can't be async. Let's just call these async functions and hope for the best...
-                        tableSummary.updateData([{id:"Delivery Box (sell, after tax)", c: Math.floor(calc*0.85)}]);
+                        tableSummary.updateData([{id:"Delivery Box (sell, after tax)", c: calc}]);
                         tableSummary.redraw();
                         tableSummary.recalc();
                         return calc;
