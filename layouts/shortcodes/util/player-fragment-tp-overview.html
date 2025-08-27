@@ -113,9 +113,6 @@
                         tableSummary.redraw();
                         tableSummary.recalc();
                         return calc;
-                    },
-                    mutator:(value, data)=>{
-                       return (data?.count ?? 0) * (data?.sells?.unit_price ?? 0);
                     }
                 })
             ],
