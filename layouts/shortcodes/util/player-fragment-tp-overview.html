@@ -41,7 +41,7 @@
         let tableSummary = gw2.tables.createTableFromData(
             divSummary,
             [
-                { title: "Include in sum",    field: "incl", hozAlign:"center", mutateLink: "c",  },
+                { title: "Include in sum",    field: "incl", hozAlign:"center", mutateLink: "c", editor:true, formatter:"tickCross" },
                 { title: "",    field: "id" },
                 c({ title: "Sum",  field: "c", bottomCalc: (values, data, calcParams)=> {
                     let calc = 0;
