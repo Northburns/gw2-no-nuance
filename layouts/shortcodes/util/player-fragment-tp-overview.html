@@ -171,27 +171,7 @@
         );
         await new Promise(resolve => table2.on("tableBuilt", response => resolve(response)));
 
-        for (let page = 0; page < 10; page++) {
-            divTxt.innerText=`Downloading transaction history (buys) - page ${page}`;
-            let txs = await player.api.commerce().transactions().history().buys().page(page, 50);
-            let txsItems = (await api.items().many(txs.map((tx)=>tx.item_id)))
-                    .reduce(function(map, obj) {
-                        map[obj.id] = obj;
-                        return map;
-                    }, {});
-            
-
-            await table2.updateOrAddData(txs.map((tx)=>{
-                return {
-                    id: `${tx.item_id}/${tx.price}`,
-                    name: txsItems[tx.item_id].name,
-                    icon: txsItems[tx.item_id].icon,
-                    price: tx.price,
-                };
-            }));
-            await table2.redraw();
-            await table2.recalc();
-        }
+        
         // divTxt.innerText="Downloading transaction history (buys) - items";
         // let txsItemIds = txs.map((tx)=>tx.item_id);
         // let txsItems = await api.items().many(itemIds);
@@ -218,6 +198,28 @@
 
         divTxt.innerText=`Downloading current sells - current price data`;        
         
+        // Since this takes the longest, and you only need it when doing the listing of sells, I moved it last.
+        for (let page = 0; page < 10; page++) {
+            divTxt.innerText=`Downloading transaction history (buys) - page ${page}`;
+            let txs = await player.api.commerce().transactions().history().buys().page(page, 50);
+            let txsItems = (await api.items().many(txs.map((tx)=>tx.item_id)))
+                    .reduce(function(map, obj) {
+                        map[obj.id] = obj;
+                        return map;
+                    }, {});
+            
+
+            await table2.updateOrAddData(txs.map((tx)=>{
+                return {
+                    id: `${tx.item_id}/${tx.price}`,
+                    name: txsItems[tx.item_id].name,
+                    icon: txsItems[tx.item_id].icon,
+                    price: tx.price,
+                };
+            }));
+            await table2.redraw();
+            await table2.recalc();
+        }
 
         divSpinner.remove();
         divTxt.remove();
