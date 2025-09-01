@@ -60,3 +60,8 @@ tasks:
     - cp dist/* ../assets/js/
     - cp node_modules/tabulator-tables/dist/css/tabulator.css ../assets/css/
 
+  js-dl-tp-history:
+    desc: Downloads TP history data (last 7 days) from ApiWars
+    dir: _scripts
+    cmds:
+    - yarn run tp-history

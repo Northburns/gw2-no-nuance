@@ -16,7 +16,7 @@ class Coins {
         this.s = Math.floor(this.nAbsolute / 100) % 100;
         this.c = this.nAbsolute % 100;
 
-        let pad = (i) => i.toString.padStart(2,"0");
+        let pad = (i) => i.toString().padStart(2,"0");
         let sgn = ""; if(this.sign < 0) sgn = "-";
 
         if     (this.g > 0) this.txt = `${sgn}${this.g}🟡 ${pad(this.s)}⚪ ${pad(this.c)}🟠`;

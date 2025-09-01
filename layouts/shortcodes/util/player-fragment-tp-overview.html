@@ -19,7 +19,7 @@
         div.appendChild(document.createElement("h3")).innerText = "Delivery Box";
         let divDeliveryCoins = div.appendChild(document.createElement("div"));
         let divDeliveryTable = div.appendChild(document.createElement("div"));
-        div.appendChild(document.createElement("h3")).innerText = "Transaction History - Buys (first 5 pages only)";
+        div.appendChild(document.createElement("h3")).innerText = "Transaction History - Buys (first 10 pages only)";
         let divTxHistoryBuysTable = div.appendChild(document.createElement("div"));
         // Do the work
 
@@ -171,7 +171,7 @@
         );
         await new Promise(resolve => table2.on("tableBuilt", response => resolve(response)));
 
-        for (let page = 0; page < 5; page++) {
+        for (let page = 0; page < 10; page++) {
             divTxt.innerText=`Downloading transaction history (buys) - page ${page}`;
             let txs = await player.api.commerce().transactions().history().buys().page(page, 50);
             let txsItems = (await api.items().many(txs.map((tx)=>tx.item_id)))

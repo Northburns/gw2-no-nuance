@@ -1,8 +1,10 @@
 {{ $id := "masteries-table" -}}
-<div id="{{$id}}"></div>
+<div id="{{$id}}-l"></div>
+<div id="{{$id}}-t"></div>
 <script>
     addEventListener("load", async () => { 
-        let div = document.getElementById("{{$id}}");
+        let divL = document.getElementById("{{$id}}-l");
+        let div = document.getElementById("{{$id}}-t");
         let api = gw2.apiHolder.getApiHolder().api;
         let players = gw2.apiHolder.getApiHolder().players;
         
@@ -77,6 +79,9 @@
         });
         await new Promise(resolve => table.on("tableBuilt", response => resolve(response)));
         
+
+        let ul = divL.appendChild(document.createElement("ul"));
+
         for(player of players) {
             table.addColumn({
                 title: player.emoji,
@@ -85,6 +90,7 @@
                 hozAlign: "center",
                 headerFilter: "tickCross",
                 headerFilterParams:{tristate:true},
+                mutator:(value, data)=> { return value ?? false; }
             });
             let aMs = await player.api.account().masteries().get();
             let aMps= await player.api.account().mastery().points().get();
@@ -103,7 +109,16 @@
             await table.updateData(aMsData);
 
             // console.log(aMs);
-            // console.log(aMps);
+            console.log(aMps);
+
+            let li = ul.appendChild(document.createElement("li"));
+            let spentSum = aMps.totals.reduce((partialSum, t) => partialSum + t.spent, 0);
+            li.textContent  = `${player.emoji} (${spentSum})`;
+            let subLi = li.appendChild(document.createElement("ul"));
+            for(total of aMps.totals) {
+                let lii = subLi.appendChild(document.createElement("li"));
+                lii.textContent = `${total.region}: ${total.earned} - ${total.spent} = ${total.earned - total.spent}`;
+            }
         }
 
     });
