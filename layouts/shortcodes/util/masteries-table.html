@@ -15,6 +15,7 @@
             "Tundra":  3,
             "Jade":    5,
             "Sky":     6,
+            "Wild":    7,
         }
         let regionsIcons = {
             "Tyria":   "https://wiki.guildwars2.com/images/b/b7/Mastery_point_%28Central_Tyria%29.png",
@@ -23,7 +24,7 @@
             "Tundra":  "https://wiki.guildwars2.com/images/2/25/Mastery_point_%28Icebrood_Saga%29.png",
             "Jade":    "https://wiki.guildwars2.com/images/b/b6/Mastery_point_%28End_of_Dragons%29.png",
             "Sky":     "https://wiki.guildwars2.com/images/3/31/Mastery_point_%28Secrets_of_the_Obscure%29.png",
-            "JW?!?!?": "https://wiki.guildwars2.com/images/d/d1/Mastery_point_%28Janthir_Wilds%29.png",
+            "Wild":    "https://wiki.guildwars2.com/images/d/d1/Mastery_point_%28Janthir_Wilds%29.png",
         }
         let regionNames = {
             "Tyria":   "Core",
@@ -32,6 +33,7 @@
             "Tundra":  "IBS",
             "Jade":    "EoD",
             "Sky":     "SotO",
+            "Wild":    "JW",
         }
         
         let masteries = (await api.masteries().all()).sort((a,b)=>{
